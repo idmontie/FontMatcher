@@ -7,3 +7,12 @@
 meteor-platform
 autopublish
 insecure
+accounts-password
+fourseven:scss@=2.0.0-beta_1
+iron:router
+zimme:iron-router-active
+meteoric:ionic
+meteoric:autoform-ionic
+useraccounts:ionic
+meteoric:ionic-sass
+meteoric:ionicons-sass
