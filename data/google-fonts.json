@@ -1,0 +1,2686 @@
+[
+  {
+    "name":"Open Sans",
+    "slug":"Open-Sans-normal-400"
+  },
+  {
+    "name":"Slabo 27px",
+    "slug":"Slabo-27px-normal-400"
+  },
+  {
+    "name":"Roboto",
+    "slug":"Roboto-normal-400"
+  },
+  {
+    "name":"Oswald",
+    "slug":"Oswald-normal-400"
+  },
+  {
+    "name":"Lato",
+    "slug":"Lato-normal-400"
+  },
+  {
+    "name":"Roboto Condensed",
+    "slug":"Roboto-Condensed-normal-400"
+  },
+  {
+    "name":"Source Sans Pro",
+    "slug":"Source-Sans-Pro-normal-400"
+  },
+  {
+    "name":"PT Sans",
+    "slug":"PT-Sans-normal-400"
+  },
+  {
+    "name":"Open Sans Condensed",
+    "slug":"Open-Sans-Condensed-normal-300"
+  },
+  {
+    "name":"Droid Sans",
+    "slug":"Droid-Sans-normal-400"
+  },
+  {
+    "name":"Raleway",
+    "slug":"Raleway-normal-400"
+  },
+  {
+    "name":"Droid Serif",
+    "slug":"Droid-Serif-normal-400"
+  },
+  {
+    "name":"Ubuntu",
+    "slug":"Ubuntu-normal-400"
+  },
+  {
+    "name":"Montserrat",
+    "slug":"Montserrat-normal-400"
+  },
+  {
+    "name":"Roboto Slab",
+    "slug":"Roboto-Slab-normal-400"
+  },
+  {
+    "name":"Lora",
+    "slug":"Lora-normal-400"
+  },
+  {
+    "name":"PT Sans Narrow",
+    "slug":"PT-Sans-Narrow-normal-400"
+  },
+  {
+    "name":"Merriweather",
+    "slug":"Merriweather-normal-400"
+  },
+  {
+    "name":"Arimo",
+    "slug":"Arimo-normal-400"
+  },
+  {
+    "name":"Lobster",
+    "slug":"Lobster-normal-400"
+  },
+  {
+    "name":"Bitter",
+    "slug":"Bitter-normal-400"
+  },
+  {
+    "name":"Noto Sans",
+    "slug":"Noto-Sans-normal-400"
+  },
+  {
+    "name":"Yanone Kaffeesatz",
+    "slug":"Yanone-Kaffeesatz-normal-400"
+  },
+  {
+    "name":"Indie Flower",
+    "slug":"Indie-Flower-normal-400"
+  },
+  {
+    "name":"Oxygen",
+    "slug":"Oxygen-normal-400"
+  },
+  {
+    "name":"Titillium Web",
+    "slug":"Titillium-Web-normal-400"
+  },
+  {
+    "name":"Arvo",
+    "slug":"Arvo-normal-400"
+  },
+  {
+    "name":"Dosis",
+    "slug":"Dosis-normal-400"
+  },
+  {
+    "name":"PT Serif",
+    "slug":"PT-Serif-normal-400"
+  },
+  {
+    "name":"Ubuntu Condensed",
+    "slug":"Ubuntu-Condensed-normal-400"
+  },
+  {
+    "name":"Fjalla One",
+    "slug":"Fjalla-One-normal-400"
+  },
+  {
+    "name":"Signika",
+    "slug":"Signika-normal-400"
+  },
+  {
+    "name":"Playfair Display",
+    "slug":"Playfair-Display-normal-400"
+  },
+  {
+    "name":"Bree Serif",
+    "slug":"Bree-Serif-normal-400"
+  },
+  {
+    "name":"Abel",
+    "slug":"Abel-normal-400"
+  },
+  {
+    "name":"Francois One",
+    "slug":"Francois-One-normal-400"
+  },
+  {
+    "name":"Cabin",
+    "slug":"Cabin-normal-400"
+  },
+  {
+    "name":"Shadows Into Light",
+    "slug":"Shadows-Into-Light-normal-400"
+  },
+  {
+    "name":"Nunito",
+    "slug":"Nunito-normal-400"
+  },
+  {
+    "name":"Muli",
+    "slug":"Muli-normal-400"
+  },
+  {
+    "name":"Vollkorn",
+    "slug":"Vollkorn-normal-400"
+  },
+  {
+    "name":"Play",
+    "slug":"Play-normal-400"
+  },
+  {
+    "name":"Monda",
+    "slug":"Monda-normal-400"
+  },
+  {
+    "name":"Poiret One",
+    "slug":"Poiret-One-normal-400"
+  },
+  {
+    "name":"Noto Serif",
+    "slug":"Noto-Serif-normal-400"
+  },
+  {
+    "name":"Cuprum",
+    "slug":"Cuprum-normal-400"
+  },
+  {
+    "name":"Alegreya",
+    "slug":"Alegreya-normal-400"
+  },
+  {
+    "name":"Archivo Narrow",
+    "slug":"Archivo-Narrow-normal-400"
+  },
+  {
+    "name":"Maven Pro",
+    "slug":"Maven-Pro-normal-400"
+  },
+  {
+    "name":"Josefin Sans",
+    "slug":"Josefin-Sans-normal-400"
+  },
+  {
+    "name":"Asap",
+    "slug":"Asap-normal-400"
+  },
+  {
+    "name":"Karla",
+    "slug":"Karla-normal-400"
+  },
+  {
+    "name":"Libre Baskerville",
+    "slug":"Libre-Baskerville-normal-400"
+  },
+  {
+    "name":"Rokkitt",
+    "slug":"Rokkitt-normal-400"
+  },
+  {
+    "name":"Anton",
+    "slug":"Anton-normal-400"
+  },
+  {
+    "name":"Pacifico",
+    "slug":"Pacifico-normal-400"
+  },
+  {
+    "name":"Quicksand",
+    "slug":"Quicksand-normal-400"
+  },
+  {
+    "name":"Armata",
+    "slug":"Armata-normal-400"
+  },
+  {
+    "name":"Architects Daughter",
+    "slug":"Architects-Daughter-normal-400"
+  },
+  {
+    "name":"Sigmar One",
+    "slug":"Sigmar-One-normal-400"
+  },
+  {
+    "name":"Inconsolata",
+    "slug":"Inconsolata-normal-400"
+  },
+  {
+    "name":"Dancing Script",
+    "slug":"Dancing-Script-normal-400"
+  },
+  {
+    "name":"Merriweather Sans",
+    "slug":"Merriweather-Sans-normal-400"
+  },
+  {
+    "name":"Chewy",
+    "slug":"Chewy-normal-400"
+  },
+  {
+    "name":"Gloria Hallelujah",
+    "slug":"Gloria-Hallelujah-normal-400"
+  },
+  {
+    "name":"Varela Round",
+    "slug":"Varela-Round-normal-400"
+  },
+  {
+    "name":"Pathway Gothic One",
+    "slug":"Pathway-Gothic-One-normal-400"
+  },
+  {
+    "name":"PT Sans Caption",
+    "slug":"PT-Sans-Caption-normal-400"
+  },
+  {
+    "name":"News Cycle",
+    "slug":"News-Cycle-normal-400"
+  },
+  {
+    "name":"Exo",
+    "slug":"Exo-normal-400"
+  },
+  {
+    "name":"Exo 2",
+    "slug":"Exo-2-normal-400"
+  },
+  {
+    "name":"Questrial",
+    "slug":"Questrial-normal-400"
+  },
+  {
+    "name":"Coming Soon",
+    "slug":"Coming-Soon-normal-400"
+  },
+  {
+    "name":"Ropa Sans",
+    "slug":"Ropa-Sans-normal-400"
+  },
+  {
+    "name":"Pontano Sans",
+    "slug":"Pontano-Sans-normal-400"
+  },
+  {
+    "name":"Gudea",
+    "slug":"Gudea-normal-400"
+  },
+  {
+    "name":"Istok Web",
+    "slug":"Istok-Web-normal-400"
+  },
+  {
+    "name":"Crimson Text",
+    "slug":"Crimson-Text-normal-400"
+  },
+  {
+    "name":"Crete Round",
+    "slug":"Crete-Round-normal-400"
+  },
+  {
+    "name":"Sanchez",
+    "slug":"Sanchez-normal-400"
+  },
+  {
+    "name":"Quattrocento Sans",
+    "slug":"Quattrocento-Sans-normal-400"
+  },
+  {
+    "name":"Courgette",
+    "slug":"Courgette-normal-400"
+  },
+  {
+    "name":"Cabin Condensed",
+    "slug":"Cabin-Condensed-normal-400"
+  },
+  {
+    "name":"Hammersmith One",
+    "slug":"Hammersmith-One-normal-400"
+  },
+  {
+    "name":"Josefin Slab",
+    "slug":"Josefin-Slab-normal-400"
+  },
+  {
+    "name":"Lobster Two",
+    "slug":"Lobster-Two-normal-400"
+  },
+  {
+    "name":"Patua One",
+    "slug":"Patua-One-normal-400"
+  },
+  {
+    "name":"Fira Sans",
+    "slug":"Fira-Sans-normal-400"
+  },
+  {
+    "name":"Kreon",
+    "slug":"Kreon-normal-400"
+  },
+  {
+    "name":"Bangers",
+    "slug":"Bangers-normal-400"
+  },
+  {
+    "name":"Playfair Display SC",
+    "slug":"Playfair-Display-SC-normal-400"
+  },
+  {
+    "name":"Pinyon Script",
+    "slug":"Pinyon-Script-normal-400"
+  },
+  {
+    "name":"Playball",
+    "slug":"Playball-normal-400"
+  },
+  {
+    "name":"EB Garamond",
+    "slug":"EB-Garamond-normal-400"
+  },
+  {
+    "name":"Didact Gothic",
+    "slug":"Didact-Gothic-normal-400"
+  },
+  {
+    "name":"Orbitron",
+    "slug":"Orbitron-normal-400"
+  },
+  {
+    "name":"Fredoka One",
+    "slug":"Fredoka-One-normal-400"
+  },
+  {
+    "name":"Enriqueta",
+    "slug":"Enriqueta-normal-400"
+  },
+  {
+    "name":"Tinos",
+    "slug":"Tinos-normal-400"
+  },
+  {
+    "name":"Shadows Into Light Two",
+    "slug":"Shadows-Into-Light-Two-normal-400"
+  },
+  {
+    "name":"Righteous",
+    "slug":"Righteous-normal-400"
+  },
+  {
+    "name":"Marvel",
+    "slug":"Marvel-normal-400"
+  },
+  {
+    "name":"Noticia Text",
+    "slug":"Noticia-Text-normal-400"
+  },
+  {
+    "name":"Passion One",
+    "slug":"Passion-One-normal-400"
+  },
+  {
+    "name":"Economica",
+    "slug":"Economica-normal-400"
+  },
+  {
+    "name":"Crafty Girls",
+    "slug":"Crafty-Girls-normal-400"
+  },
+  {
+    "name":"Abril Fatface",
+    "slug":"Abril-Fatface-normal-400"
+  },
+  {
+    "name":"Covered By Your Grace",
+    "slug":"Covered-By-Your-Grace-normal-400"
+  },
+  {
+    "name":"Changa One",
+    "slug":"Changa-One-normal-400"
+  },
+  {
+    "name":"BenchNine",
+    "slug":"BenchNine-normal-400"
+  },
+  {
+    "name":"Amatic SC",
+    "slug":"Amatic-SC-normal-400"
+  },
+  {
+    "name":"Nobile",
+    "slug":"Nobile-normal-400"
+  },
+  {
+    "name":"Alfa Slab One",
+    "slug":"Alfa-Slab-One-normal-400"
+  },
+  {
+    "name":"Philosopher",
+    "slug":"Philosopher-normal-400"
+  },
+  {
+    "name":"Comfortaa",
+    "slug":"Comfortaa-normal-400"
+  },
+  {
+    "name":"Jura",
+    "slug":"Jura-normal-400"
+  },
+  {
+    "name":"Source Code Pro",
+    "slug":"Source-Code-Pro-normal-400"
+  },
+  {
+    "name":"Old Standard TT",
+    "slug":"Old-Standard-TT-normal-400"
+  },
+  {
+    "name":"Kaushan Script",
+    "slug":"Kaushan-Script-normal-400"
+  },
+  {
+    "name":"Great Vibes",
+    "slug":"Great-Vibes-normal-400"
+  },
+  {
+    "name":"Rock Salt",
+    "slug":"Rock-Salt-normal-400"
+  },
+  {
+    "name":"Domine",
+    "slug":"Domine-normal-400"
+  },
+  {
+    "name":"Cantarell",
+    "slug":"Cantarell-normal-400"
+  },
+  {
+    "name":"Russo One",
+    "slug":"Russo-One-normal-400"
+  },
+  {
+    "name":"Sintony",
+    "slug":"Sintony-normal-400"
+  },
+  {
+    "name":"Special Elite",
+    "slug":"Special-Elite-normal-400"
+  },
+  {
+    "name":"Audiowide",
+    "slug":"Audiowide-normal-400"
+  },
+  {
+    "name":"Permanent Marker",
+    "slug":"Permanent-Marker-normal-400"
+  },
+  {
+    "name":"Quattrocento",
+    "slug":"Quattrocento-normal-400"
+  },
+  {
+    "name":"Squada One",
+    "slug":"Squada-One-normal-400"
+  },
+  {
+    "name":"Handlee",
+    "slug":"Handlee-normal-400"
+  },
+  {
+    "name":"Amaranth",
+    "slug":"Amaranth-normal-400"
+  },
+  {
+    "name":"Varela",
+    "slug":"Varela-normal-400"
+  },
+  {
+    "name":"Marck Script",
+    "slug":"Marck-Script-normal-400"
+  },
+  {
+    "name":"Satisfy",
+    "slug":"Satisfy-normal-400"
+  },
+  {
+    "name":"Paytone One",
+    "slug":"Paytone-One-normal-400"
+  },
+  {
+    "name":"Cinzel",
+    "slug":"Cinzel-normal-400"
+  },
+  {
+    "name":"Antic Slab",
+    "slug":"Antic-Slab-normal-400"
+  },
+  {
+    "name":"Cookie",
+    "slug":"Cookie-normal-400"
+  },
+  {
+    "name":"Cardo",
+    "slug":"Cardo-normal-400"
+  },
+  {
+    "name":"Luckiest Guy",
+    "slug":"Luckiest-Guy-normal-400"
+  },
+  {
+    "name":"Vidaloka",
+    "slug":"Vidaloka-normal-400"
+  },
+  {
+    "name":"Calligraffitti",
+    "slug":"Calligraffitti-normal-400"
+  },
+  {
+    "name":"Berkshire Swash",
+    "slug":"Berkshire-Swash-normal-400"
+  },
+  {
+    "name":"Gentium Book Basic",
+    "slug":"Gentium-Book-Basic-normal-400"
+  },
+  {
+    "name":"Bevan",
+    "slug":"Bevan-normal-400"
+  },
+  {
+    "name":"Molengo",
+    "slug":"Molengo-normal-400"
+  },
+  {
+    "name":"Signika Negative",
+    "slug":"Signika-Negative-normal-400"
+  },
+  {
+    "name":"Droid Sans Mono",
+    "slug":"Droid-Sans-Mono-normal-400"
+  },
+  {
+    "name":"Archivo Black",
+    "slug":"Archivo-Black-normal-400"
+  },
+  {
+    "name":"Voltaire",
+    "slug":"Voltaire-normal-400"
+  },
+  {
+    "name":"Alegreya Sans",
+    "slug":"Alegreya-Sans-normal-400"
+  },
+  {
+    "name":"Scada",
+    "slug":"Scada-normal-400"
+  },
+  {
+    "name":"Waiting for the Sunrise",
+    "slug":"Waiting-for-the-Sunrise-normal-400"
+  },
+  {
+    "name":"Overlock",
+    "slug":"Overlock-normal-400"
+  },
+  {
+    "name":"Kotta One",
+    "slug":"Kotta-One-normal-400"
+  },
+  {
+    "name":"Montserrat Alternates",
+    "slug":"Montserrat-Alternates-normal-400"
+  },
+  {
+    "name":"Coustard",
+    "slug":"Coustard-normal-400"
+  },
+  {
+    "name":"Bubblegum Sans",
+    "slug":"Bubblegum-Sans-normal-400"
+  },
+  {
+    "name":"Reenie Beanie",
+    "slug":"Reenie-Beanie-normal-400"
+  },
+  {
+    "name":"Copse",
+    "slug":"Copse-normal-400"
+  },
+  {
+    "name":"Ruda",
+    "slug":"Ruda-normal-400"
+  },
+  {
+    "name":"Hind",
+    "slug":"Hind-normal-400"
+  },
+  {
+    "name":"Patrick Hand",
+    "slug":"Patrick-Hand-normal-400"
+  },
+  {
+    "name":"Glegoo",
+    "slug":"Glegoo-normal-400"
+  },
+  {
+    "name":"ABeeZee",
+    "slug":"ABeeZee-normal-400"
+  },
+  {
+    "name":"Rambla",
+    "slug":"Rambla-normal-400"
+  },
+  {
+    "name":"Belleza",
+    "slug":"Belleza-normal-400"
+  },
+  {
+    "name":"Actor",
+    "slug":"Actor-normal-400"
+  },
+  {
+    "name":"Cantata One",
+    "slug":"Cantata-One-normal-400"
+  },
+  {
+    "name":"Goudy Bookletter 1911",
+    "slug":"Goudy-Bookletter-1911-normal-400"
+  },
+  {
+    "name":"Tangerine",
+    "slug":"Tangerine-normal-400"
+  },
+  {
+    "name":"Niconne",
+    "slug":"Niconne-normal-400"
+  },
+  {
+    "name":"Cutive",
+    "slug":"Cutive-normal-400"
+  },
+  {
+    "name":"Chivo",
+    "slug":"Chivo-normal-400"
+  },
+  {
+    "name":"Fugaz One",
+    "slug":"Fugaz-One-normal-400"
+  },
+  {
+    "name":"Coda",
+    "slug":"Coda-normal-400"
+  },
+  {
+    "name":"Lusitana",
+    "slug":"Lusitana-normal-400"
+  },
+  {
+    "name":"Walter Turncoat",
+    "slug":"Walter-Turncoat-normal-400"
+  },
+  {
+    "name":"Fontdiner Swanky",
+    "slug":"Fontdiner-Swanky-normal-400"
+  },
+  {
+    "name":"Viga",
+    "slug":"Viga-normal-400"
+  },
+  {
+    "name":"Michroma",
+    "slug":"Michroma-normal-400"
+  },
+  {
+    "name":"Nixie One",
+    "slug":"Nixie-One-normal-400"
+  },
+  {
+    "name":"Cherry Cream Soda",
+    "slug":"Cherry-Cream-Soda-normal-400"
+  },
+  {
+    "name":"Allerta",
+    "slug":"Allerta-normal-400"
+  },
+  {
+    "name":"Ubuntu Mono",
+    "slug":"Ubuntu-Mono-normal-400"
+  },
+  {
+    "name":"Syncopate",
+    "slug":"Syncopate-normal-400"
+  },
+  {
+    "name":"Damion",
+    "slug":"Damion-normal-400"
+  },
+  {
+    "name":"Sorts Mill Goudy",
+    "slug":"Sorts-Mill-Goudy-normal-400"
+  },
+  {
+    "name":"Sacramento",
+    "slug":"Sacramento-normal-400"
+  },
+  {
+    "name":"Rochester",
+    "slug":"Rochester-normal-400"
+  },
+  {
+    "name":"Bad Script",
+    "slug":"Bad-Script-normal-400"
+  },
+  {
+    "name":"Marmelad",
+    "slug":"Marmelad-normal-400"
+  },
+  {
+    "name":"Share",
+    "slug":"Share-normal-400"
+  },
+  {
+    "name":"Kameron",
+    "slug":"Kameron-normal-400"
+  },
+  {
+    "name":"Alegreya Sans SC",
+    "slug":"Alegreya-Sans-SC-normal-400"
+  },
+  {
+    "name":"Nova Square",
+    "slug":"Nova-Square-normal-400"
+  },
+  {
+    "name":"Rosario",
+    "slug":"Rosario-normal-400"
+  },
+  {
+    "name":"Neuton",
+    "slug":"Neuton-normal-400"
+  },
+  {
+    "name":"Doppio One",
+    "slug":"Doppio-One-normal-400"
+  },
+  {
+    "name":"Fauna One",
+    "slug":"Fauna-One-normal-400"
+  },
+  {
+    "name":"Oleo Script",
+    "slug":"Oleo-Script-normal-400"
+  },
+  {
+    "name":"Carrois Gothic",
+    "slug":"Carrois-Gothic-normal-400"
+  },
+  {
+    "name":"Boogaloo",
+    "slug":"Boogaloo-normal-400"
+  },
+  {
+    "name":"PT Serif Caption",
+    "slug":"PT-Serif-Caption-normal-400"
+  },
+  {
+    "name":"Nothing You Could Do",
+    "slug":"Nothing-You-Could-Do-normal-400"
+  },
+  {
+    "name":"Just Another Hand",
+    "slug":"Just-Another-Hand-normal-400"
+  },
+  {
+    "name":"Gochi Hand",
+    "slug":"Gochi-Hand-normal-400"
+  },
+  {
+    "name":"Electrolize",
+    "slug":"Electrolize-normal-400"
+  },
+  {
+    "name":"Lily Script One",
+    "slug":"Lily-Script-One-normal-400"
+  },
+  {
+    "name":"Sansita One",
+    "slug":"Sansita-One-normal-400"
+  },
+  {
+    "name":"Volkhov",
+    "slug":"Volkhov-normal-400"
+  },
+  {
+    "name":"Unkempt",
+    "slug":"Unkempt-normal-400"
+  },
+  {
+    "name":"Telex",
+    "slug":"Telex-normal-400"
+  },
+  {
+    "name":"Jockey One",
+    "slug":"Jockey-One-normal-400"
+  },
+  {
+    "name":"Aldrich",
+    "slug":"Aldrich-normal-400"
+  },
+  {
+    "name":"Carme",
+    "slug":"Carme-normal-400"
+  },
+  {
+    "name":"Rancho",
+    "slug":"Rancho-normal-400"
+  },
+  {
+    "name":"Black Ops One",
+    "slug":"Black-Ops-One-normal-400"
+  },
+  {
+    "name":"Trocchi",
+    "slug":"Trocchi-normal-400"
+  },
+  {
+    "name":"Allerta Stencil",
+    "slug":"Allerta-Stencil-normal-400"
+  },
+  {
+    "name":"Basic",
+    "slug":"Basic-normal-400"
+  },
+  {
+    "name":"Arbutus Slab",
+    "slug":"Arbutus-Slab-normal-400"
+  },
+  {
+    "name":"Neucha",
+    "slug":"Neucha-normal-400"
+  },
+  {
+    "name":"Arapey",
+    "slug":"Arapey-normal-400"
+  },
+  {
+    "name":"Homemade Apple",
+    "slug":"Homemade-Apple-normal-400"
+  },
+  {
+    "name":"Alice",
+    "slug":"Alice-normal-400"
+  },
+  {
+    "name":"Limelight",
+    "slug":"Limelight-normal-400"
+  },
+  {
+    "name":"Gentium Basic",
+    "slug":"Gentium-Basic-normal-400"
+  },
+  {
+    "name":"Advent Pro",
+    "slug":"Advent-Pro-normal-400"
+  },
+  {
+    "name":"Schoolbell",
+    "slug":"Schoolbell-normal-400"
+  },
+  {
+    "name":"Strait",
+    "slug":"Strait-normal-400"
+  },
+  {
+    "name":"Parisienne",
+    "slug":"Parisienne-normal-400"
+  },
+  {
+    "name":"Days One",
+    "slug":"Days-One-normal-400"
+  },
+  {
+    "name":"Acme",
+    "slug":"Acme-normal-400"
+  },
+  {
+    "name":"Mako",
+    "slug":"Mako-normal-400"
+  },
+  {
+    "name":"Poller One",
+    "slug":"Poller-One-normal-400"
+  },
+  {
+    "name":"Julius Sans One",
+    "slug":"Julius-Sans-One-normal-400"
+  },
+  {
+    "name":"Just Me Again Down Here",
+    "slug":"Just-Me-Again-Down-Here-normal-400"
+  },
+  {
+    "name":"Port Lligat Slab",
+    "slug":"Port-Lligat-Slab-normal-400"
+  },
+  {
+    "name":"Radley",
+    "slug":"Radley-normal-400"
+  },
+  {
+    "name":"Six Caps",
+    "slug":"Six-Caps-normal-400"
+  },
+  {
+    "name":"Prata",
+    "slug":"Prata-normal-400"
+  },
+  {
+    "name":"Racing Sans One",
+    "slug":"Racing-Sans-One-normal-400"
+  },
+  {
+    "name":"Fredericka the Great",
+    "slug":"Fredericka-the-Great-normal-400"
+  },
+  {
+    "name":"Caudex",
+    "slug":"Caudex-normal-400"
+  },
+  {
+    "name":"Cinzel Decorative",
+    "slug":"Cinzel-Decorative-normal-400"
+  },
+  {
+    "name":"Antic",
+    "slug":"Antic-normal-400"
+  },
+  {
+    "name":"Adamina",
+    "slug":"Adamina-normal-400"
+  },
+  {
+    "name":"Ultra",
+    "slug":"Ultra-normal-400"
+  },
+  {
+    "name":"Alegreya SC",
+    "slug":"Alegreya-SC-normal-400"
+  },
+  {
+    "name":"Inder",
+    "slug":"Inder-normal-400"
+  },
+  {
+    "name":"Alex Brush",
+    "slug":"Alex-Brush-normal-400"
+  },
+  {
+    "name":"Yellowtail",
+    "slug":"Yellowtail-normal-400"
+  },
+  {
+    "name":"Aclonica",
+    "slug":"Aclonica-normal-400"
+  },
+  {
+    "name":"Denk One",
+    "slug":"Denk-One-normal-400"
+  },
+  {
+    "name":"Homenaje",
+    "slug":"Homenaje-normal-400"
+  },
+  {
+    "name":"The Girl Next Door",
+    "slug":"The-Girl-Next-Door-normal-400"
+  },
+  {
+    "name":"Galindo",
+    "slug":"Galindo-normal-400"
+  },
+  {
+    "name":"Candal",
+    "slug":"Candal-normal-400"
+  },
+  {
+    "name":"Gilda Display",
+    "slug":"Gilda-Display-normal-400"
+  },
+  {
+    "name":"Frijole",
+    "slug":"Frijole-normal-400"
+  },
+  {
+    "name":"Judson",
+    "slug":"Judson-normal-400"
+  },
+  {
+    "name":"Quando",
+    "slug":"Quando-normal-400"
+  },
+  {
+    "name":"Gruppo",
+    "slug":"Gruppo-normal-400"
+  },
+  {
+    "name":"Allura",
+    "slug":"Allura-normal-400"
+  },
+  {
+    "name":"Oranienbaum",
+    "slug":"Oranienbaum-normal-400"
+  },
+  {
+    "name":"Alike",
+    "slug":"Alike-normal-400"
+  },
+  {
+    "name":"Puritan",
+    "slug":"Puritan-normal-400"
+  },
+  {
+    "name":"Slackey",
+    "slug":"Slackey-normal-400"
+  },
+  {
+    "name":"IM Fell English",
+    "slug":"IM-Fell-English-normal-400"
+  },
+  {
+    "name":"Petit Formal Script",
+    "slug":"Petit-Formal-Script-normal-400"
+  },
+  {
+    "name":"Convergence",
+    "slug":"Convergence-normal-400"
+  },
+  {
+    "name":"Cabin Sketch",
+    "slug":"Cabin-Sketch-normal-400"
+  },
+  {
+    "name":"Capriola",
+    "slug":"Capriola-normal-400"
+  },
+  {
+    "name":"Metrophobic",
+    "slug":"Metrophobic-normal-400"
+  },
+  {
+    "name":"Spinnaker",
+    "slug":"Spinnaker-normal-400"
+  },
+  {
+    "name":"Lemon",
+    "slug":"Lemon-normal-400"
+  },
+  {
+    "name":"Tenor Sans",
+    "slug":"Tenor-Sans-normal-400"
+  },
+  {
+    "name":"Duru Sans",
+    "slug":"Duru-Sans-normal-400"
+  },
+  {
+    "name":"Quantico",
+    "slug":"Quantico-normal-400"
+  },
+  {
+    "name":"Orienta",
+    "slug":"Orienta-normal-400"
+  },
+  {
+    "name":"Forum",
+    "slug":"Forum-normal-400"
+  },
+  {
+    "name":"Merienda One",
+    "slug":"Merienda-One-normal-400"
+  },
+  {
+    "name":"Average Sans",
+    "slug":"Average-Sans-normal-400"
+  },
+  {
+    "name":"Andika",
+    "slug":"Andika-normal-400"
+  },
+  {
+    "name":"Leckerli One",
+    "slug":"Leckerli-One-normal-400"
+  },
+  {
+    "name":"Cousine",
+    "slug":"Cousine-normal-400"
+  },
+  {
+    "name":"Engagement",
+    "slug":"Engagement-normal-400"
+  },
+  {
+    "name":"Love Ya Like A Sister",
+    "slug":"Love-Ya-Like-A-Sister-normal-400"
+  },
+  {
+    "name":"Voces",
+    "slug":"Voces-normal-400"
+  },
+  {
+    "name":"Magra",
+    "slug":"Magra-normal-400"
+  },
+  {
+    "name":"Imprima",
+    "slug":"Imprima-normal-400"
+  },
+  {
+    "name":"Average",
+    "slug":"Average-normal-400"
+  },
+  {
+    "name":"Freckle Face",
+    "slug":"Freckle-Face-normal-400"
+  },
+  {
+    "name":"Ceviche One",
+    "slug":"Ceviche-One-normal-400"
+  },
+  {
+    "name":"Tienne",
+    "slug":"Tienne-normal-400"
+  },
+  {
+    "name":"Marcellus SC",
+    "slug":"Marcellus-SC-normal-400"
+  },
+  {
+    "name":"Pompiere",
+    "slug":"Pompiere-normal-400"
+  },
+  {
+    "name":"Contrail One",
+    "slug":"Contrail-One-normal-400"
+  },
+  {
+    "name":"Alef",
+    "slug":"Alef-normal-400"
+  },
+  {
+    "name":"Crushed",
+    "slug":"Crushed-normal-400"
+  },
+  {
+    "name":"Anaheim",
+    "slug":"Anaheim-normal-400"
+  },
+  {
+    "name":"Give You Glory",
+    "slug":"Give-You-Glory-normal-400"
+  },
+  {
+    "name":"Poly",
+    "slug":"Poly-normal-400"
+  },
+  {
+    "name":"Ovo",
+    "slug":"Ovo-normal-400"
+  },
+  {
+    "name":"Corben",
+    "slug":"Corben-normal-400"
+  },
+  {
+    "name":"Anonymous Pro",
+    "slug":"Anonymous-Pro-normal-400"
+  },
+  {
+    "name":"Montez",
+    "slug":"Montez-normal-400"
+  },
+  {
+    "name":"Grand Hotel",
+    "slug":"Grand-Hotel-normal-400"
+  },
+  {
+    "name":"Tauri",
+    "slug":"Tauri-normal-400"
+  },
+  {
+    "name":"Yesteryear",
+    "slug":"Yesteryear-normal-400"
+  },
+  {
+    "name":"Metamorphous",
+    "slug":"Metamorphous-normal-400"
+  },
+  {
+    "name":"Iceland",
+    "slug":"Iceland-normal-400"
+  },
+  {
+    "name":"Vibur",
+    "slug":"Vibur-normal-400"
+  },
+  {
+    "name":"Marcellus",
+    "slug":"Marcellus-normal-400"
+  },
+  {
+    "name":"La Belle Aurore",
+    "slug":"La-Belle-Aurore-normal-400"
+  },
+  {
+    "name":"Lilita One",
+    "slug":"Lilita-One-normal-400"
+  },
+  {
+    "name":"Euphoria Script",
+    "slug":"Euphoria-Script-normal-400"
+  },
+  {
+    "name":"Lekton",
+    "slug":"Lekton-normal-400"
+  },
+  {
+    "name":"Headland One",
+    "slug":"Headland-One-normal-400"
+  },
+  {
+    "name":"Delius",
+    "slug":"Delius-normal-400"
+  },
+  {
+    "name":"Bentham",
+    "slug":"Bentham-normal-400"
+  },
+  {
+    "name":"Knewave",
+    "slug":"Knewave-normal-400"
+  },
+  {
+    "name":"Short Stack",
+    "slug":"Short-Stack-normal-400"
+  },
+  {
+    "name":"Monoton",
+    "slug":"Monoton-normal-400"
+  },
+  {
+    "name":"Lustria",
+    "slug":"Lustria-normal-400"
+  },
+  {
+    "name":"Kranky",
+    "slug":"Kranky-normal-400"
+  },
+  {
+    "name":"Loved by the King",
+    "slug":"Loved-by-the-King-normal-400"
+  },
+  {
+    "name":"PT Mono",
+    "slug":"PT-Mono-normal-400"
+  },
+  {
+    "name":"Shanti",
+    "slug":"Shanti-normal-400"
+  },
+  {
+    "name":"Brawler",
+    "slug":"Brawler-normal-400"
+  },
+  {
+    "name":"Sue Ellen Francisco",
+    "slug":"Sue-Ellen-Francisco-normal-400"
+  },
+  {
+    "name":"Prosto One",
+    "slug":"Prosto-One-normal-400"
+  },
+  {
+    "name":"Patrick Hand SC",
+    "slug":"Patrick-Hand-SC-normal-400"
+  },
+  {
+    "name":"Baumans",
+    "slug":"Baumans-normal-400"
+  },
+  {
+    "name":"Happy Monkey",
+    "slug":"Happy-Monkey-normal-400"
+  },
+  {
+    "name":"Cambo",
+    "slug":"Cambo-normal-400"
+  },
+  {
+    "name":"Allan",
+    "slug":"Allan-normal-400"
+  },
+  {
+    "name":"Merienda",
+    "slug":"Merienda-normal-400"
+  },
+  {
+    "name":"Press Start 2P",
+    "slug":"Press-Start-2P-normal-400"
+  },
+  {
+    "name":"Wire One",
+    "slug":"Wire-One-normal-400"
+  },
+  {
+    "name":"Norican",
+    "slug":"Norican-normal-400"
+  },
+  {
+    "name":"Titan One",
+    "slug":"Titan-One-normal-400"
+  },
+  {
+    "name":"IM Fell English SC",
+    "slug":"IM-Fell-English-SC-normal-400"
+  },
+  {
+    "name":"Tulpen One",
+    "slug":"Tulpen-One-normal-400"
+  },
+  {
+    "name":"IM Fell DW Pica",
+    "slug":"IM-Fell-DW-Pica-normal-400"
+  },
+  {
+    "name":"Graduate",
+    "slug":"Graduate-normal-400"
+  },
+  {
+    "name":"Chelsea Market",
+    "slug":"Chelsea-Market-normal-400"
+  },
+  {
+    "name":"Source Serif Pro",
+    "slug":"Source-Serif-Pro-normal-400"
+  },
+  {
+    "name":"Carrois Gothic SC",
+    "slug":"Carrois-Gothic-SC-normal-400"
+  },
+  {
+    "name":"Kelly Slab",
+    "slug":"Kelly-Slab-normal-400"
+  },
+  {
+    "name":"Podkova",
+    "slug":"Podkova-normal-400"
+  },
+  {
+    "name":"Rajdhani",
+    "slug":"Rajdhani-normal-400"
+  },
+  {
+    "name":"Over the Rainbow",
+    "slug":"Over-the-Rainbow-normal-400"
+  },
+  {
+    "name":"Skranji",
+    "slug":"Skranji-normal-400"
+  },
+  {
+    "name":"Fenix",
+    "slug":"Fenix-normal-400"
+  },
+  {
+    "name":"Megrim",
+    "slug":"Megrim-normal-400"
+  },
+  {
+    "name":"Mountains of Christmas",
+    "slug":"Mountains-of-Christmas-normal-400"
+  },
+  {
+    "name":"UnifrakturMaguntia",
+    "slug":"UnifrakturMaguntia-normal-400"
+  },
+  {
+    "name":"Carter One",
+    "slug":"Carter-One-normal-400"
+  },
+  {
+    "name":"Italianno",
+    "slug":"Italianno-normal-400"
+  },
+  {
+    "name":"Mr De Haviland",
+    "slug":"Mr-De-Haviland-normal-400"
+  },
+  {
+    "name":"Annie Use Your Telescope",
+    "slug":"Annie-Use-Your-Telescope-normal-400"
+  },
+  {
+    "name":"Kavoon",
+    "slug":"Kavoon-normal-400"
+  },
+  {
+    "name":"Maiden Orange",
+    "slug":"Maiden-Orange-normal-400"
+  },
+  {
+    "name":"Codystar",
+    "slug":"Codystar-normal-400"
+  },
+  {
+    "name":"Mystery Quest",
+    "slug":"Mystery-Quest-normal-400"
+  },
+  {
+    "name":"Englebert",
+    "slug":"Englebert-normal-400"
+  },
+  {
+    "name":"Salsa",
+    "slug":"Salsa-normal-400"
+  },
+  {
+    "name":"Delius Swash Caps",
+    "slug":"Delius-Swash-Caps-normal-400"
+  },
+  {
+    "name":"Kristi",
+    "slug":"Kristi-normal-400"
+  },
+  {
+    "name":"Concert One",
+    "slug":"Concert-One-normal-400"
+  },
+  {
+    "name":"Oleo Script Swash Caps",
+    "slug":"Oleo-Script-Swash-Caps-normal-400"
+  },
+  {
+    "name":"Londrina Solid",
+    "slug":"Londrina-Solid-normal-400"
+  },
+  {
+    "name":"Stardos Stencil",
+    "slug":"Stardos-Stencil-normal-400"
+  },
+  {
+    "name":"Cedarville Cursive",
+    "slug":"Cedarville-Cursive-normal-400"
+  },
+  {
+    "name":"Belgrano",
+    "slug":"Belgrano-normal-400"
+  },
+  {
+    "name":"Federo",
+    "slug":"Federo-normal-400"
+  },
+  {
+    "name":"Henny Penny",
+    "slug":"Henny-Penny-normal-400"
+  },
+  {
+    "name":"Geo",
+    "slug":"Geo-normal-400"
+  },
+  {
+    "name":"Chau Philomene One",
+    "slug":"Chau-Philomene-One-normal-400"
+  },
+  {
+    "name":"Arizonia",
+    "slug":"Arizonia-normal-400"
+  },
+  {
+    "name":"Dawning of a New Day",
+    "slug":"Dawning-of-a-New-Day-normal-400"
+  },
+  {
+    "name":"Andada",
+    "slug":"Andada-normal-400"
+  },
+  {
+    "name":"Qwigley",
+    "slug":"Qwigley-normal-400"
+  },
+  {
+    "name":"Nova Mono",
+    "slug":"Nova-Mono-normal-400"
+  },
+  {
+    "name":"Simonetta",
+    "slug":"Simonetta-normal-400"
+  },
+  {
+    "name":"Meddon",
+    "slug":"Meddon-normal-400"
+  },
+  {
+    "name":"Expletus Sans",
+    "slug":"Expletus-Sans-normal-400"
+  },
+  {
+    "name":"Bowlby One SC",
+    "slug":"Bowlby-One-SC-normal-400"
+  },
+  {
+    "name":"Ruslan Display",
+    "slug":"Ruslan-Display-normal-400"
+  },
+  {
+    "name":"Buenard",
+    "slug":"Buenard-normal-400"
+  },
+  {
+    "name":"Stint Ultra Condensed",
+    "slug":"Stint-Ultra-Condensed-normal-400"
+  },
+  {
+    "name":"Sniglet",
+    "slug":"Sniglet-normal-400"
+  },
+  {
+    "name":"Amarante",
+    "slug":"Amarante-normal-400"
+  },
+  {
+    "name":"Sofia",
+    "slug":"Sofia-normal-400"
+  },
+  {
+    "name":"Rationale",
+    "slug":"Rationale-normal-400"
+  },
+  {
+    "name":"Averia Libre",
+    "slug":"Averia-Libre-normal-400"
+  },
+  {
+    "name":"Life Savers",
+    "slug":"Life-Savers-normal-400"
+  },
+  {
+    "name":"Unica One",
+    "slug":"Unica-One-normal-400"
+  },
+  {
+    "name":"Vast Shadow",
+    "slug":"Vast-Shadow-normal-400"
+  },
+  {
+    "name":"Finger Paint",
+    "slug":"Finger-Paint-normal-400"
+  },
+  {
+    "name":"Rufina",
+    "slug":"Rufina-normal-400"
+  },
+  {
+    "name":"Cantora One",
+    "slug":"Cantora-One-normal-400"
+  },
+  {
+    "name":"Oregano",
+    "slug":"Oregano-normal-400"
+  },
+  {
+    "name":"Ek Mukta",
+    "slug":"Ek-Mukta-normal-400"
+  },
+  {
+    "name":"Averia Sans Libre",
+    "slug":"Averia-Sans-Libre-normal-400"
+  },
+  {
+    "name":"IM Fell Double Pica",
+    "slug":"IM-Fell-Double-Pica-normal-400"
+  },
+  {
+    "name":"Sancreek",
+    "slug":"Sancreek-normal-400"
+  },
+  {
+    "name":"Shojumaru",
+    "slug":"Shojumaru-normal-400"
+  },
+  {
+    "name":"Fanwood Text",
+    "slug":"Fanwood-Text-normal-400"
+  },
+  {
+    "name":"Gafata",
+    "slug":"Gafata-normal-400"
+  },
+  {
+    "name":"Bowlby One",
+    "slug":"Bowlby-One-normal-400"
+  },
+  {
+    "name":"Share Tech",
+    "slug":"Share-Tech-normal-400"
+  },
+  {
+    "name":"Cutive Mono",
+    "slug":"Cutive-Mono-normal-400"
+  },
+  {
+    "name":"Mate SC",
+    "slug":"Mate-SC-normal-400"
+  },
+  {
+    "name":"Holtwood One SC",
+    "slug":"Holtwood-One-SC-normal-400"
+  },
+  {
+    "name":"Esteban",
+    "slug":"Esteban-normal-400"
+  },
+  {
+    "name":"Mouse Memoirs",
+    "slug":"Mouse-Memoirs-normal-400"
+  },
+  {
+    "name":"Overlock SC",
+    "slug":"Overlock-SC-normal-400"
+  },
+  {
+    "name":"IM Fell French Canon",
+    "slug":"IM-Fell-French-Canon-normal-400"
+  },
+  {
+    "name":"Averia Gruesa Libre",
+    "slug":"Averia-Gruesa-Libre-normal-400"
+  },
+  {
+    "name":"Coda Caption",
+    "slug":"Coda-Caption-normal-800"
+  },
+  {
+    "name":"Redressed",
+    "slug":"Redressed-normal-400"
+  },
+  {
+    "name":"Kite One",
+    "slug":"Kite-One-normal-400"
+  },
+  {
+    "name":"Unna",
+    "slug":"Unna-normal-400"
+  },
+  {
+    "name":"Londrina Outline",
+    "slug":"Londrina-Outline-normal-400"
+  },
+  {
+    "name":"IM Fell DW Pica SC",
+    "slug":"IM-Fell-DW-Pica-SC-normal-400"
+  },
+  {
+    "name":"Amethysta",
+    "slug":"Amethysta-normal-400"
+  },
+  {
+    "name":"Snippet",
+    "slug":"Snippet-normal-400"
+  },
+  {
+    "name":"Clicker Script",
+    "slug":"Clicker-Script-normal-400"
+  },
+  {
+    "name":"Griffy",
+    "slug":"Griffy-normal-400"
+  },
+  {
+    "name":"Sarina",
+    "slug":"Sarina-normal-400"
+  },
+  {
+    "name":"Dorsa",
+    "slug":"Dorsa-normal-400"
+  },
+  {
+    "name":"Mr Dafoe",
+    "slug":"Mr-Dafoe-normal-400"
+  },
+  {
+    "name":"Sunshiney",
+    "slug":"Sunshiney-normal-400"
+  },
+  {
+    "name":"Quintessential",
+    "slug":"Quintessential-normal-400"
+  },
+  {
+    "name":"IM Fell Great Primer SC",
+    "slug":"IM-Fell-Great-Primer-SC-normal-400"
+  },
+  {
+    "name":"Gabriela",
+    "slug":"Gabriela-normal-400"
+  },
+  {
+    "name":"Donegal One",
+    "slug":"Donegal-One-normal-400"
+  },
+  {
+    "name":"Delius Unicase",
+    "slug":"Delius-Unicase-normal-400"
+  },
+  {
+    "name":"Zeyada",
+    "slug":"Zeyada-normal-400"
+  },
+  {
+    "name":"Medula One",
+    "slug":"Medula-One-normal-400"
+  },
+  {
+    "name":"Kalam",
+    "slug":"Kalam-normal-400"
+  },
+  {
+    "name":"Yeseva One",
+    "slug":"Yeseva-One-normal-400"
+  },
+  {
+    "name":"Nova Oval",
+    "slug":"Nova-Oval-normal-400"
+  },
+  {
+    "name":"Nova Round",
+    "slug":"Nova-Round-normal-400"
+  },
+  {
+    "name":"Inika",
+    "slug":"Inika-normal-400"
+  },
+  {
+    "name":"Ledger",
+    "slug":"Ledger-normal-400"
+  },
+  {
+    "name":"Fjord One",
+    "slug":"Fjord-One-normal-400"
+  },
+  {
+    "name":"Bilbo Swash Caps",
+    "slug":"Bilbo-Swash-Caps-normal-400"
+  },
+  {
+    "name":"Balthazar",
+    "slug":"Balthazar-normal-400"
+  },
+  {
+    "name":"Aladin",
+    "slug":"Aladin-normal-400"
+  },
+  {
+    "name":"VT323",
+    "slug":"VT323-normal-400"
+  },
+  {
+    "name":"Halant",
+    "slug":"Halant-normal-400"
+  },
+  {
+    "name":"Dynalight",
+    "slug":"Dynalight-normal-400"
+  },
+  {
+    "name":"Sofadi One",
+    "slug":"Sofadi-One-normal-400"
+  },
+  {
+    "name":"Gravitas One",
+    "slug":"Gravitas-One-normal-400"
+  },
+  {
+    "name":"Rouge Script",
+    "slug":"Rouge-Script-normal-400"
+  },
+  {
+    "name":"Rye",
+    "slug":"Rye-normal-400"
+  },
+  {
+    "name":"Seaweed Script",
+    "slug":"Seaweed-Script-normal-400"
+  },
+  {
+    "name":"Artifika",
+    "slug":"Artifika-normal-400"
+  },
+  {
+    "name":"Junge",
+    "slug":"Junge-normal-400"
+  },
+  {
+    "name":"Numans",
+    "slug":"Numans-normal-400"
+  },
+  {
+    "name":"Rammetto One",
+    "slug":"Rammetto-One-normal-400"
+  },
+  {
+    "name":"Miltonian Tattoo",
+    "slug":"Miltonian-Tattoo-normal-400"
+  },
+  {
+    "name":"Jacques Francois",
+    "slug":"Jacques-Francois-normal-400"
+  },
+  {
+    "name":"Wallpoet",
+    "slug":"Wallpoet-normal-400"
+  },
+  {
+    "name":"Buda",
+    "slug":"Buda-normal-300"
+  },
+  {
+    "name":"Raleway Dots",
+    "slug":"Raleway-Dots-normal-400"
+  },
+  {
+    "name":"Mate",
+    "slug":"Mate-normal-400"
+  },
+  {
+    "name":"Rosarivo",
+    "slug":"Rosarivo-normal-400"
+  },
+  {
+    "name":"Flamenco",
+    "slug":"Flamenco-normal-400"
+  },
+  {
+    "name":"Trade Winds",
+    "slug":"Trade-Winds-normal-400"
+  },
+  {
+    "name":"Milonga",
+    "slug":"Milonga-normal-400"
+  },
+  {
+    "name":"Paprika",
+    "slug":"Paprika-normal-400"
+  },
+  {
+    "name":"Oldenburg",
+    "slug":"Oldenburg-normal-400"
+  },
+  {
+    "name":"Linden Hill",
+    "slug":"Linden-Hill-normal-400"
+  },
+  {
+    "name":"Ribeye Marrow",
+    "slug":"Ribeye-Marrow-normal-400"
+  },
+  {
+    "name":"Cagliostro",
+    "slug":"Cagliostro-normal-400"
+  },
+  {
+    "name":"Oxygen Mono",
+    "slug":"Oxygen-Mono-normal-400"
+  },
+  {
+    "name":"Sail",
+    "slug":"Sail-normal-400"
+  },
+  {
+    "name":"IM Fell Great Primer",
+    "slug":"IM-Fell-Great-Primer-normal-400"
+  },
+  {
+    "name":"Sonsie One",
+    "slug":"Sonsie-One-normal-400"
+  },
+  {
+    "name":"IM Fell French Canon SC",
+    "slug":"IM-Fell-French-Canon-SC-normal-400"
+  },
+  {
+    "name":"MedievalSharp",
+    "slug":"MedievalSharp-normal-400"
+  },
+  {
+    "name":"Text Me One",
+    "slug":"Text-Me-One-normal-400"
+  },
+  {
+    "name":"Herr Von Muellerhoff",
+    "slug":"Herr-Von-Muellerhoff-normal-400"
+  },
+  {
+    "name":"Swanky and Moo Moo",
+    "slug":"Swanky-and-Moo-Moo-normal-400"
+  },
+  {
+    "name":"Nova Slim",
+    "slug":"Nova-Slim-normal-400"
+  },
+  {
+    "name":"Aguafina Script",
+    "slug":"Aguafina-Script-normal-400"
+  },
+  {
+    "name":"Spirax",
+    "slug":"Spirax-normal-400"
+  },
+  {
+    "name":"Cherry Swash",
+    "slug":"Cherry-Swash-normal-400"
+  },
+  {
+    "name":"Stint Ultra Expanded",
+    "slug":"Stint-Ultra-Expanded-normal-400"
+  },
+  {
+    "name":"Monofett",
+    "slug":"Monofett-normal-400"
+  },
+  {
+    "name":"Seymour One",
+    "slug":"Seymour-One-normal-400"
+  },
+  {
+    "name":"UnifrakturCook",
+    "slug":"UnifrakturCook-normal-700"
+  },
+  {
+    "name":"Stoke",
+    "slug":"Stoke-normal-400"
+  },
+  {
+    "name":"Condiment",
+    "slug":"Condiment-normal-400"
+  },
+  {
+    "name":"Keania One",
+    "slug":"Keania-One-normal-400"
+  },
+  {
+    "name":"Teko",
+    "slug":"Teko-normal-400"
+  },
+  {
+    "name":"Wendy One",
+    "slug":"Wendy-One-normal-400"
+  },
+  {
+    "name":"Ruluko",
+    "slug":"Ruluko-normal-400"
+  },
+  {
+    "name":"Prociono",
+    "slug":"Prociono-normal-400"
+  },
+  {
+    "name":"Alike Angular",
+    "slug":"Alike-Angular-normal-400"
+  },
+  {
+    "name":"League Script",
+    "slug":"League-Script-normal-400"
+  },
+  {
+    "name":"Piedra",
+    "slug":"Piedra-normal-400"
+  },
+  {
+    "name":"Julee",
+    "slug":"Julee-normal-400"
+  },
+  {
+    "name":"Goblin One",
+    "slug":"Goblin-One-normal-400"
+  },
+  {
+    "name":"Kenia",
+    "slug":"Kenia-normal-400"
+  },
+  {
+    "name":"Bigshot One",
+    "slug":"Bigshot-One-normal-400"
+  },
+  {
+    "name":"Port Lligat Sans",
+    "slug":"Port-Lligat-Sans-normal-400"
+  },
+  {
+    "name":"Montaga",
+    "slug":"Montaga-normal-400"
+  },
+  {
+    "name":"Bilbo",
+    "slug":"Bilbo-normal-400"
+  },
+  {
+    "name":"IM Fell Double Pica SC",
+    "slug":"IM-Fell-Double-Pica-SC-normal-400"
+  },
+  {
+    "name":"Astloch",
+    "slug":"Astloch-normal-400"
+  },
+  {
+    "name":"Fresca",
+    "slug":"Fresca-normal-400"
+  },
+  {
+    "name":"Creepster",
+    "slug":"Creepster-normal-400"
+  },
+  {
+    "name":"Nova Flat",
+    "slug":"Nova-Flat-normal-400"
+  },
+  {
+    "name":"Smythe",
+    "slug":"Smythe-normal-400"
+  },
+  {
+    "name":"Lovers Quarrel",
+    "slug":"Lovers-Quarrel-normal-400"
+  },
+  {
+    "name":"Modern Antiqua",
+    "slug":"Modern-Antiqua-normal-400"
+  },
+  {
+    "name":"Della Respira",
+    "slug":"Della-Respira-normal-400"
+  },
+  {
+    "name":"Fondamento",
+    "slug":"Fondamento-normal-400"
+  },
+  {
+    "name":"Offside",
+    "slug":"Offside-normal-400"
+  },
+  {
+    "name":"Original Surfer",
+    "slug":"Original-Surfer-normal-400"
+  },
+  {
+    "name":"Share Tech Mono",
+    "slug":"Share-Tech-Mono-normal-400"
+  },
+  {
+    "name":"Marko One",
+    "slug":"Marko-One-normal-400"
+  },
+  {
+    "name":"Habibi",
+    "slug":"Habibi-normal-400"
+  },
+  {
+    "name":"Irish Grover",
+    "slug":"Irish-Grover-normal-400"
+  },
+  {
+    "name":"Petrona",
+    "slug":"Petrona-normal-400"
+  },
+  {
+    "name":"Krona One",
+    "slug":"Krona-One-normal-400"
+  },
+  {
+    "name":"Averia Serif Libre",
+    "slug":"Averia-Serif-Libre-normal-400"
+  },
+  {
+    "name":"Ruthie",
+    "slug":"Ruthie-normal-400"
+  },
+  {
+    "name":"Geostar Fill",
+    "slug":"Geostar-Fill-normal-400"
+  },
+  {
+    "name":"McLaren",
+    "slug":"McLaren-normal-400"
+  },
+  {
+    "name":"Ribeye",
+    "slug":"Ribeye-normal-400"
+  },
+  {
+    "name":"Chango",
+    "slug":"Chango-normal-400"
+  },
+  {
+    "name":"Pirata One",
+    "slug":"Pirata-One-normal-400"
+  },
+  {
+    "name":"Miniver",
+    "slug":"Miniver-normal-400"
+  },
+  {
+    "name":"Lancelot",
+    "slug":"Lancelot-normal-400"
+  },
+  {
+    "name":"Atomic Age",
+    "slug":"Atomic-Age-normal-400"
+  },
+  {
+    "name":"Autour One",
+    "slug":"Autour-One-normal-400"
+  },
+  {
+    "name":"Trykker",
+    "slug":"Trykker-normal-400"
+  },
+  {
+    "name":"Mrs Saint Delafield",
+    "slug":"Mrs-Saint-Delafield-normal-400"
+  },
+  {
+    "name":"Nova Script",
+    "slug":"Nova-Script-normal-400"
+  },
+  {
+    "name":"Trochut",
+    "slug":"Trochut-normal-400"
+  },
+  {
+    "name":"Spicy Rice",
+    "slug":"Spicy-Rice-normal-400"
+  },
+  {
+    "name":"Asul",
+    "slug":"Asul-normal-400"
+  },
+  {
+    "name":"Antic Didone",
+    "slug":"Antic-Didone-normal-400"
+  },
+  {
+    "name":"Ranchers",
+    "slug":"Ranchers-normal-400"
+  },
+  {
+    "name":"Iceberg",
+    "slug":"Iceberg-normal-400"
+  },
+  {
+    "name":"Wellfleet",
+    "slug":"Wellfleet-normal-400"
+  },
+  {
+    "name":"Galdeano",
+    "slug":"Galdeano-normal-400"
+  },
+  {
+    "name":"Asset",
+    "slug":"Asset-normal-400"
+  },
+  {
+    "name":"Geostar",
+    "slug":"Geostar-normal-400"
+  },
+  {
+    "name":"Passero One",
+    "slug":"Passero-One-normal-400"
+  },
+  {
+    "name":"Miltonian",
+    "slug":"Miltonian-normal-400"
+  },
+  {
+    "name":"Smokum",
+    "slug":"Smokum-normal-400"
+  },
+  {
+    "name":"Plaster",
+    "slug":"Plaster-normal-400"
+  },
+  {
+    "name":"Devonshire",
+    "slug":"Devonshire-normal-400"
+  },
+  {
+    "name":"Vampiro One",
+    "slug":"Vampiro-One-normal-400"
+  },
+  {
+    "name":"Montserrat Subrayada",
+    "slug":"Montserrat-Subrayada-normal-400"
+  },
+  {
+    "name":"Molle",
+    "slug":"Molle-italic-400"
+  },
+  {
+    "name":"Joti One",
+    "slug":"Joti-One-normal-400"
+  },
+  {
+    "name":"Federant",
+    "slug":"Federant-normal-400"
+  },
+  {
+    "name":"Monsieur La Doulaise",
+    "slug":"Monsieur-La-Doulaise-normal-400"
+  },
+  {
+    "name":"Akronim",
+    "slug":"Akronim-normal-400"
+  },
+  {
+    "name":"Jolly Lodger",
+    "slug":"Jolly-Lodger-normal-400"
+  },
+  {
+    "name":"Glass Antiqua",
+    "slug":"Glass-Antiqua-normal-400"
+  },
+  {
+    "name":"Italiana",
+    "slug":"Italiana-normal-400"
+  },
+  {
+    "name":"Aubrey",
+    "slug":"Aubrey-normal-400"
+  },
+  {
+    "name":"Nova Cut",
+    "slug":"Nova-Cut-normal-400"
+  },
+  {
+    "name":"Germania One",
+    "slug":"Germania-One-normal-400"
+  },
+  {
+    "name":"Caesar Dressing",
+    "slug":"Caesar-Dressing-normal-400"
+  },
+  {
+    "name":"Rum Raisin",
+    "slug":"Rum-Raisin-normal-400"
+  },
+  {
+    "name":"Emblema One",
+    "slug":"Emblema-One-normal-400"
+  },
+  {
+    "name":"Eagle Lake",
+    "slug":"Eagle-Lake-normal-400"
+  },
+  {
+    "name":"Jacques Francois Shadow",
+    "slug":"Jacques-Francois-Shadow-normal-400"
+  },
+  {
+    "name":"Elsie",
+    "slug":"Elsie-normal-400"
+  },
+  {
+    "name":"Nosifer",
+    "slug":"Nosifer-normal-400"
+  },
+  {
+    "name":"Supermercado One",
+    "slug":"Supermercado-One-normal-400"
+  },
+  {
+    "name":"Snowburst One",
+    "slug":"Snowburst-One-normal-400"
+  },
+  {
+    "name":"Uncial Antiqua",
+    "slug":"Uncial-Antiqua-normal-400"
+  },
+  {
+    "name":"Emilys Candy",
+    "slug":"Emilys-Candy-normal-400"
+  },
+  {
+    "name":"Butcherman",
+    "slug":"Butcherman-normal-400"
+  },
+  {
+    "name":"Londrina Shadow",
+    "slug":"Londrina-Shadow-normal-400"
+  },
+  {
+    "name":"Peralta",
+    "slug":"Peralta-normal-400"
+  },
+  {
+    "name":"Croissant One",
+    "slug":"Croissant-One-normal-400"
+  },
+  {
+    "name":"Combo",
+    "slug":"Combo-normal-400"
+  },
+  {
+    "name":"Almendra",
+    "slug":"Almendra-normal-400"
+  },
+  {
+    "name":"Gorditas",
+    "slug":"Gorditas-normal-400"
+  },
+  {
+    "name":"Slabo 13px",
+    "slug":"Slabo-13px-normal-400"
+  },
+  {
+    "name":"Bubbler One",
+    "slug":"Bubbler-One-normal-400"
+  },
+  {
+    "name":"Ewert",
+    "slug":"Ewert-normal-400"
+  },
+  {
+    "name":"Chela One",
+    "slug":"Chela-One-normal-400"
+  },
+  {
+    "name":"Diplomata",
+    "slug":"Diplomata-normal-400"
+  },
+  {
+    "name":"Stalemate",
+    "slug":"Stalemate-normal-400"
+  },
+  {
+    "name":"Elsie Swash Caps",
+    "slug":"Elsie-Swash-Caps-normal-400"
+  },
+  {
+    "name":"Mrs Sheppards",
+    "slug":"Mrs-Sheppards-normal-400"
+  },
+  {
+    "name":"Vesper Libre",
+    "slug":"Vesper-Libre-normal-400"
+  },
+  {
+    "name":"Revalia",
+    "slug":"Revalia-normal-400"
+  },
+  {
+    "name":"Romanesco",
+    "slug":"Romanesco-normal-400"
+  },
+  {
+    "name":"Khand",
+    "slug":"Khand-normal-400"
+  },
+  {
+    "name":"Purple Purse",
+    "slug":"Purple-Purse-normal-400"
+  },
+  {
+    "name":"Karma",
+    "slug":"Karma-normal-400"
+  },
+  {
+    "name":"Butterfly Kids",
+    "slug":"Butterfly-Kids-normal-400"
+  },
+  {
+    "name":"Faster One",
+    "slug":"Faster-One-normal-400"
+  },
+  {
+    "name":"Londrina Sketch",
+    "slug":"Londrina-Sketch-normal-400"
+  },
+  {
+    "name":"Margarine",
+    "slug":"Margarine-normal-400"
+  },
+  {
+    "name":"Eater",
+    "slug":"Eater-normal-400"
+  },
+  {
+    "name":"Chicle",
+    "slug":"Chicle-normal-400"
+  },
+  {
+    "name":"Miss Fajardose",
+    "slug":"Miss-Fajardose-normal-400"
+  },
+  {
+    "name":"Dr Sugiyama",
+    "slug":"Dr-Sugiyama-normal-400"
+  },
+  {
+    "name":"Felipa",
+    "slug":"Felipa-normal-400"
+  },
+  {
+    "name":"New Rocker",
+    "slug":"New-Rocker-normal-400"
+  },
+  {
+    "name":"Fira Mono",
+    "slug":"Fira-Mono-normal-400"
+  },
+  {
+    "name":"Risque",
+    "slug":"Risque-normal-400"
+  },
+  {
+    "name":"Bigelow Rules",
+    "slug":"Bigelow-Rules-normal-400"
+  },
+  {
+    "name":"Princess Sofia",
+    "slug":"Princess-Sofia-normal-400"
+  },
+  {
+    "name":"Mr Bedfort",
+    "slug":"Mr-Bedfort-normal-400"
+  },
+  {
+    "name":"Flavors",
+    "slug":"Flavors-normal-400"
+  },
+  {
+    "name":"Jim Nightshade",
+    "slug":"Jim-Nightshade-normal-400"
+  },
+  {
+    "name":"Sirin Stencil",
+    "slug":"Sirin-Stencil-normal-400"
+  },
+  {
+    "name":"Sevillana",
+    "slug":"Sevillana-normal-400"
+  },
+  {
+    "name":"Macondo Swash Caps",
+    "slug":"Macondo-Swash-Caps-normal-400"
+  },
+  {
+    "name":"Meie Script",
+    "slug":"Meie-Script-normal-400"
+  },
+  {
+    "name":"Underdog",
+    "slug":"Underdog-normal-400"
+  },
+  {
+    "name":"Gurajada",
+    "slug":"Gurajada-normal-400"
+  },
+  {
+    "name":"Metal Mania",
+    "slug":"Metal-Mania-normal-400"
+  },
+  {
+    "name":"Arbutus",
+    "slug":"Arbutus-normal-400"
+  },
+  {
+    "name":"Stalinist One",
+    "slug":"Stalinist-One-normal-400"
+  },
+  {
+    "name":"Fascinate",
+    "slug":"Fascinate-normal-400"
+  },
+  {
+    "name":"Erica One",
+    "slug":"Erica-One-normal-400"
+  },
+  {
+    "name":"Rubik One",
+    "slug":"Rubik-One-normal-400"
+  },
+  {
+    "name":"Unlock",
+    "slug":"Unlock-normal-400"
+  },
+  {
+    "name":"Macondo",
+    "slug":"Macondo-normal-400"
+  },
+  {
+    "name":"Diplomata SC",
+    "slug":"Diplomata-SC-normal-400"
+  },
+  {
+    "name":"Bonbon",
+    "slug":"Bonbon-normal-400"
+  },
+  {
+    "name":"Almendra SC",
+    "slug":"Almendra-SC-normal-400"
+  },
+  {
+    "name":"Ruge Boogie",
+    "slug":"Ruge-Boogie-normal-400"
+  },
+  {
+    "name":"Hanalei Fill",
+    "slug":"Hanalei-Fill-normal-400"
+  },
+  {
+    "name":"Almendra Display",
+    "slug":"Almendra-Display-normal-400"
+  },
+  {
+    "name":"Hanalei",
+    "slug":"Hanalei-normal-400"
+  },
+  {
+    "name":"Sarpanch",
+    "slug":"Sarpanch-normal-400"
+  },
+  {
+    "name":"Laila",
+    "slug":"Laila-normal-400"
+  },
+  {
+    "name":"Rozha One",
+    "slug":"Rozha-One-normal-400"
+  },
+  {
+    "name":"Fascinate Inline",
+    "slug":"Fascinate-Inline-normal-400"
+  },
+  {
+    "name":"Warnes",
+    "slug":"Warnes-normal-400"
+  },
+  {
+    "name":"Suranna",
+    "slug":"Suranna-normal-400"
+  },
+  {
+    "name":"Mandali",
+    "slug":"Mandali-normal-400"
+  },
+  {
+    "name":"Ramabhadra",
+    "slug":"Ramabhadra-normal-400"
+  },
+  {
+    "name":"NTR",
+    "slug":"NTR-normal-400"
+  },
+  {
+    "name":"Fruktur",
+    "slug":"Fruktur-normal-400"
+  },
+  {
+    "name":"Mallanna",
+    "slug":"Mallanna-normal-400"
+  },
+  {
+    "name":"Khula",
+    "slug":"Khula-normal-400"
+  },
+  {
+    "name":"Cambay",
+    "slug":"Cambay-normal-400"
+  },
+  {
+    "name":"Rubik Mono One",
+    "slug":"Rubik-Mono-One-normal-400"
+  },
+  {
+    "name":"Ramaraja",
+    "slug":"Ramaraja-normal-400"
+  },
+  {
+    "name":"Dekko",
+    "slug":"Dekko-normal-400"
+  },
+  {
+    "name":"Dhurjati",
+    "slug":"Dhurjati-normal-400"
+  },
+  {
+    "name":"Timmana",
+    "slug":"Timmana-normal-400"
+  },
+  {
+    "name":"Tenali Ramakrishna",
+    "slug":"Tenali-Ramakrishna-normal-400"
+  },
+  {
+    "name":"Ranga",
+    "slug":"Ranga-normal-400"
+  },
+  {
+    "name":"Gidugu",
+    "slug":"Gidugu-normal-400"
+  },
+  {
+    "name":"Lakki Reddy",
+    "slug":"Lakki-Reddy-normal-400"
+  },
+  {
+    "name":"Ravi Prakash",
+    "slug":"Ravi-Prakash-normal-400"
+  },
+  {
+    "name":"Peddana",
+    "slug":"Peddana-normal-400"
+  },
+  {
+    "name":"Suravaram",
+    "slug":"Suravaram-normal-400"
+  },
+  {
+    "name":"Sree Krushnadevaraya",
+    "slug":"Sree-Krushnadevaraya-normal-400"
+  }
+]

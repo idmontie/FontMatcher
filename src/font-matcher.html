@@ -1,0 +1,55 @@
+<head>
+  <title>Font Matcher</title>
+
+  <script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js"></script>
+</head>
+
+<body>
+  <h1>Welcome to Font Matcher!</h1>
+
+  {{> matcher}}
+</body>
+
+<template name="matcher">
+{{!
+  Here we will generate a random set of fonts that users can upvote, downvote, or add to their collection of font combitions if they are logged in.
+
+  When they vote, they will be given another two combinations of fonts.
+}}
+
+<div class="container">
+  <div id="actions">
+    {{#if hasUpvoted }}
+      <span class="arrow up active" data-action="upvote"></span>  
+    {{else}}
+      <span class="arrow up" data-action="upvote"></span>
+    {{/if}}
+    
+    {{#if hasDownvoted }}
+      <span class="arrow down active" data-action="downvote"></span>
+    {{else}}
+      <span class="arrow down" data-action="downvote"></span>
+    {{/if}}
+
+    {{#if currentUser}}
+      <span class="star" data-action="favorite"></span>
+    {{/if}}
+    <span class="number-of-votes">
+      {{numberOfVotes}}
+    </span>
+
+    <span class="new-font-set" data-action="new-font-set">New</span>
+  </div>
+
+  <div id="fontcard">
+    <span class="font-heading" style="{{fontHeading}}">
+      Grumpy wizards make toxic brew for the evil Queen and Jack.
+    </span>
+
+    <span class="font-body" style="{{fontBody}}">
+      Grumpy wizards make toxic brew for the evil Queen and Jack.
+    </span>
+  </div>
+</div>
+
+</template>
