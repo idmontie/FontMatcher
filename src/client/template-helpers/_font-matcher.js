@@ -9,6 +9,13 @@ function newFontsCallback( error, result ) {
     Session.set( 'fontNameHeading', result.fontNameHeading );
     Session.set( 'fontNameBody', result.fontNameBody );
 
+    // Set defaults
+    var hash = result.fontNameHeading.name +
+        '+' +
+        result.fontNameBody.name
+    Session.setDefault( 'hasUpvoted+' + hash, false );
+    Session.setDefault( 'hasDownvoted+' + hash, false );
+
     // Load the fonts
     WebFont.load( {
       google: {
@@ -57,15 +64,28 @@ Template._fontMatcher.helpers( {
     return "font-family: '" + currentFont.name + "';";
   },
   hasUpvoted : function () {
-    // TODO if the user is logged in, check if they have
-    // upvoted for this particular set of fonts
-    return false;
+    if ( Meteor.userId() ) {
+      // TODO if the user is logged in, check if they have
+      // upvoted for this particular set of fonts
+    } else {
+      // Not logged in, just use Sessions
+      var hash = Session.get( 'fontNameHeading' ).name +
+        '+' +
+        Session.get( 'fontNameBody' ).name
+      return Session.get( 'hasUpvoted+' + hash );
+    }
   },
   hasDownvoted : function () {
-    // TODO if the user is logged in, check if they have
-    // downvoted for this particular set of fonts
-
-    return false;
+    if ( Meteor.userId() ) {
+      // TODO if the user is logged in, check if they have
+      // downvoted for this particular set of fonts
+    } else {
+      // Not logged in, just use Sessions
+      var hash = Session.get( 'fontNameHeading' ).name +
+        '+' +
+        Session.get( 'fontNameBody' ).name
+      return Session.get( 'hasDownvoted+' + hash );
+    }
   },
   hasFavorited : function () {
     // TODO
@@ -74,26 +94,96 @@ Template._fontMatcher.helpers( {
 } );
 
 Template._fontMatcher.events( {
-  'click [data-action=upvote]:not(.active)' : function ( e ) {
+  'click [data-action=upvote]' : function ( e ) {
     e.preventDefault();
 
-    $( e.target ).addClass( 'active' );
+    var hash = Session.get( 'fontNameHeading' ).name +
+        '+' +
+        Session.get( 'fontNameBody' ).name
 
-    Meteor.call(
-        'upvote',
-        Session.get( 'fontNameHeading' ),
-        Session.get( 'fontNameBody' )
-    );
+    if ( $( e.currentTarget ).is( ':not(.assertive' ) ) {  
+      // Upvote
+      Session.set( 'hasUpvoted+' + hash, true );
+      Session.set( 'hasDownvoted+' + hash, false );
+
+      Meteor.call(
+          'upvote',
+          Session.get( 'fontNameHeading' ),
+          Session.get( 'fontNameBody' ),
+          function ( error, result ) {
+            if ( error ) {
+              // TODO undo upvote
+            } else {
+              
+            }
+          }
+      );
+    } else {
+      // Undo upvote
+      Session.set( 'hasUpvoted+' + hash, false );
+      Session.set( 'hasDownvoted+' + hash, false );
+
+      Meteor.call(
+          'unUpvote',
+          Session.get( 'fontNameHeading' ),
+          Session.get( 'fontNameBody' ),
+          function ( error, result ) {
+            if ( error ) {
+              // TODO undo upvote
+            } else {
+              
+            }
+          }
+      );
+    }
+    
   },
-  'click [data-action=downvote]:not(.active)' : function ( e ) {
+  'click [data-action=downvote]' : function ( e ) {
     e.preventDefault();
 
-    $( e.target ).addClass( 'active' );
+    var hash = Session.get( 'fontNameHeading' ).name +
+        '+' +
+        Session.get( 'fontNameBody' ).name
 
-    Meteor.call(
-      'downvote',
-      Session.get( 'fontNameHeading' ),
-      Session.get( 'fontNameBody' )
-    );
+    if ( $( e.currentTarget ).is( ':not(.assertive)' ) ) {
+      Session.set( 'hasUpvoted+' + hash, false );
+      Session.set( 'hasDownvoted+' + hash, true );
+
+      Meteor.call(
+        'downvote',
+        Session.get( 'fontNameHeading' ),
+        Session.get( 'fontNameBody' ),
+        function ( error, result ) {
+          if ( error ) {
+            // TODO
+          } else {
+            
+          }
+        }
+      );
+    } else {
+      // Undo downvote
+      Session.set( 'hasUpvoted+' + hash, false );
+      Session.set( 'hasDownvoted+' + hash, false );
+
+      Meteor.call(
+          'unDownvote',
+          Session.get( 'fontNameHeading' ),
+          Session.get( 'fontNameBody' ),
+          function ( error, result ) {
+            if ( error ) {
+              // TODO undo upvote
+            } else {
+              
+            }
+          }
+      );
+    }
+  },
+  'click [data-action=new-font-set]' : function ( e ) {
+    e.preventDefault();
+
+    // load a new set of fonts
+    Meteor.call( 'fonts', newFontsCallback );
   }
 } );

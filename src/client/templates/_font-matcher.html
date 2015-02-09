@@ -22,16 +22,16 @@
 
   <div class="item tabs tabs-secondary tabs-icon-left" id="actions">
     {{! Upvote: }}
-    <a class="tab-item {{#if hasUpvoted }}active{{/if}}" href="#" data-action="upvote">
+    <a class="tab-item {{#if hasUpvoted }}assertive{{/if}}" href="#" data-action="upvote">
       <i class="icon ion-arrow-up-a"></i> Cool
     </a>
     {{! Downvote: }}
-    <a class="tab-item {{#if hasDownvoted }}active{{/if}}" href="#" data-action="downvote">
+    <a class="tab-item {{#if hasDownvoted }}assertive{{/if}}" href="#" data-action="downvote">
       <i class="icon ion-arrow-down-a"></i> Nah
     </a>
     {{! Favorite: }}
     {{#if currentUser}}
-      <a class="tab-item {{#if hasFavorited }}active{{/if}}" href="#" data-action="favorite">
+      <a class="tab-item {{#if hasFavorited }}assertive{{/if}}" href="#" data-action="favorite">
         <i class="icon ion-android-star-outline"></i> Favorite
       </a>
     {{/if}}
