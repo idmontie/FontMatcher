@@ -1,16 +1,15 @@
 Meteor.methods( {
-  upvote : function ( fontHeading, fontBody ) {
+  upvote : function ( heading, body ) {
     // add an uptick to fontHeading+fontBody
-
     FontCombo.update( 
         {
-          fontHeading : fontHeading,
-          fontBody : fontBody
+          heading : heading,
+          body : body
         },
         {
           $setOnInsert : {
-            fontHeading : fontHeading,
-            fontBody : fontBody,
+            heading : heading,
+            body : body,
             downticks : 0
           },
           $inc : {
@@ -23,20 +22,46 @@ Meteor.methods( {
         }
     );
 
+    // if the user is signed in, set their vote
+    if ( Meteor.userId() ){
+      Votes.update(
+          {
+            heading : heading,
+            body : body,
+            ownerId : Meteor.userId()
+          },
+          {
+            $setOnInsert : {
+              heading : heading,
+              body : body,
+              ownerId : Meteor.userId()
+            },
+            $set : {
+              upvote : true,
+              downvote : false
+            }
+          },
+          {
+            multi : false,
+            upsert : true
+          }
+      );
+    }
+
     return true;
   },
-  unUpvote : function ( fontHeading, fontBody ) {
+  unUpvote : function ( heading, body ) {
     // undo the uptick to fontHeading+fontBody
 
     FontCombo.update( 
         {
-          fontHeading : fontHeading,
-          fontBody : fontBody
+          heading : heading,
+          body : body
         },
         {
           $setOnInsert : {
-            fontHeading : fontHeading,
-            fontBody : fontBody,
+            heading : heading,
+            body : body,
             downticks : 0
           },
           $inc : {
@@ -49,20 +74,46 @@ Meteor.methods( {
         }
     );
 
+    // if the user is signed in, set their vote
+    if ( Meteor.userId() ){
+      Votes.update(
+          {
+            heading : heading,
+            body : body,
+            ownerId : Meteor.userId()
+          },
+          {
+            $setOnInsert : {
+              heading : heading,
+              body : body,
+              ownerId : Meteor.userId()
+            },
+            $set : {
+              downvote : false,
+              upvote : false
+            }
+          },
+          {
+            multi : false,
+            upsert : true
+          }
+      );
+    }
+
     return true;
   },
-  downvote : function ( fontHeading, fontBody ) {
+  downvote : function ( heading, body ) {
     // add a downtick to fontHeading+fontBody
 
     FontCombo.update( 
         {
-          fontHeading : fontHeading,
-          fontBody : fontBody
+          heading : heading,
+          body : body
         },
         {
           $setOnInsert : {
-            fontHeading : fontHeading,
-            fontBody : fontBody,
+            heading : heading,
+            body : body,
             upticks : 0
           },
           $inc : {
@@ -75,20 +126,46 @@ Meteor.methods( {
         }
     );
 
+    // if the user is signed in, set their vote
+    if ( Meteor.userId() ){
+      Votes.update(
+          {
+            heading : heading,
+            body : body,
+            ownerId : Meteor.userId()
+          },
+          {
+            $setOnInsert : {
+              heading : heading,
+              body : body,
+              ownerId : Meteor.userId()
+            },
+            $set : {
+              upvote : false,
+              downvote : true
+            }
+          },
+          {
+            multi : false,
+            upsert : true
+          }
+      );
+    }
+
     return true;
   },
-  unDownvote : function ( fontHeading, fontBody ) {
+  unDownvote : function ( heading, body ) {
     // undo the downtick to fontHeading+fontBody
 
     FontCombo.update( 
         {
-          fontHeading : fontHeading,
-          fontBody : fontBody
+          heading : heading,
+          body : body
         },
         {
           $setOnInsert : {
-            fontHeading : fontHeading,
-            fontBody : fontBody,
+            heading : heading,
+            body : body,
             upticks : 0
           },
           $inc : {
@@ -100,6 +177,32 @@ Meteor.methods( {
           upsert : true
         }
     );
+
+    // if the user is signed in, set their vote
+    if ( Meteor.userId() ){
+      Votes.update(
+          {
+            heading : heading,
+            body : body,
+            ownerId : Meteor.userId()
+          },
+          {
+            $setOnInsert : {
+              heading : heading,
+              body : body,
+              ownerId : Meteor.userId()
+            },
+            $set : {
+              upvote : false,
+              downvote : false
+            }
+          },
+          {
+            multi : false,
+            upsert : true
+          }
+      );
+    }
 
     return true;
   },

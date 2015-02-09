@@ -180,15 +180,25 @@ Template._fontMatcher.helpers( {
     return '';
   },
   hasUpvoted : function () {
-    if ( Meteor.userId() ) {
-      // TODO if the user is logged in, check if they have
-      // upvoted for this particular set of fonts
-    } else {
-      // Not logged in, just use Sessions
-      var heading = Session.get( 'fontNameHeading' );
-      var body    = Session.get( 'fontNameBody' );
+    var heading = Session.get( 'fontNameHeading' );
+    var body    = Session.get( 'fontNameBody' );
 
-      if ( heading && body ) {
+    if ( heading && body ) {
+      if ( Meteor.userId() ) {
+        // if the user is logged in, check if they have
+        // upvoted for this particular set of fonts
+        var vote = Votes.findOne( {
+          'heading.slug' : heading.slug,
+          'body.slug' : body.slug,
+          upvote : true
+        } );
+        
+        if ( vote ) {
+          return true;
+        }
+      } else {
+        // Not logged in, just use Sessions
+      
         var hash = heading.name + '+' + body.name
         return Session.get( 'hasUpvoted+' + hash );
       }      
@@ -197,25 +207,45 @@ Template._fontMatcher.helpers( {
     return false;
   },
   hasDownvoted : function () {
-    if ( Meteor.userId() ) {
-      // TODO if the user is logged in, check if they have
-      // downvoted for this particular set of fonts
-    } else {
-      // Not logged in, just use Sessions
-      var heading = Session.get( 'fontNameHeading' );
-      var body    = Session.get( 'fontNameBody' );
+    var heading = Session.get( 'fontNameHeading' );
+    var body    = Session.get( 'fontNameBody' );
 
-      if ( heading && body ) {
-        var hash = heading.name + '+' + body.name
+    if ( heading && body ) {
+      if ( Meteor.userId() ) {
+        // if the user is logged in, check if they have
+        // downvoted for this particular set of fonts
+        var vote = Votes.findOne( {
+            'heading.slug' : heading.slug,
+            'body.slug' : body.slug,
+            downvote : true
+          } );
+          
+          if ( vote ) {
+            return true;
+          }
+      } else {
+        // Not logged in, just use Sessions
+        
+        var hash = heading.name + '+' + body.name;
         return Session.get( 'hasDownvoted+' + hash );  
-      } 
+      }
     }
 
     return false;
   },
   hasFavorited : function () {
     if ( Meteor.userId() ) {
-      // TODO
+      var heading = Session.get( 'fontNameHeading' );
+      var body    = Session.get( 'fontNameBody' );
+
+      if ( heading && body ) {
+        var favorite = Favorites.findOne( {
+          headingSlug : heading.slug,
+          bodySlug : body.slug
+        } );
+
+        return ( favorite != null );
+      }
     }
 
     return false;
@@ -269,5 +299,36 @@ Template._fontMatcher.events( {
 
     // load a new set of fonts
     Meteor.call( 'fonts', newFontsCallback );
+  },
+  'click [data-action=favorite]' : function ( e ) {
+    e.preventDefault();
+
+    if ( $( e.currentTarget ).is( ':not(.assertive)' ) ) {
+      // Favorite
+      Meteor.call(
+        'favorite',
+        Session.get( 'fontNameHeading' ).slug,
+        Session.get( 'fontNameBody' ).slug,
+        function ( error, result ) {
+          if ( error ) {
+            alert( error.reason );
+          }
+        } 
+      );
+    } else {
+      // Unfavorite
+      Meteor.call(
+        'unFavorite',
+        Session.get( 'fontNameHeading' ).slug,
+        Session.get( 'fontNameBody' ).slug,
+        function ( error, result ) {
+          if ( error ) {
+            alert( error.reason );
+          }
+        }
+      );
+    }
+
+    
   }
 } );

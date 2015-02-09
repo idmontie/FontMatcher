@@ -1,0 +1,8 @@
+ServiceConfiguration.configurations.upsert( {
+  service : 'github'
+}, {
+  $set : {
+    clientId : 'clientid',
+    secret: 'secret'
+  }
+} );

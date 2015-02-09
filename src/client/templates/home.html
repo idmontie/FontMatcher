@@ -1,6 +1,22 @@
 <template name="home">
-{{#contentFor "headerTitle"}}
+  {{#contentFor "headerTitle"}}
     <h1 class="title">Font Matcher</h1>
+  {{/contentFor}}
+
+  {{#contentFor "headerButtonRight"}}
+    {{#if currentUser }}
+      <button class="button button-clear pull-right" data-ion-menu-toggle="right" data-ion-modal="_favorites">
+        {{#if isAndroid}}
+          {{> ionIcon icon='android-more-vertical'}}
+        {{else}}
+          {{> ionIcon icon='navicon'}}
+        {{/if}}
+      </button>
+    {{else}}
+      <button class="button button-clear pull-right" data-ion-menu-toggle="right" data-ion-modal="_signIn">
+        {{> ionIcon icon="ios-person-outline"}}
+      </button>
+    {{/if}}
   {{/contentFor}}
 
   {{#ionView}}

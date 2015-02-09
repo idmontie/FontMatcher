@@ -1,0 +1,22 @@
+<template name="_favorites">
+  {{#ionModal title="Your Favorites"}}
+    <div class="card padding">
+      {{#ionList}}
+        {{#each favorites}}
+          <div class="item item-text-wrap item-button-right">
+            <h3>
+              {{headingFont.name}}
+            </h3>
+            <p>
+              {{bodyFont.name}}
+            </p>
+
+            <button class="button" data-action="navigate">
+              {{>ionIcon icon="ios-eye"}}
+            </button>
+          </div>
+        {{/each}}
+      {{/ionList}}
+    </div>
+  {{/ionModal}}
+</template>

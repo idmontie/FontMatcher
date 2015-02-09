@@ -11,11 +11,11 @@
   </div>
 
   <div class="item item-body" id="fontcard">
-    <h1 class="font-heading" style="{{fontHeading}}">
+    <h1 class="font-heading" style="{{fontHeading}}" contenteditable>
       Grumpy wizards make toxic brew for the evil Queen and Jack.
     </h1>
 
-    <p class="font-body" style="{{fontBody}}">
+    <p class="font-body" style="{{fontBody}}" contenteditable>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu urna eu turpis cursus egestas. Nunc ut velit vel justo imperdiet accumsan eget nec nunc. Aenean ut dapibus arcu, eget auctor purus. In ac ipsum at sapien dictum dignissim et eu est. Praesent a finibus nulla. Fusce convallis sed magna ut tristique. Donec ornare, odio quis iaculis consequat, enim urna suscipit sem, et cursus diam odio nec libero. Pellentesque rutrum enim eget maximus maximus. Integer sodales velit sed placerat tempor. Aenean consectetur condimentum risus ac tempus. Etiam semper orci eget ultricies fringilla. Nam at velit a eros ultricies blandit sed eu felis. In accumsan ligula diam, ac lacinia nisi tincidunt ac. Nulla ullamcorper urna quam, vitae dapibus libero tempus vitae. Praesent at fermentum nisl. Phasellus feugiat interdum dictum.
     </p>
   </div>
@@ -32,7 +32,13 @@
     {{! Favorite: }}
     {{#if currentUser}}
       <a class="tab-item {{#if hasFavorited }}assertive{{/if}}" href="#" data-action="favorite">
-        <i class="icon ion-android-star-outline"></i> Favorite
+        {{#if hasFavorited}}
+          <i class="icon ion-android-star"></i>
+        {{else}}
+          <i class="icon ion-android-star-outline"></i>
+        {{/if}}
+        Favorite
+
       </a>
     {{/if}}
     {{! New: }}
