@@ -1,18 +1,106 @@
 Meteor.methods( {
-  upvote : function ( fontNameHeading, fontNameBody ) {
-    // TODO add an uptick to fontNameHeading+fontNameBody
+  upvote : function ( fontHeading, fontBody ) {
+    // add an uptick to fontHeading+fontBody
+
+    FontCombo.update( 
+        {
+          fontHeading : fontHeading,
+          fontBody : fontBody
+        },
+        {
+          $setOnInsert : {
+            fontHeading : fontHeading,
+            fontBody : fontBody,
+            downticks : 0
+          },
+          $inc : {
+            upticks : 1
+          }
+        },
+        {
+          multi : false,
+          upsert : true
+        }
+    );
+
     return true;
   },
-  unUpvote : function ( fontNameHeading, fontNameBody ) {
-    // TODO undo the uptick to fontNameHeading+fontNameBody
+  unUpvote : function ( fontHeading, fontBody ) {
+    // undo the uptick to fontHeading+fontBody
+
+    FontCombo.update( 
+        {
+          fontHeading : fontHeading,
+          fontBody : fontBody
+        },
+        {
+          $setOnInsert : {
+            fontHeading : fontHeading,
+            fontBody : fontBody,
+            downticks : 0
+          },
+          $inc : {
+            upticks : -1
+          }
+        },
+        {
+          multi : false,
+          upsert : true
+        }
+    );
+
     return true;
   },
-  downvote : function ( fontNameHeading, fontNameBody ) {
-    // TODO add a downtick to fontNameHeading+fontNameBody
+  downvote : function ( fontHeading, fontBody ) {
+    // add a downtick to fontHeading+fontBody
+
+    FontCombo.update( 
+        {
+          fontHeading : fontHeading,
+          fontBody : fontBody
+        },
+        {
+          $setOnInsert : {
+            fontHeading : fontHeading,
+            fontBody : fontBody,
+            upticks : 0
+          },
+          $inc : {
+            downticks : 1
+          }
+        },
+        {
+          multi : false,
+          upsert : true
+        }
+    );
+
     return true;
   },
-  unDownvote : function ( fontNameHeading, fontNameBody ) {
-    // TODO undo the downtick to fontNameHeading+fontNameBody
+  unDownvote : function ( fontHeading, fontBody ) {
+    // undo the downtick to fontHeading+fontBody
+
+    FontCombo.update( 
+        {
+          fontHeading : fontHeading,
+          fontBody : fontBody
+        },
+        {
+          $setOnInsert : {
+            fontHeading : fontHeading,
+            fontBody : fontBody,
+            upticks : 0
+          },
+          $inc : {
+            downticks : -1
+          }
+        },
+        {
+          multi : false,
+          upsert : true
+        }
+    );
+
     return true;
   },
   fonts : function () {
