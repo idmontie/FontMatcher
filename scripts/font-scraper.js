@@ -34,6 +34,6 @@ for ( var i = 0; i < fels.length; i++ ) {
   } );
 }
 
-// TODO some how scrape 
+// TODO some how scrape whether the font is serif or sans-serif
 
 console.log( JSON.stringify( fontNames ) );

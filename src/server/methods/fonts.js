@@ -103,16 +103,30 @@ Meteor.methods( {
 
     return true;
   },
-  fonts : function () {
-    // TODO one day Meteor will provide a better
+  fonts : function ( optionalFontHeading, optionalFontBody) {
+    if ( optionalFontHeading && optionalFontBody ) {
+      var headingFont = Fonts.findOne( {
+        slug : optionalFontHeading
+      } );
+      var bodyFont = Fonts.findOne( {
+        slug : optionalFontBody
+      } );
+
+      return {
+        fontNameHeading : headingFont,
+        fontNameBody : bodyFont
+      }
+    }
+
+    // XXX one day Meteor will provide a better
     // way to do this, but 675 isn't that big.
     var count = Fonts.find().fetch().length;
     var randomIndex1 = Math.floor( Random.fraction() * ( count - 1 ) );
     var randomIndex2 = Math.floor( Random.fraction() * ( count - 1 ) );
     var arr = Fonts.find().fetch();
     return {
-      fontNameHeading: arr[ randomIndex1 ],
-      fontNameBody: arr[ randomIndex2 ]
+      fontNameHeading : arr[ randomIndex1 ],
+      fontNameBody : arr[ randomIndex2 ]
     }
   }
 } );

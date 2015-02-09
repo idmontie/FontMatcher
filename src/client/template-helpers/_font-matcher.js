@@ -2,12 +2,14 @@
 // Home Template Helpers and Events
 // ================================
 
+// TODO better error messages
+
 /**
  * Setup for new fonts
  */
 function newFontsCallback( error, result ) {
   if ( error ) {
-    // TODO
+    alert( error.reason );
   } else {
     Session.set( 'fontNameHeading', result.fontNameHeading );
     Session.set( 'fontNameBody', result.fontNameBody );
@@ -46,6 +48,7 @@ function newFontsCallback( error, result ) {
  *
  * Sets the sessions and calls the server
  */
+ // TODO refactor un/up/downvote code, its 90% the same
 function upvote() {
   var hash = Session.get( 'fontNameHeading' ).name +
       '+' +
@@ -61,9 +64,9 @@ function upvote() {
       Session.get( 'fontNameBody' ),
       function ( error, result ) {
         if ( error ) {
-          // TODO undo upvote
-        } else {
-          
+          // undo upvote
+          Session.set( 'hasUpvoted+' + hash, false );
+          alert( error.reason );
         }
       }
   );
@@ -83,9 +86,8 @@ function unUpvote() {
       Session.get( 'fontNameBody' ),
       function ( error, result ) {
         if ( error ) {
-          // TODO undo upvote
-        } else {
-          
+          Session.set( 'hasUpvoted+' + hash, true );
+          alert( error.reason );
         }
       }
   );
@@ -105,9 +107,8 @@ function downvote() {
     Session.get( 'fontNameBody' ),
     function ( error, result ) {
       if ( error ) {
-        // TODO
-      } else {
-        
+        Session.set( 'hasDownvoted+' + hash, false );
+        alert( error.reason );
       }
     }
   );
@@ -127,38 +128,56 @@ function unDownvote() {
       Session.get( 'fontNameBody' ),
       function ( error, result ) {
         if ( error ) {
-          // TODO undo upvote
-        } else {
-          
+          Session.set( 'hasDownvoted+' + hash, true );
+          alert( error.reason );
         }
       }
   );
 }
 
 Template._fontMatcher.rendered = function () {
-  // generate the first set of fonts
-  Meteor.call( 'fonts', newFontsCallback );
-
-  // TODO load fonts if they are in the hashes instead of Meteor.call
+  // load fonts if they are in the hashes instead of Meteor.call
+  if ( window.location.hash && window.location.hash.length > 2 ) {
+    var fontSlugs = window.location.hash.replace( '#', '' ).split( '+' );
+    Meteor.call( 'fonts', fontSlugs[0], fontSlugs[1], newFontsCallback );
+  } else {
+    // generate the first set of fonts
+    Meteor.call( 'fonts', newFontsCallback );
+  }
 };
 
 Template._fontMatcher.helpers( {
-  // TODO using `.name` directly will sometimes throw
-  // an error because our fonts might not have come back
-  // from the server yet!
   fontNameHeading : function () {
-    return Session.get( 'fontNameHeading' ).name;
+    var heading = Session.get( 'fontNameHeading');
+    if ( heading ) {
+      return heading.name;
+    }
+
+    return '';
   },
   fontNameBody : function () {
-    return Session.get( 'fontNameBody' ).name;
+    var body = Session.get( 'fontNameBody' );
+    if ( body ) {
+      return body.name;
+    }
+
+    return '';
   },
   fontHeading : function () {
     var currentFont = Session.get( 'fontNameHeading' );
-    return "font-family: '" + currentFont.name + "';";
+    if ( currentFont ) {
+      return "font-family: '" + currentFont.name + "';";
+    }
+    
+    return '';
   },
   fontBody : function () {
     var currentFont = Session.get( 'fontNameBody' );
-    return "font-family: '" + currentFont.name + "';";
+    if ( currentFont ) {
+      return "font-family: '" + currentFont.name + "';";  
+    }
+    
+    return '';
   },
   hasUpvoted : function () {
     if ( Meteor.userId() ) {
@@ -166,11 +185,16 @@ Template._fontMatcher.helpers( {
       // upvoted for this particular set of fonts
     } else {
       // Not logged in, just use Sessions
-      var hash = Session.get( 'fontNameHeading' ).name +
-        '+' +
-        Session.get( 'fontNameBody' ).name
-      return Session.get( 'hasUpvoted+' + hash );
+      var heading = Session.get( 'fontNameHeading' );
+      var body    = Session.get( 'fontNameBody' );
+
+      if ( heading && body ) {
+        var hash = heading.name + '+' + body.name
+        return Session.get( 'hasUpvoted+' + hash );
+      }      
     }
+
+    return false;
   },
   hasDownvoted : function () {
     if ( Meteor.userId() ) {
@@ -178,14 +202,22 @@ Template._fontMatcher.helpers( {
       // downvoted for this particular set of fonts
     } else {
       // Not logged in, just use Sessions
-      var hash = Session.get( 'fontNameHeading' ).name +
-        '+' +
-        Session.get( 'fontNameBody' ).name
-      return Session.get( 'hasDownvoted+' + hash );
+      var heading = Session.get( 'fontNameHeading' );
+      var body    = Session.get( 'fontNameBody' );
+
+      if ( heading && body ) {
+        var hash = heading.name + '+' + body.name
+        return Session.get( 'hasDownvoted+' + hash );  
+      } 
     }
+
+    return false;
   },
   hasFavorited : function () {
-    // TODO
+    if ( Meteor.userId() ) {
+      // TODO
+    }
+
     return false;
   }
 } );
@@ -206,7 +238,6 @@ Template._fontMatcher.events( {
       }
 
       upvote();
-      
     } else {
       // Undo upvote
       unUpvote();
@@ -221,7 +252,7 @@ Template._fontMatcher.events( {
         Session.get( 'fontNameBody' ).name
 
     if ( $( e.currentTarget ).is( ':not(.assertive)' ) ) {
-      // TODO before we downvote, we need to undo our upvote if we have one
+      // before we downvote, we need to undo our upvote if we have one
       if ( Session.get( 'hasUpvoted+' + hash ) ) {
         // Unupvote
         unUpvote();
