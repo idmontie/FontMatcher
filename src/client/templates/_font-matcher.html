@@ -21,6 +21,10 @@
   </div>
 
   <div class="item tabs tabs-secondary tabs-icon-left" id="actions">
+    {{! New: }}
+    <a class="tab-item" href="#" data-action="new-font-set">
+      <i class="icon ion-refresh"></i> New Pair
+    </a>
     {{! Upvote: }}
     <a class="tab-item {{#if hasUpvoted }}assertive{{/if}}" href="#" data-action="upvote">
       <i class="icon ion-arrow-up-a"></i> Cool
@@ -44,10 +48,6 @@
     {{! Details: }}
     <a class="tab-item" href="#" data-action="details" data-ion-modal="_fontDetails">
       <i class="icon ion-information-circled"></i> Details
-    </a>
-    {{! New: }}
-    <a class="tab-item" href="#" data-action="new-font-set">
-      <i class="icon ion-refresh"></i> New Pair
     </a>
   </div>
 </div>

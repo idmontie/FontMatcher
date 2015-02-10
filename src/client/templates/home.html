@@ -1,17 +1,15 @@
 <template name="home">
   {{#contentFor "headerTitle"}}
-    <h1 class="title">Font Matcher</h1>
+    <h1 class="title">
+      <span class="fm-first">Font</span>
+      &nbsp;
+      <span class="fm-last">Matcher</span>
+    </h1>
   {{/contentFor}}
 
   {{#contentFor "headerButtonRight"}}
     {{#if currentUser }}
-      <button class="button button-clear pull-right" data-ion-menu-toggle="right" data-ion-modal="_favorites">
-        {{#if isAndroid}}
-          {{> ionIcon icon='android-more-vertical'}}
-        {{else}}
-          {{> ionIcon icon='navicon'}}
-        {{/if}}
-      </button>
+      {{> _loggedInHeader}}
     {{else}}
       <button class="button button-clear pull-right" data-ion-menu-toggle="right" data-ion-modal="_signIn">
         {{> ionIcon icon="ios-person-outline"}}
@@ -23,5 +21,14 @@
     {{#ionContent class="padding"}}
       {{> _fontMatcher}}
     {{/ionContent}}
+
+    {{#ionFooterBar}}
+      <button class="button button-clear" data-ion-modal="_about">
+        {{> ionIcon icon='information-circled'}} About
+      </button>
+      <button class="button button-clear" data-ion-modal="_favorites">
+        {{> ionIcon icon='android-star'}} Your Favorites
+      </button>
+    {{/ionFooterBar}}
   {{/ionView}}
 </template>

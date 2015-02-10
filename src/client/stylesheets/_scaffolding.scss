@@ -2,8 +2,23 @@
   text-align: center;
 }
 
+.numbered {
+  list-style-position: inside;
+  list-style-type: decimal;
+}
+
 @media (min-width: $screen-md-min) {
   .content {
+    margin: auto;
+    max-width: 1000px;
+  }
+}
+
+@media(min-width: $screen-md-min) {
+  .bar {
+    // TOOD use the color variable for this
+    border-left: #b2b2b2 1px solid;
+    border-right: #b2b2b2 1px solid;
     margin: auto;
     max-width: 1000px;
   }
