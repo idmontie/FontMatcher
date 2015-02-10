@@ -7,7 +7,7 @@
 /**
  * Setup for new fonts
  */
-function newFontsCallback( error, result ) {
+function newFontsCallback( error, result, noPush ) {
   if ( error ) {
     alert( error.reason );
   } else {
@@ -32,15 +32,21 @@ function newFontsCallback( error, result ) {
     } );
 
     // Set the hash so that we can read it later
-    history.pushState(
-        {
-          fontNameHeading : result.fontNameHeading,
-          fontNameBody : result.fontNameBody
-        },
-        result.fontNameHeading.name + " + " + result.fontNameBody.name,
-        '#' + result.fontNameHeading.slug + "+" + result.fontNameBody.slug
-    );
+    if ( noPush != true ) {
+      history.pushState(
+          {
+            fontNameHeading : result.fontNameHeading,
+            fontNameBody : result.fontNameBody
+          },
+          result.fontNameHeading.name + " + " + result.fontNameBody.name,
+          '#' + result.fontNameHeading.slug + "+" + result.fontNameBody.slug
+      );
+    }
   }
+}
+
+function newFontsCallbackNoPush( error, result ) {
+  newFontsCallback( error, result, true );
 }
 
 /**
@@ -143,6 +149,16 @@ Template._fontMatcher.rendered = function () {
   } else {
     // generate the first set of fonts
     Meteor.call( 'fonts', newFontsCallback );
+  }
+
+  window.onpopstate = function ( event ) {
+    console.log( event );
+    Meteor.call(
+      'fonts', 
+      event.state.fontNameHeading.slug,
+      event.state.fontNameBody.slug,
+      newFontsCallbackNoPush
+    );
   }
 };
 
@@ -328,7 +344,8 @@ Template._fontMatcher.events( {
         }
       );
     }
-
-    
+  },
+  'click [data-action=details]' : function ( e ) {
+    e.preventDefault();
   }
 } );

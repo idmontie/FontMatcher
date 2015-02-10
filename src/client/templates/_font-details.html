@@ -1,0 +1,26 @@
+<template name="_fontDetails">
+  {{#ionModal title="Font Details"}}
+    {{! TODO support @import}}
+    {{! TODO support JavaScript}}
+    {{! TODO display suggested Font Family}}
+    <div class="list card">
+      <div class="item">
+        <h3>{{fontHeading}}</h3>
+        <textarea>{{fontHeadingCode}}</textarea>
+      </div>
+      <div class="item">
+        <h3>{{fontBody}}</h3>
+        <textarea>{{fontBodyCode}}</textarea>
+      </div>
+    </div>
+    <div class="card padding">
+      <h4>Rating</h4>
+      <span style="display:none">{{rating}}</span>
+      <div class="item range range-positive">
+        <i class="icon ion-thumbsdown"></i>
+        <input id="rating-slider" disabled type="range" name="volume" min="-100" max="100">
+        <i class="icon ion-thumbsup"></i>
+      </div>
+    </div>
+  {{/ionModal}}
+</template>

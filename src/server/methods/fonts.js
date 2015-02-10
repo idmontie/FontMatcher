@@ -206,7 +206,7 @@ Meteor.methods( {
 
     return true;
   },
-  fonts : function ( optionalFontHeading, optionalFontBody) {
+  fonts : function ( optionalFontHeading, optionalFontBody ) {
     if ( optionalFontHeading && optionalFontBody ) {
       var headingFont = Fonts.findOne( {
         slug : optionalFontHeading
@@ -230,6 +230,24 @@ Meteor.methods( {
     return {
       fontNameHeading : arr[ randomIndex1 ],
       fontNameBody : arr[ randomIndex2 ]
+    }
+  },
+  getVotes : function ( heading, body ) {
+    var combo = FontCombo.findOne( {
+        heading : heading,
+        body : body
+    } );
+
+    if ( combo ) {
+      return {
+        up : combo.upticks,
+        down : combo.downticks
+      };
+    } else {
+      return {
+        up : 0,
+        down : 0
+      }
     }
   }
 } );
