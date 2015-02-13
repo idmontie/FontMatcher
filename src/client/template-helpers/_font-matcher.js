@@ -276,7 +276,7 @@ Template._fontMatcher.events( {
         '+' +
         Session.get( 'fontNameBody' ).name
 
-    if ( $( e.currentTarget ).is( ':not(.assertive' ) ) {
+    if ( $( e.currentTarget ).is( ':not(.assertive)' ) ) {
       // before we upvote, we need to undo our downvote if we have one
       if ( Session.get( 'hasDownvoted+' + hash ) ) {
         // Undownvote

@@ -1,2686 +1,3357 @@
 [
   {
     "name":"Open Sans",
-    "slug":"Open-Sans-normal-400"
+    "slug":"Open-Sans-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Slabo 27px",
-    "slug":"Slabo-27px-normal-400"
+    "slug":"Slabo-27px-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Roboto",
-    "slug":"Roboto-normal-400"
+    "slug":"Roboto-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Oswald",
-    "slug":"Oswald-normal-400"
+    "slug":"Oswald-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Lato",
-    "slug":"Lato-normal-400"
+    "slug":"Lato-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Roboto Condensed",
-    "slug":"Roboto-Condensed-normal-400"
+    "slug":"Roboto-Condensed-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Source Sans Pro",
-    "slug":"Source-Sans-Pro-normal-400"
+    "slug":"Source-Sans-Pro-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"PT Sans",
-    "slug":"PT-Sans-normal-400"
+    "slug":"PT-Sans-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Open Sans Condensed",
-    "slug":"Open-Sans-Condensed-normal-300"
+    "slug":"Open-Sans-Condensed-normal-300",
+    "source":"google-fonts"
   },
   {
     "name":"Droid Sans",
-    "slug":"Droid-Sans-normal-400"
+    "slug":"Droid-Sans-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Raleway",
-    "slug":"Raleway-normal-400"
+    "slug":"Raleway-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Droid Serif",
-    "slug":"Droid-Serif-normal-400"
+    "slug":"Droid-Serif-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ubuntu",
-    "slug":"Ubuntu-normal-400"
+    "slug":"Ubuntu-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Montserrat",
-    "slug":"Montserrat-normal-400"
+    "slug":"Montserrat-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Roboto Slab",
-    "slug":"Roboto-Slab-normal-400"
+    "slug":"Roboto-Slab-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Lora",
-    "slug":"Lora-normal-400"
+    "slug":"Lora-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"PT Sans Narrow",
-    "slug":"PT-Sans-Narrow-normal-400"
+    "slug":"PT-Sans-Narrow-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Merriweather",
-    "slug":"Merriweather-normal-400"
+    "slug":"Merriweather-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Arimo",
-    "slug":"Arimo-normal-400"
+    "slug":"Arimo-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Lobster",
-    "slug":"Lobster-normal-400"
+    "slug":"Lobster-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Bitter",
-    "slug":"Bitter-normal-400"
+    "slug":"Bitter-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Noto Sans",
-    "slug":"Noto-Sans-normal-400"
+    "slug":"Noto-Sans-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Yanone Kaffeesatz",
-    "slug":"Yanone-Kaffeesatz-normal-400"
+    "slug":"Yanone-Kaffeesatz-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Indie Flower",
-    "slug":"Indie-Flower-normal-400"
+    "slug":"Indie-Flower-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Oxygen",
-    "slug":"Oxygen-normal-400"
+    "slug":"Oxygen-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Titillium Web",
-    "slug":"Titillium-Web-normal-400"
+    "slug":"Titillium-Web-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Arvo",
-    "slug":"Arvo-normal-400"
+    "slug":"Arvo-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Dosis",
-    "slug":"Dosis-normal-400"
+    "slug":"Dosis-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"PT Serif",
-    "slug":"PT-Serif-normal-400"
+    "slug":"PT-Serif-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ubuntu Condensed",
-    "slug":"Ubuntu-Condensed-normal-400"
+    "slug":"Ubuntu-Condensed-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Fjalla One",
-    "slug":"Fjalla-One-normal-400"
+    "slug":"Fjalla-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Signika",
-    "slug":"Signika-normal-400"
+    "slug":"Signika-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Playfair Display",
-    "slug":"Playfair-Display-normal-400"
+    "slug":"Playfair-Display-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Bree Serif",
-    "slug":"Bree-Serif-normal-400"
+    "slug":"Bree-Serif-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Abel",
-    "slug":"Abel-normal-400"
+    "slug":"Abel-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Francois One",
-    "slug":"Francois-One-normal-400"
+    "slug":"Francois-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Cabin",
-    "slug":"Cabin-normal-400"
+    "slug":"Cabin-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Shadows Into Light",
-    "slug":"Shadows-Into-Light-normal-400"
+    "slug":"Shadows-Into-Light-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Nunito",
-    "slug":"Nunito-normal-400"
+    "slug":"Nunito-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Muli",
-    "slug":"Muli-normal-400"
+    "slug":"Muli-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Vollkorn",
-    "slug":"Vollkorn-normal-400"
+    "slug":"Vollkorn-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Play",
-    "slug":"Play-normal-400"
+    "slug":"Play-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Monda",
-    "slug":"Monda-normal-400"
+    "slug":"Monda-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Poiret One",
-    "slug":"Poiret-One-normal-400"
+    "slug":"Poiret-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Noto Serif",
-    "slug":"Noto-Serif-normal-400"
+    "slug":"Noto-Serif-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Cuprum",
-    "slug":"Cuprum-normal-400"
+    "slug":"Cuprum-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Alegreya",
-    "slug":"Alegreya-normal-400"
+    "slug":"Alegreya-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Archivo Narrow",
-    "slug":"Archivo-Narrow-normal-400"
+    "slug":"Archivo-Narrow-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Maven Pro",
-    "slug":"Maven-Pro-normal-400"
+    "slug":"Maven-Pro-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Josefin Sans",
-    "slug":"Josefin-Sans-normal-400"
+    "slug":"Josefin-Sans-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Asap",
-    "slug":"Asap-normal-400"
+    "slug":"Asap-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Karla",
-    "slug":"Karla-normal-400"
+    "slug":"Karla-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Libre Baskerville",
-    "slug":"Libre-Baskerville-normal-400"
+    "slug":"Libre-Baskerville-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Rokkitt",
-    "slug":"Rokkitt-normal-400"
+    "slug":"Rokkitt-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Anton",
-    "slug":"Anton-normal-400"
+    "slug":"Anton-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Pacifico",
-    "slug":"Pacifico-normal-400"
+    "slug":"Pacifico-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Quicksand",
-    "slug":"Quicksand-normal-400"
+    "slug":"Quicksand-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Armata",
-    "slug":"Armata-normal-400"
+    "slug":"Armata-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Architects Daughter",
-    "slug":"Architects-Daughter-normal-400"
+    "slug":"Architects-Daughter-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Sigmar One",
-    "slug":"Sigmar-One-normal-400"
+    "slug":"Sigmar-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Inconsolata",
-    "slug":"Inconsolata-normal-400"
+    "slug":"Inconsolata-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Dancing Script",
-    "slug":"Dancing-Script-normal-400"
+    "slug":"Dancing-Script-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Merriweather Sans",
-    "slug":"Merriweather-Sans-normal-400"
+    "slug":"Merriweather-Sans-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Chewy",
-    "slug":"Chewy-normal-400"
+    "slug":"Chewy-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Gloria Hallelujah",
-    "slug":"Gloria-Hallelujah-normal-400"
+    "slug":"Gloria-Hallelujah-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Varela Round",
-    "slug":"Varela-Round-normal-400"
+    "slug":"Varela-Round-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Pathway Gothic One",
-    "slug":"Pathway-Gothic-One-normal-400"
+    "slug":"Pathway-Gothic-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"PT Sans Caption",
-    "slug":"PT-Sans-Caption-normal-400"
+    "slug":"PT-Sans-Caption-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"News Cycle",
-    "slug":"News-Cycle-normal-400"
+    "slug":"News-Cycle-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Exo",
-    "slug":"Exo-normal-400"
+    "slug":"Exo-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Exo 2",
-    "slug":"Exo-2-normal-400"
+    "slug":"Exo-2-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Questrial",
-    "slug":"Questrial-normal-400"
+    "slug":"Questrial-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Coming Soon",
-    "slug":"Coming-Soon-normal-400"
+    "slug":"Coming-Soon-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ropa Sans",
-    "slug":"Ropa-Sans-normal-400"
+    "slug":"Ropa-Sans-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Pontano Sans",
-    "slug":"Pontano-Sans-normal-400"
+    "slug":"Pontano-Sans-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Gudea",
-    "slug":"Gudea-normal-400"
+    "slug":"Gudea-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Istok Web",
-    "slug":"Istok-Web-normal-400"
+    "slug":"Istok-Web-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Crimson Text",
-    "slug":"Crimson-Text-normal-400"
+    "slug":"Crimson-Text-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Crete Round",
-    "slug":"Crete-Round-normal-400"
+    "slug":"Crete-Round-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Sanchez",
-    "slug":"Sanchez-normal-400"
+    "slug":"Sanchez-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Quattrocento Sans",
-    "slug":"Quattrocento-Sans-normal-400"
+    "slug":"Quattrocento-Sans-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Courgette",
-    "slug":"Courgette-normal-400"
+    "slug":"Courgette-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Cabin Condensed",
-    "slug":"Cabin-Condensed-normal-400"
+    "slug":"Cabin-Condensed-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Hammersmith One",
-    "slug":"Hammersmith-One-normal-400"
+    "slug":"Hammersmith-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Josefin Slab",
-    "slug":"Josefin-Slab-normal-400"
+    "slug":"Josefin-Slab-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Lobster Two",
-    "slug":"Lobster-Two-normal-400"
+    "slug":"Lobster-Two-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Patua One",
-    "slug":"Patua-One-normal-400"
+    "slug":"Patua-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Fira Sans",
-    "slug":"Fira-Sans-normal-400"
+    "slug":"Fira-Sans-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Kreon",
-    "slug":"Kreon-normal-400"
+    "slug":"Kreon-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Bangers",
-    "slug":"Bangers-normal-400"
+    "slug":"Bangers-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Playfair Display SC",
-    "slug":"Playfair-Display-SC-normal-400"
+    "slug":"Playfair-Display-SC-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Pinyon Script",
-    "slug":"Pinyon-Script-normal-400"
+    "slug":"Pinyon-Script-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Playball",
-    "slug":"Playball-normal-400"
+    "slug":"Playball-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"EB Garamond",
-    "slug":"EB-Garamond-normal-400"
+    "slug":"EB-Garamond-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Didact Gothic",
-    "slug":"Didact-Gothic-normal-400"
+    "slug":"Didact-Gothic-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Orbitron",
-    "slug":"Orbitron-normal-400"
+    "slug":"Orbitron-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Fredoka One",
-    "slug":"Fredoka-One-normal-400"
+    "slug":"Fredoka-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Enriqueta",
-    "slug":"Enriqueta-normal-400"
+    "slug":"Enriqueta-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Tinos",
-    "slug":"Tinos-normal-400"
+    "slug":"Tinos-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Shadows Into Light Two",
-    "slug":"Shadows-Into-Light-Two-normal-400"
+    "slug":"Shadows-Into-Light-Two-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Righteous",
-    "slug":"Righteous-normal-400"
+    "slug":"Righteous-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Marvel",
-    "slug":"Marvel-normal-400"
+    "slug":"Marvel-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Noticia Text",
-    "slug":"Noticia-Text-normal-400"
+    "slug":"Noticia-Text-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Passion One",
-    "slug":"Passion-One-normal-400"
+    "slug":"Passion-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Economica",
-    "slug":"Economica-normal-400"
+    "slug":"Economica-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Crafty Girls",
-    "slug":"Crafty-Girls-normal-400"
+    "slug":"Crafty-Girls-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Abril Fatface",
-    "slug":"Abril-Fatface-normal-400"
+    "slug":"Abril-Fatface-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Covered By Your Grace",
-    "slug":"Covered-By-Your-Grace-normal-400"
+    "slug":"Covered-By-Your-Grace-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Changa One",
-    "slug":"Changa-One-normal-400"
+    "slug":"Changa-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"BenchNine",
-    "slug":"BenchNine-normal-400"
+    "slug":"BenchNine-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Amatic SC",
-    "slug":"Amatic-SC-normal-400"
+    "slug":"Amatic-SC-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Nobile",
-    "slug":"Nobile-normal-400"
+    "slug":"Nobile-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Alfa Slab One",
-    "slug":"Alfa-Slab-One-normal-400"
+    "slug":"Alfa-Slab-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Philosopher",
-    "slug":"Philosopher-normal-400"
+    "slug":"Philosopher-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Comfortaa",
-    "slug":"Comfortaa-normal-400"
+    "slug":"Comfortaa-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Jura",
-    "slug":"Jura-normal-400"
+    "slug":"Jura-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Source Code Pro",
-    "slug":"Source-Code-Pro-normal-400"
+    "slug":"Source-Code-Pro-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Old Standard TT",
-    "slug":"Old-Standard-TT-normal-400"
+    "slug":"Old-Standard-TT-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Kaushan Script",
-    "slug":"Kaushan-Script-normal-400"
+    "slug":"Kaushan-Script-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Great Vibes",
-    "slug":"Great-Vibes-normal-400"
+    "slug":"Great-Vibes-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Rock Salt",
-    "slug":"Rock-Salt-normal-400"
+    "slug":"Rock-Salt-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Domine",
-    "slug":"Domine-normal-400"
+    "slug":"Domine-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Cantarell",
-    "slug":"Cantarell-normal-400"
+    "slug":"Cantarell-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Russo One",
-    "slug":"Russo-One-normal-400"
+    "slug":"Russo-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Sintony",
-    "slug":"Sintony-normal-400"
+    "slug":"Sintony-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Special Elite",
-    "slug":"Special-Elite-normal-400"
+    "slug":"Special-Elite-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Audiowide",
-    "slug":"Audiowide-normal-400"
+    "slug":"Audiowide-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Permanent Marker",
-    "slug":"Permanent-Marker-normal-400"
+    "slug":"Permanent-Marker-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Quattrocento",
-    "slug":"Quattrocento-normal-400"
+    "slug":"Quattrocento-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Squada One",
-    "slug":"Squada-One-normal-400"
+    "slug":"Squada-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Handlee",
-    "slug":"Handlee-normal-400"
+    "slug":"Handlee-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Amaranth",
-    "slug":"Amaranth-normal-400"
+    "slug":"Amaranth-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Varela",
-    "slug":"Varela-normal-400"
+    "slug":"Varela-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Marck Script",
-    "slug":"Marck-Script-normal-400"
+    "slug":"Marck-Script-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Satisfy",
-    "slug":"Satisfy-normal-400"
+    "slug":"Satisfy-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Paytone One",
-    "slug":"Paytone-One-normal-400"
+    "slug":"Paytone-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Cinzel",
-    "slug":"Cinzel-normal-400"
+    "slug":"Cinzel-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Antic Slab",
-    "slug":"Antic-Slab-normal-400"
+    "slug":"Antic-Slab-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Cookie",
-    "slug":"Cookie-normal-400"
+    "slug":"Cookie-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Cardo",
-    "slug":"Cardo-normal-400"
+    "slug":"Cardo-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Luckiest Guy",
-    "slug":"Luckiest-Guy-normal-400"
+    "slug":"Luckiest-Guy-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Vidaloka",
-    "slug":"Vidaloka-normal-400"
+    "slug":"Vidaloka-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Calligraffitti",
-    "slug":"Calligraffitti-normal-400"
+    "slug":"Calligraffitti-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Berkshire Swash",
-    "slug":"Berkshire-Swash-normal-400"
+    "slug":"Berkshire-Swash-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Gentium Book Basic",
-    "slug":"Gentium-Book-Basic-normal-400"
+    "slug":"Gentium-Book-Basic-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Bevan",
-    "slug":"Bevan-normal-400"
+    "slug":"Bevan-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Molengo",
-    "slug":"Molengo-normal-400"
+    "slug":"Molengo-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Signika Negative",
-    "slug":"Signika-Negative-normal-400"
+    "slug":"Signika-Negative-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Droid Sans Mono",
-    "slug":"Droid-Sans-Mono-normal-400"
+    "slug":"Droid-Sans-Mono-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Archivo Black",
-    "slug":"Archivo-Black-normal-400"
+    "slug":"Archivo-Black-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Voltaire",
-    "slug":"Voltaire-normal-400"
+    "slug":"Voltaire-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Alegreya Sans",
-    "slug":"Alegreya-Sans-normal-400"
+    "slug":"Alegreya-Sans-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Scada",
-    "slug":"Scada-normal-400"
+    "slug":"Scada-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Waiting for the Sunrise",
-    "slug":"Waiting-for-the-Sunrise-normal-400"
+    "slug":"Waiting-for-the-Sunrise-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Overlock",
-    "slug":"Overlock-normal-400"
+    "slug":"Overlock-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Kotta One",
-    "slug":"Kotta-One-normal-400"
+    "slug":"Kotta-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Montserrat Alternates",
-    "slug":"Montserrat-Alternates-normal-400"
+    "slug":"Montserrat-Alternates-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Coustard",
-    "slug":"Coustard-normal-400"
+    "slug":"Coustard-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Bubblegum Sans",
-    "slug":"Bubblegum-Sans-normal-400"
+    "slug":"Bubblegum-Sans-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Reenie Beanie",
-    "slug":"Reenie-Beanie-normal-400"
+    "slug":"Reenie-Beanie-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Copse",
-    "slug":"Copse-normal-400"
+    "slug":"Copse-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ruda",
-    "slug":"Ruda-normal-400"
+    "slug":"Ruda-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Hind",
-    "slug":"Hind-normal-400"
+    "slug":"Hind-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Patrick Hand",
-    "slug":"Patrick-Hand-normal-400"
+    "slug":"Patrick-Hand-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Glegoo",
-    "slug":"Glegoo-normal-400"
+    "slug":"Glegoo-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"ABeeZee",
-    "slug":"ABeeZee-normal-400"
+    "slug":"ABeeZee-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Rambla",
-    "slug":"Rambla-normal-400"
+    "slug":"Rambla-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Belleza",
-    "slug":"Belleza-normal-400"
+    "slug":"Belleza-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Actor",
-    "slug":"Actor-normal-400"
+    "slug":"Actor-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Cantata One",
-    "slug":"Cantata-One-normal-400"
+    "slug":"Cantata-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Goudy Bookletter 1911",
-    "slug":"Goudy-Bookletter-1911-normal-400"
+    "slug":"Goudy-Bookletter-1911-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Tangerine",
-    "slug":"Tangerine-normal-400"
+    "slug":"Tangerine-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Niconne",
-    "slug":"Niconne-normal-400"
+    "slug":"Niconne-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Cutive",
-    "slug":"Cutive-normal-400"
+    "slug":"Cutive-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Chivo",
-    "slug":"Chivo-normal-400"
+    "slug":"Chivo-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Fugaz One",
-    "slug":"Fugaz-One-normal-400"
+    "slug":"Fugaz-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Coda",
-    "slug":"Coda-normal-400"
+    "slug":"Coda-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Lusitana",
-    "slug":"Lusitana-normal-400"
+    "slug":"Lusitana-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Walter Turncoat",
-    "slug":"Walter-Turncoat-normal-400"
+    "slug":"Walter-Turncoat-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Fontdiner Swanky",
-    "slug":"Fontdiner-Swanky-normal-400"
+    "slug":"Fontdiner-Swanky-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Viga",
-    "slug":"Viga-normal-400"
+    "slug":"Viga-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Michroma",
-    "slug":"Michroma-normal-400"
+    "slug":"Michroma-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Nixie One",
-    "slug":"Nixie-One-normal-400"
+    "slug":"Nixie-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Cherry Cream Soda",
-    "slug":"Cherry-Cream-Soda-normal-400"
+    "slug":"Cherry-Cream-Soda-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Allerta",
-    "slug":"Allerta-normal-400"
+    "slug":"Allerta-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ubuntu Mono",
-    "slug":"Ubuntu-Mono-normal-400"
+    "slug":"Ubuntu-Mono-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Syncopate",
-    "slug":"Syncopate-normal-400"
+    "slug":"Syncopate-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Damion",
-    "slug":"Damion-normal-400"
+    "slug":"Damion-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Sorts Mill Goudy",
-    "slug":"Sorts-Mill-Goudy-normal-400"
+    "slug":"Sorts-Mill-Goudy-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Sacramento",
-    "slug":"Sacramento-normal-400"
+    "slug":"Sacramento-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Rochester",
-    "slug":"Rochester-normal-400"
+    "slug":"Rochester-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Bad Script",
-    "slug":"Bad-Script-normal-400"
+    "slug":"Bad-Script-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Marmelad",
-    "slug":"Marmelad-normal-400"
+    "slug":"Marmelad-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Share",
-    "slug":"Share-normal-400"
+    "slug":"Share-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Kameron",
-    "slug":"Kameron-normal-400"
+    "slug":"Kameron-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Alegreya Sans SC",
-    "slug":"Alegreya-Sans-SC-normal-400"
+    "slug":"Alegreya-Sans-SC-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Nova Square",
-    "slug":"Nova-Square-normal-400"
+    "slug":"Nova-Square-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Rosario",
-    "slug":"Rosario-normal-400"
+    "slug":"Rosario-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Neuton",
-    "slug":"Neuton-normal-400"
+    "slug":"Neuton-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Doppio One",
-    "slug":"Doppio-One-normal-400"
+    "slug":"Doppio-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Fauna One",
-    "slug":"Fauna-One-normal-400"
+    "slug":"Fauna-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Oleo Script",
-    "slug":"Oleo-Script-normal-400"
+    "slug":"Oleo-Script-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Carrois Gothic",
-    "slug":"Carrois-Gothic-normal-400"
+    "slug":"Carrois-Gothic-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Boogaloo",
-    "slug":"Boogaloo-normal-400"
+    "slug":"Boogaloo-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"PT Serif Caption",
-    "slug":"PT-Serif-Caption-normal-400"
+    "slug":"PT-Serif-Caption-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Nothing You Could Do",
-    "slug":"Nothing-You-Could-Do-normal-400"
+    "slug":"Nothing-You-Could-Do-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Just Another Hand",
-    "slug":"Just-Another-Hand-normal-400"
+    "slug":"Just-Another-Hand-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Gochi Hand",
-    "slug":"Gochi-Hand-normal-400"
+    "slug":"Gochi-Hand-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Electrolize",
-    "slug":"Electrolize-normal-400"
+    "slug":"Electrolize-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Lily Script One",
-    "slug":"Lily-Script-One-normal-400"
+    "slug":"Lily-Script-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Sansita One",
-    "slug":"Sansita-One-normal-400"
+    "slug":"Sansita-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Volkhov",
-    "slug":"Volkhov-normal-400"
+    "slug":"Volkhov-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Unkempt",
-    "slug":"Unkempt-normal-400"
+    "slug":"Unkempt-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Telex",
-    "slug":"Telex-normal-400"
+    "slug":"Telex-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Jockey One",
-    "slug":"Jockey-One-normal-400"
+    "slug":"Jockey-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Aldrich",
-    "slug":"Aldrich-normal-400"
+    "slug":"Aldrich-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Carme",
-    "slug":"Carme-normal-400"
+    "slug":"Carme-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Rancho",
-    "slug":"Rancho-normal-400"
+    "slug":"Rancho-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Black Ops One",
-    "slug":"Black-Ops-One-normal-400"
+    "slug":"Black-Ops-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Trocchi",
-    "slug":"Trocchi-normal-400"
+    "slug":"Trocchi-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Allerta Stencil",
-    "slug":"Allerta-Stencil-normal-400"
+    "slug":"Allerta-Stencil-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Basic",
-    "slug":"Basic-normal-400"
+    "slug":"Basic-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Arbutus Slab",
-    "slug":"Arbutus-Slab-normal-400"
+    "slug":"Arbutus-Slab-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Neucha",
-    "slug":"Neucha-normal-400"
+    "slug":"Neucha-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Arapey",
-    "slug":"Arapey-normal-400"
+    "slug":"Arapey-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Homemade Apple",
-    "slug":"Homemade-Apple-normal-400"
+    "slug":"Homemade-Apple-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Alice",
-    "slug":"Alice-normal-400"
+    "slug":"Alice-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Limelight",
-    "slug":"Limelight-normal-400"
+    "slug":"Limelight-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Gentium Basic",
-    "slug":"Gentium-Basic-normal-400"
+    "slug":"Gentium-Basic-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Advent Pro",
-    "slug":"Advent-Pro-normal-400"
+    "slug":"Advent-Pro-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Schoolbell",
-    "slug":"Schoolbell-normal-400"
+    "slug":"Schoolbell-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Strait",
-    "slug":"Strait-normal-400"
+    "slug":"Strait-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Parisienne",
-    "slug":"Parisienne-normal-400"
+    "slug":"Parisienne-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Days One",
-    "slug":"Days-One-normal-400"
+    "slug":"Days-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Acme",
-    "slug":"Acme-normal-400"
+    "slug":"Acme-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Mako",
-    "slug":"Mako-normal-400"
+    "slug":"Mako-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Poller One",
-    "slug":"Poller-One-normal-400"
+    "slug":"Poller-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Julius Sans One",
-    "slug":"Julius-Sans-One-normal-400"
+    "slug":"Julius-Sans-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Just Me Again Down Here",
-    "slug":"Just-Me-Again-Down-Here-normal-400"
+    "slug":"Just-Me-Again-Down-Here-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Port Lligat Slab",
-    "slug":"Port-Lligat-Slab-normal-400"
+    "slug":"Port-Lligat-Slab-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Radley",
-    "slug":"Radley-normal-400"
+    "slug":"Radley-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Six Caps",
-    "slug":"Six-Caps-normal-400"
+    "slug":"Six-Caps-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Prata",
-    "slug":"Prata-normal-400"
+    "slug":"Prata-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Racing Sans One",
-    "slug":"Racing-Sans-One-normal-400"
+    "slug":"Racing-Sans-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Fredericka the Great",
-    "slug":"Fredericka-the-Great-normal-400"
+    "slug":"Fredericka-the-Great-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Caudex",
-    "slug":"Caudex-normal-400"
+    "slug":"Caudex-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Cinzel Decorative",
-    "slug":"Cinzel-Decorative-normal-400"
+    "slug":"Cinzel-Decorative-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Antic",
-    "slug":"Antic-normal-400"
+    "slug":"Antic-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Adamina",
-    "slug":"Adamina-normal-400"
+    "slug":"Adamina-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ultra",
-    "slug":"Ultra-normal-400"
+    "slug":"Ultra-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Alegreya SC",
-    "slug":"Alegreya-SC-normal-400"
+    "slug":"Alegreya-SC-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Inder",
-    "slug":"Inder-normal-400"
+    "slug":"Inder-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Alex Brush",
-    "slug":"Alex-Brush-normal-400"
+    "slug":"Alex-Brush-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Yellowtail",
-    "slug":"Yellowtail-normal-400"
+    "slug":"Yellowtail-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Aclonica",
-    "slug":"Aclonica-normal-400"
+    "slug":"Aclonica-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Denk One",
-    "slug":"Denk-One-normal-400"
+    "slug":"Denk-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Homenaje",
-    "slug":"Homenaje-normal-400"
+    "slug":"Homenaje-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"The Girl Next Door",
-    "slug":"The-Girl-Next-Door-normal-400"
+    "slug":"The-Girl-Next-Door-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Galindo",
-    "slug":"Galindo-normal-400"
+    "slug":"Galindo-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Candal",
-    "slug":"Candal-normal-400"
+    "slug":"Candal-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Gilda Display",
-    "slug":"Gilda-Display-normal-400"
+    "slug":"Gilda-Display-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Frijole",
-    "slug":"Frijole-normal-400"
+    "slug":"Frijole-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Judson",
-    "slug":"Judson-normal-400"
+    "slug":"Judson-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Quando",
-    "slug":"Quando-normal-400"
+    "slug":"Quando-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Gruppo",
-    "slug":"Gruppo-normal-400"
+    "slug":"Gruppo-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Allura",
-    "slug":"Allura-normal-400"
+    "slug":"Allura-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Oranienbaum",
-    "slug":"Oranienbaum-normal-400"
+    "slug":"Oranienbaum-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Alike",
-    "slug":"Alike-normal-400"
+    "slug":"Alike-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Puritan",
-    "slug":"Puritan-normal-400"
+    "slug":"Puritan-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Slackey",
-    "slug":"Slackey-normal-400"
+    "slug":"Slackey-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"IM Fell English",
-    "slug":"IM-Fell-English-normal-400"
+    "slug":"IM-Fell-English-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Petit Formal Script",
-    "slug":"Petit-Formal-Script-normal-400"
+    "slug":"Petit-Formal-Script-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Convergence",
-    "slug":"Convergence-normal-400"
+    "slug":"Convergence-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Cabin Sketch",
-    "slug":"Cabin-Sketch-normal-400"
+    "slug":"Cabin-Sketch-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Capriola",
-    "slug":"Capriola-normal-400"
+    "slug":"Capriola-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Metrophobic",
-    "slug":"Metrophobic-normal-400"
+    "slug":"Metrophobic-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Spinnaker",
-    "slug":"Spinnaker-normal-400"
+    "slug":"Spinnaker-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Lemon",
-    "slug":"Lemon-normal-400"
+    "slug":"Lemon-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Tenor Sans",
-    "slug":"Tenor-Sans-normal-400"
+    "slug":"Tenor-Sans-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Duru Sans",
-    "slug":"Duru-Sans-normal-400"
+    "slug":"Duru-Sans-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Quantico",
-    "slug":"Quantico-normal-400"
+    "slug":"Quantico-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Orienta",
-    "slug":"Orienta-normal-400"
+    "slug":"Orienta-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Forum",
-    "slug":"Forum-normal-400"
+    "slug":"Forum-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Merienda One",
-    "slug":"Merienda-One-normal-400"
+    "slug":"Merienda-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Average Sans",
-    "slug":"Average-Sans-normal-400"
+    "slug":"Average-Sans-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Andika",
-    "slug":"Andika-normal-400"
+    "slug":"Andika-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Leckerli One",
-    "slug":"Leckerli-One-normal-400"
+    "slug":"Leckerli-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Cousine",
-    "slug":"Cousine-normal-400"
+    "slug":"Cousine-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Engagement",
-    "slug":"Engagement-normal-400"
+    "slug":"Engagement-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Love Ya Like A Sister",
-    "slug":"Love-Ya-Like-A-Sister-normal-400"
+    "slug":"Love-Ya-Like-A-Sister-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Voces",
-    "slug":"Voces-normal-400"
+    "slug":"Voces-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Magra",
-    "slug":"Magra-normal-400"
+    "slug":"Magra-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Imprima",
-    "slug":"Imprima-normal-400"
+    "slug":"Imprima-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Average",
-    "slug":"Average-normal-400"
+    "slug":"Average-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Freckle Face",
-    "slug":"Freckle-Face-normal-400"
+    "slug":"Freckle-Face-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ceviche One",
-    "slug":"Ceviche-One-normal-400"
+    "slug":"Ceviche-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Tienne",
-    "slug":"Tienne-normal-400"
+    "slug":"Tienne-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Marcellus SC",
-    "slug":"Marcellus-SC-normal-400"
+    "slug":"Marcellus-SC-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Pompiere",
-    "slug":"Pompiere-normal-400"
+    "slug":"Pompiere-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Contrail One",
-    "slug":"Contrail-One-normal-400"
+    "slug":"Contrail-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Alef",
-    "slug":"Alef-normal-400"
+    "slug":"Alef-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Crushed",
-    "slug":"Crushed-normal-400"
+    "slug":"Crushed-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Anaheim",
-    "slug":"Anaheim-normal-400"
+    "slug":"Anaheim-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Give You Glory",
-    "slug":"Give-You-Glory-normal-400"
+    "slug":"Give-You-Glory-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Poly",
-    "slug":"Poly-normal-400"
+    "slug":"Poly-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ovo",
-    "slug":"Ovo-normal-400"
+    "slug":"Ovo-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Corben",
-    "slug":"Corben-normal-400"
+    "slug":"Corben-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Anonymous Pro",
-    "slug":"Anonymous-Pro-normal-400"
+    "slug":"Anonymous-Pro-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Montez",
-    "slug":"Montez-normal-400"
+    "slug":"Montez-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Grand Hotel",
-    "slug":"Grand-Hotel-normal-400"
+    "slug":"Grand-Hotel-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Tauri",
-    "slug":"Tauri-normal-400"
+    "slug":"Tauri-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Yesteryear",
-    "slug":"Yesteryear-normal-400"
+    "slug":"Yesteryear-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Metamorphous",
-    "slug":"Metamorphous-normal-400"
+    "slug":"Metamorphous-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Iceland",
-    "slug":"Iceland-normal-400"
+    "slug":"Iceland-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Vibur",
-    "slug":"Vibur-normal-400"
+    "slug":"Vibur-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Marcellus",
-    "slug":"Marcellus-normal-400"
+    "slug":"Marcellus-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"La Belle Aurore",
-    "slug":"La-Belle-Aurore-normal-400"
+    "slug":"La-Belle-Aurore-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Lilita One",
-    "slug":"Lilita-One-normal-400"
+    "slug":"Lilita-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Euphoria Script",
-    "slug":"Euphoria-Script-normal-400"
+    "slug":"Euphoria-Script-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Lekton",
-    "slug":"Lekton-normal-400"
+    "slug":"Lekton-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Headland One",
-    "slug":"Headland-One-normal-400"
+    "slug":"Headland-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Delius",
-    "slug":"Delius-normal-400"
+    "slug":"Delius-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Bentham",
-    "slug":"Bentham-normal-400"
+    "slug":"Bentham-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Knewave",
-    "slug":"Knewave-normal-400"
+    "slug":"Knewave-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Short Stack",
-    "slug":"Short-Stack-normal-400"
+    "slug":"Short-Stack-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Monoton",
-    "slug":"Monoton-normal-400"
+    "slug":"Monoton-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Lustria",
-    "slug":"Lustria-normal-400"
+    "slug":"Lustria-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Kranky",
-    "slug":"Kranky-normal-400"
+    "slug":"Kranky-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Loved by the King",
-    "slug":"Loved-by-the-King-normal-400"
+    "slug":"Loved-by-the-King-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"PT Mono",
-    "slug":"PT-Mono-normal-400"
+    "slug":"PT-Mono-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Shanti",
-    "slug":"Shanti-normal-400"
+    "slug":"Shanti-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Brawler",
-    "slug":"Brawler-normal-400"
+    "slug":"Brawler-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Sue Ellen Francisco",
-    "slug":"Sue-Ellen-Francisco-normal-400"
+    "slug":"Sue-Ellen-Francisco-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Prosto One",
-    "slug":"Prosto-One-normal-400"
+    "slug":"Prosto-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Patrick Hand SC",
-    "slug":"Patrick-Hand-SC-normal-400"
+    "slug":"Patrick-Hand-SC-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Baumans",
-    "slug":"Baumans-normal-400"
+    "slug":"Baumans-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Happy Monkey",
-    "slug":"Happy-Monkey-normal-400"
+    "slug":"Happy-Monkey-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Cambo",
-    "slug":"Cambo-normal-400"
+    "slug":"Cambo-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Allan",
-    "slug":"Allan-normal-400"
+    "slug":"Allan-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Merienda",
-    "slug":"Merienda-normal-400"
+    "slug":"Merienda-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Press Start 2P",
-    "slug":"Press-Start-2P-normal-400"
+    "slug":"Press-Start-2P-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Wire One",
-    "slug":"Wire-One-normal-400"
+    "slug":"Wire-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Norican",
-    "slug":"Norican-normal-400"
+    "slug":"Norican-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Titan One",
-    "slug":"Titan-One-normal-400"
+    "slug":"Titan-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"IM Fell English SC",
-    "slug":"IM-Fell-English-SC-normal-400"
+    "slug":"IM-Fell-English-SC-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Tulpen One",
-    "slug":"Tulpen-One-normal-400"
+    "slug":"Tulpen-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"IM Fell DW Pica",
-    "slug":"IM-Fell-DW-Pica-normal-400"
+    "slug":"IM-Fell-DW-Pica-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Graduate",
-    "slug":"Graduate-normal-400"
+    "slug":"Graduate-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Chelsea Market",
-    "slug":"Chelsea-Market-normal-400"
+    "slug":"Chelsea-Market-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Source Serif Pro",
-    "slug":"Source-Serif-Pro-normal-400"
+    "slug":"Source-Serif-Pro-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Carrois Gothic SC",
-    "slug":"Carrois-Gothic-SC-normal-400"
+    "slug":"Carrois-Gothic-SC-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Kelly Slab",
-    "slug":"Kelly-Slab-normal-400"
+    "slug":"Kelly-Slab-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Podkova",
-    "slug":"Podkova-normal-400"
+    "slug":"Podkova-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Rajdhani",
-    "slug":"Rajdhani-normal-400"
+    "slug":"Rajdhani-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Over the Rainbow",
-    "slug":"Over-the-Rainbow-normal-400"
+    "slug":"Over-the-Rainbow-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Skranji",
-    "slug":"Skranji-normal-400"
+    "slug":"Skranji-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Fenix",
-    "slug":"Fenix-normal-400"
+    "slug":"Fenix-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Megrim",
-    "slug":"Megrim-normal-400"
+    "slug":"Megrim-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Mountains of Christmas",
-    "slug":"Mountains-of-Christmas-normal-400"
+    "slug":"Mountains-of-Christmas-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"UnifrakturMaguntia",
-    "slug":"UnifrakturMaguntia-normal-400"
+    "slug":"UnifrakturMaguntia-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Carter One",
-    "slug":"Carter-One-normal-400"
+    "slug":"Carter-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Italianno",
-    "slug":"Italianno-normal-400"
+    "slug":"Italianno-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Mr De Haviland",
-    "slug":"Mr-De-Haviland-normal-400"
+    "slug":"Mr-De-Haviland-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Annie Use Your Telescope",
-    "slug":"Annie-Use-Your-Telescope-normal-400"
+    "slug":"Annie-Use-Your-Telescope-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Kavoon",
-    "slug":"Kavoon-normal-400"
+    "slug":"Kavoon-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Maiden Orange",
-    "slug":"Maiden-Orange-normal-400"
+    "slug":"Maiden-Orange-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Codystar",
-    "slug":"Codystar-normal-400"
+    "slug":"Codystar-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Mystery Quest",
-    "slug":"Mystery-Quest-normal-400"
+    "slug":"Mystery-Quest-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Englebert",
-    "slug":"Englebert-normal-400"
+    "slug":"Englebert-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Salsa",
-    "slug":"Salsa-normal-400"
+    "slug":"Salsa-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Delius Swash Caps",
-    "slug":"Delius-Swash-Caps-normal-400"
+    "slug":"Delius-Swash-Caps-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Kristi",
-    "slug":"Kristi-normal-400"
+    "slug":"Kristi-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Concert One",
-    "slug":"Concert-One-normal-400"
+    "slug":"Concert-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Oleo Script Swash Caps",
-    "slug":"Oleo-Script-Swash-Caps-normal-400"
+    "slug":"Oleo-Script-Swash-Caps-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Londrina Solid",
-    "slug":"Londrina-Solid-normal-400"
+    "slug":"Londrina-Solid-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Stardos Stencil",
-    "slug":"Stardos-Stencil-normal-400"
+    "slug":"Stardos-Stencil-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Cedarville Cursive",
-    "slug":"Cedarville-Cursive-normal-400"
+    "slug":"Cedarville-Cursive-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Belgrano",
-    "slug":"Belgrano-normal-400"
+    "slug":"Belgrano-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Federo",
-    "slug":"Federo-normal-400"
+    "slug":"Federo-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Henny Penny",
-    "slug":"Henny-Penny-normal-400"
+    "slug":"Henny-Penny-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Geo",
-    "slug":"Geo-normal-400"
+    "slug":"Geo-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Chau Philomene One",
-    "slug":"Chau-Philomene-One-normal-400"
+    "slug":"Chau-Philomene-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Arizonia",
-    "slug":"Arizonia-normal-400"
+    "slug":"Arizonia-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Dawning of a New Day",
-    "slug":"Dawning-of-a-New-Day-normal-400"
+    "slug":"Dawning-of-a-New-Day-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Andada",
-    "slug":"Andada-normal-400"
+    "slug":"Andada-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Qwigley",
-    "slug":"Qwigley-normal-400"
+    "slug":"Qwigley-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Nova Mono",
-    "slug":"Nova-Mono-normal-400"
+    "slug":"Nova-Mono-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Simonetta",
-    "slug":"Simonetta-normal-400"
+    "slug":"Simonetta-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Meddon",
-    "slug":"Meddon-normal-400"
+    "slug":"Meddon-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Expletus Sans",
-    "slug":"Expletus-Sans-normal-400"
+    "slug":"Expletus-Sans-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Bowlby One SC",
-    "slug":"Bowlby-One-SC-normal-400"
+    "slug":"Bowlby-One-SC-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ruslan Display",
-    "slug":"Ruslan-Display-normal-400"
+    "slug":"Ruslan-Display-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Buenard",
-    "slug":"Buenard-normal-400"
+    "slug":"Buenard-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Stint Ultra Condensed",
-    "slug":"Stint-Ultra-Condensed-normal-400"
+    "slug":"Stint-Ultra-Condensed-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Sniglet",
-    "slug":"Sniglet-normal-400"
+    "slug":"Sniglet-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Amarante",
-    "slug":"Amarante-normal-400"
+    "slug":"Amarante-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Sofia",
-    "slug":"Sofia-normal-400"
+    "slug":"Sofia-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Rationale",
-    "slug":"Rationale-normal-400"
+    "slug":"Rationale-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Averia Libre",
-    "slug":"Averia-Libre-normal-400"
+    "slug":"Averia-Libre-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Life Savers",
-    "slug":"Life-Savers-normal-400"
+    "slug":"Life-Savers-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Unica One",
-    "slug":"Unica-One-normal-400"
+    "slug":"Unica-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Vast Shadow",
-    "slug":"Vast-Shadow-normal-400"
+    "slug":"Vast-Shadow-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Finger Paint",
-    "slug":"Finger-Paint-normal-400"
+    "slug":"Finger-Paint-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Rufina",
-    "slug":"Rufina-normal-400"
+    "slug":"Rufina-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Cantora One",
-    "slug":"Cantora-One-normal-400"
+    "slug":"Cantora-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Oregano",
-    "slug":"Oregano-normal-400"
+    "slug":"Oregano-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ek Mukta",
-    "slug":"Ek-Mukta-normal-400"
+    "slug":"Ek-Mukta-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Averia Sans Libre",
-    "slug":"Averia-Sans-Libre-normal-400"
+    "slug":"Averia-Sans-Libre-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"IM Fell Double Pica",
-    "slug":"IM-Fell-Double-Pica-normal-400"
+    "slug":"IM-Fell-Double-Pica-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Sancreek",
-    "slug":"Sancreek-normal-400"
+    "slug":"Sancreek-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Shojumaru",
-    "slug":"Shojumaru-normal-400"
+    "slug":"Shojumaru-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Fanwood Text",
-    "slug":"Fanwood-Text-normal-400"
+    "slug":"Fanwood-Text-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Gafata",
-    "slug":"Gafata-normal-400"
+    "slug":"Gafata-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Bowlby One",
-    "slug":"Bowlby-One-normal-400"
+    "slug":"Bowlby-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Share Tech",
-    "slug":"Share-Tech-normal-400"
+    "slug":"Share-Tech-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Cutive Mono",
-    "slug":"Cutive-Mono-normal-400"
+    "slug":"Cutive-Mono-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Mate SC",
-    "slug":"Mate-SC-normal-400"
+    "slug":"Mate-SC-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Holtwood One SC",
-    "slug":"Holtwood-One-SC-normal-400"
+    "slug":"Holtwood-One-SC-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Esteban",
-    "slug":"Esteban-normal-400"
+    "slug":"Esteban-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Mouse Memoirs",
-    "slug":"Mouse-Memoirs-normal-400"
+    "slug":"Mouse-Memoirs-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Overlock SC",
-    "slug":"Overlock-SC-normal-400"
+    "slug":"Overlock-SC-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"IM Fell French Canon",
-    "slug":"IM-Fell-French-Canon-normal-400"
+    "slug":"IM-Fell-French-Canon-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Averia Gruesa Libre",
-    "slug":"Averia-Gruesa-Libre-normal-400"
+    "slug":"Averia-Gruesa-Libre-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Coda Caption",
-    "slug":"Coda-Caption-normal-800"
+    "slug":"Coda-Caption-normal-800",
+    "source":"google-fonts"
   },
   {
     "name":"Redressed",
-    "slug":"Redressed-normal-400"
+    "slug":"Redressed-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Kite One",
-    "slug":"Kite-One-normal-400"
+    "slug":"Kite-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Unna",
-    "slug":"Unna-normal-400"
+    "slug":"Unna-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Londrina Outline",
-    "slug":"Londrina-Outline-normal-400"
+    "slug":"Londrina-Outline-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"IM Fell DW Pica SC",
-    "slug":"IM-Fell-DW-Pica-SC-normal-400"
+    "slug":"IM-Fell-DW-Pica-SC-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Amethysta",
-    "slug":"Amethysta-normal-400"
+    "slug":"Amethysta-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Snippet",
-    "slug":"Snippet-normal-400"
+    "slug":"Snippet-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Clicker Script",
-    "slug":"Clicker-Script-normal-400"
+    "slug":"Clicker-Script-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Griffy",
-    "slug":"Griffy-normal-400"
+    "slug":"Griffy-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Sarina",
-    "slug":"Sarina-normal-400"
+    "slug":"Sarina-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Dorsa",
-    "slug":"Dorsa-normal-400"
+    "slug":"Dorsa-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Mr Dafoe",
-    "slug":"Mr-Dafoe-normal-400"
+    "slug":"Mr-Dafoe-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Sunshiney",
-    "slug":"Sunshiney-normal-400"
+    "slug":"Sunshiney-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Quintessential",
-    "slug":"Quintessential-normal-400"
+    "slug":"Quintessential-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"IM Fell Great Primer SC",
-    "slug":"IM-Fell-Great-Primer-SC-normal-400"
+    "slug":"IM-Fell-Great-Primer-SC-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Gabriela",
-    "slug":"Gabriela-normal-400"
+    "slug":"Gabriela-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Donegal One",
-    "slug":"Donegal-One-normal-400"
+    "slug":"Donegal-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Delius Unicase",
-    "slug":"Delius-Unicase-normal-400"
+    "slug":"Delius-Unicase-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Zeyada",
-    "slug":"Zeyada-normal-400"
+    "slug":"Zeyada-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Medula One",
-    "slug":"Medula-One-normal-400"
+    "slug":"Medula-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Kalam",
-    "slug":"Kalam-normal-400"
+    "slug":"Kalam-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Yeseva One",
-    "slug":"Yeseva-One-normal-400"
+    "slug":"Yeseva-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Nova Oval",
-    "slug":"Nova-Oval-normal-400"
+    "slug":"Nova-Oval-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Nova Round",
-    "slug":"Nova-Round-normal-400"
+    "slug":"Nova-Round-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Inika",
-    "slug":"Inika-normal-400"
+    "slug":"Inika-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ledger",
-    "slug":"Ledger-normal-400"
+    "slug":"Ledger-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Fjord One",
-    "slug":"Fjord-One-normal-400"
+    "slug":"Fjord-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Bilbo Swash Caps",
-    "slug":"Bilbo-Swash-Caps-normal-400"
+    "slug":"Bilbo-Swash-Caps-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Balthazar",
-    "slug":"Balthazar-normal-400"
+    "slug":"Balthazar-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Aladin",
-    "slug":"Aladin-normal-400"
+    "slug":"Aladin-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"VT323",
-    "slug":"VT323-normal-400"
+    "slug":"VT323-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Halant",
-    "slug":"Halant-normal-400"
+    "slug":"Halant-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Dynalight",
-    "slug":"Dynalight-normal-400"
+    "slug":"Dynalight-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Sofadi One",
-    "slug":"Sofadi-One-normal-400"
+    "slug":"Sofadi-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Gravitas One",
-    "slug":"Gravitas-One-normal-400"
+    "slug":"Gravitas-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Rouge Script",
-    "slug":"Rouge-Script-normal-400"
+    "slug":"Rouge-Script-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Rye",
-    "slug":"Rye-normal-400"
+    "slug":"Rye-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Seaweed Script",
-    "slug":"Seaweed-Script-normal-400"
+    "slug":"Seaweed-Script-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Artifika",
-    "slug":"Artifika-normal-400"
+    "slug":"Artifika-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Junge",
-    "slug":"Junge-normal-400"
+    "slug":"Junge-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Numans",
-    "slug":"Numans-normal-400"
+    "slug":"Numans-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Rammetto One",
-    "slug":"Rammetto-One-normal-400"
+    "slug":"Rammetto-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Miltonian Tattoo",
-    "slug":"Miltonian-Tattoo-normal-400"
+    "slug":"Miltonian-Tattoo-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Jacques Francois",
-    "slug":"Jacques-Francois-normal-400"
+    "slug":"Jacques-Francois-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Wallpoet",
-    "slug":"Wallpoet-normal-400"
+    "slug":"Wallpoet-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Buda",
-    "slug":"Buda-normal-300"
+    "slug":"Buda-normal-300",
+    "source":"google-fonts"
   },
   {
     "name":"Raleway Dots",
-    "slug":"Raleway-Dots-normal-400"
+    "slug":"Raleway-Dots-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Mate",
-    "slug":"Mate-normal-400"
+    "slug":"Mate-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Rosarivo",
-    "slug":"Rosarivo-normal-400"
+    "slug":"Rosarivo-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Flamenco",
-    "slug":"Flamenco-normal-400"
+    "slug":"Flamenco-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Trade Winds",
-    "slug":"Trade-Winds-normal-400"
+    "slug":"Trade-Winds-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Milonga",
-    "slug":"Milonga-normal-400"
+    "slug":"Milonga-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Paprika",
-    "slug":"Paprika-normal-400"
+    "slug":"Paprika-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Oldenburg",
-    "slug":"Oldenburg-normal-400"
+    "slug":"Oldenburg-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Linden Hill",
-    "slug":"Linden-Hill-normal-400"
+    "slug":"Linden-Hill-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ribeye Marrow",
-    "slug":"Ribeye-Marrow-normal-400"
+    "slug":"Ribeye-Marrow-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Cagliostro",
-    "slug":"Cagliostro-normal-400"
+    "slug":"Cagliostro-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Oxygen Mono",
-    "slug":"Oxygen-Mono-normal-400"
+    "slug":"Oxygen-Mono-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Sail",
-    "slug":"Sail-normal-400"
+    "slug":"Sail-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"IM Fell Great Primer",
-    "slug":"IM-Fell-Great-Primer-normal-400"
+    "slug":"IM-Fell-Great-Primer-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Sonsie One",
-    "slug":"Sonsie-One-normal-400"
+    "slug":"Sonsie-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"IM Fell French Canon SC",
-    "slug":"IM-Fell-French-Canon-SC-normal-400"
+    "slug":"IM-Fell-French-Canon-SC-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"MedievalSharp",
-    "slug":"MedievalSharp-normal-400"
+    "slug":"MedievalSharp-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Text Me One",
-    "slug":"Text-Me-One-normal-400"
+    "slug":"Text-Me-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Herr Von Muellerhoff",
-    "slug":"Herr-Von-Muellerhoff-normal-400"
+    "slug":"Herr-Von-Muellerhoff-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Swanky and Moo Moo",
-    "slug":"Swanky-and-Moo-Moo-normal-400"
+    "slug":"Swanky-and-Moo-Moo-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Nova Slim",
-    "slug":"Nova-Slim-normal-400"
+    "slug":"Nova-Slim-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Aguafina Script",
-    "slug":"Aguafina-Script-normal-400"
+    "slug":"Aguafina-Script-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Spirax",
-    "slug":"Spirax-normal-400"
+    "slug":"Spirax-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Cherry Swash",
-    "slug":"Cherry-Swash-normal-400"
+    "slug":"Cherry-Swash-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Stint Ultra Expanded",
-    "slug":"Stint-Ultra-Expanded-normal-400"
+    "slug":"Stint-Ultra-Expanded-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Monofett",
-    "slug":"Monofett-normal-400"
+    "slug":"Monofett-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Seymour One",
-    "slug":"Seymour-One-normal-400"
+    "slug":"Seymour-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"UnifrakturCook",
-    "slug":"UnifrakturCook-normal-700"
+    "slug":"UnifrakturCook-normal-700",
+    "source":"google-fonts"
   },
   {
     "name":"Stoke",
-    "slug":"Stoke-normal-400"
+    "slug":"Stoke-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Condiment",
-    "slug":"Condiment-normal-400"
+    "slug":"Condiment-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Keania One",
-    "slug":"Keania-One-normal-400"
+    "slug":"Keania-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Teko",
-    "slug":"Teko-normal-400"
+    "slug":"Teko-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Wendy One",
-    "slug":"Wendy-One-normal-400"
+    "slug":"Wendy-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ruluko",
-    "slug":"Ruluko-normal-400"
+    "slug":"Ruluko-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Prociono",
-    "slug":"Prociono-normal-400"
+    "slug":"Prociono-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Alike Angular",
-    "slug":"Alike-Angular-normal-400"
+    "slug":"Alike-Angular-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"League Script",
-    "slug":"League-Script-normal-400"
+    "slug":"League-Script-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Piedra",
-    "slug":"Piedra-normal-400"
+    "slug":"Piedra-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Julee",
-    "slug":"Julee-normal-400"
+    "slug":"Julee-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Goblin One",
-    "slug":"Goblin-One-normal-400"
+    "slug":"Goblin-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Kenia",
-    "slug":"Kenia-normal-400"
+    "slug":"Kenia-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Bigshot One",
-    "slug":"Bigshot-One-normal-400"
+    "slug":"Bigshot-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Port Lligat Sans",
-    "slug":"Port-Lligat-Sans-normal-400"
+    "slug":"Port-Lligat-Sans-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Montaga",
-    "slug":"Montaga-normal-400"
+    "slug":"Montaga-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Bilbo",
-    "slug":"Bilbo-normal-400"
+    "slug":"Bilbo-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"IM Fell Double Pica SC",
-    "slug":"IM-Fell-Double-Pica-SC-normal-400"
+    "slug":"IM-Fell-Double-Pica-SC-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Astloch",
-    "slug":"Astloch-normal-400"
+    "slug":"Astloch-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Fresca",
-    "slug":"Fresca-normal-400"
+    "slug":"Fresca-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Creepster",
-    "slug":"Creepster-normal-400"
+    "slug":"Creepster-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Nova Flat",
-    "slug":"Nova-Flat-normal-400"
+    "slug":"Nova-Flat-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Smythe",
-    "slug":"Smythe-normal-400"
+    "slug":"Smythe-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Lovers Quarrel",
-    "slug":"Lovers-Quarrel-normal-400"
+    "slug":"Lovers-Quarrel-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Modern Antiqua",
-    "slug":"Modern-Antiqua-normal-400"
+    "slug":"Modern-Antiqua-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Della Respira",
-    "slug":"Della-Respira-normal-400"
+    "slug":"Della-Respira-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Fondamento",
-    "slug":"Fondamento-normal-400"
+    "slug":"Fondamento-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Offside",
-    "slug":"Offside-normal-400"
+    "slug":"Offside-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Original Surfer",
-    "slug":"Original-Surfer-normal-400"
+    "slug":"Original-Surfer-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Share Tech Mono",
-    "slug":"Share-Tech-Mono-normal-400"
+    "slug":"Share-Tech-Mono-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Marko One",
-    "slug":"Marko-One-normal-400"
+    "slug":"Marko-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Habibi",
-    "slug":"Habibi-normal-400"
+    "slug":"Habibi-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Irish Grover",
-    "slug":"Irish-Grover-normal-400"
+    "slug":"Irish-Grover-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Petrona",
-    "slug":"Petrona-normal-400"
+    "slug":"Petrona-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Krona One",
-    "slug":"Krona-One-normal-400"
+    "slug":"Krona-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Averia Serif Libre",
-    "slug":"Averia-Serif-Libre-normal-400"
+    "slug":"Averia-Serif-Libre-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ruthie",
-    "slug":"Ruthie-normal-400"
+    "slug":"Ruthie-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Geostar Fill",
-    "slug":"Geostar-Fill-normal-400"
+    "slug":"Geostar-Fill-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"McLaren",
-    "slug":"McLaren-normal-400"
+    "slug":"McLaren-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ribeye",
-    "slug":"Ribeye-normal-400"
+    "slug":"Ribeye-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Chango",
-    "slug":"Chango-normal-400"
+    "slug":"Chango-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Pirata One",
-    "slug":"Pirata-One-normal-400"
+    "slug":"Pirata-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Miniver",
-    "slug":"Miniver-normal-400"
+    "slug":"Miniver-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Lancelot",
-    "slug":"Lancelot-normal-400"
+    "slug":"Lancelot-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Atomic Age",
-    "slug":"Atomic-Age-normal-400"
+    "slug":"Atomic-Age-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Autour One",
-    "slug":"Autour-One-normal-400"
+    "slug":"Autour-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Trykker",
-    "slug":"Trykker-normal-400"
+    "slug":"Trykker-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Mrs Saint Delafield",
-    "slug":"Mrs-Saint-Delafield-normal-400"
+    "slug":"Mrs-Saint-Delafield-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Nova Script",
-    "slug":"Nova-Script-normal-400"
+    "slug":"Nova-Script-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Trochut",
-    "slug":"Trochut-normal-400"
+    "slug":"Trochut-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Spicy Rice",
-    "slug":"Spicy-Rice-normal-400"
+    "slug":"Spicy-Rice-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Asul",
-    "slug":"Asul-normal-400"
+    "slug":"Asul-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Antic Didone",
-    "slug":"Antic-Didone-normal-400"
+    "slug":"Antic-Didone-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ranchers",
-    "slug":"Ranchers-normal-400"
+    "slug":"Ranchers-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Iceberg",
-    "slug":"Iceberg-normal-400"
+    "slug":"Iceberg-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Wellfleet",
-    "slug":"Wellfleet-normal-400"
+    "slug":"Wellfleet-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Galdeano",
-    "slug":"Galdeano-normal-400"
+    "slug":"Galdeano-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Asset",
-    "slug":"Asset-normal-400"
+    "slug":"Asset-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Geostar",
-    "slug":"Geostar-normal-400"
+    "slug":"Geostar-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Passero One",
-    "slug":"Passero-One-normal-400"
+    "slug":"Passero-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Miltonian",
-    "slug":"Miltonian-normal-400"
+    "slug":"Miltonian-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Smokum",
-    "slug":"Smokum-normal-400"
+    "slug":"Smokum-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Plaster",
-    "slug":"Plaster-normal-400"
+    "slug":"Plaster-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Devonshire",
-    "slug":"Devonshire-normal-400"
+    "slug":"Devonshire-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Vampiro One",
-    "slug":"Vampiro-One-normal-400"
+    "slug":"Vampiro-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Montserrat Subrayada",
-    "slug":"Montserrat-Subrayada-normal-400"
+    "slug":"Montserrat-Subrayada-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Molle",
-    "slug":"Molle-italic-400"
+    "slug":"Molle-italic-400",
+    "source":"google-fonts"
   },
   {
     "name":"Joti One",
-    "slug":"Joti-One-normal-400"
+    "slug":"Joti-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Federant",
-    "slug":"Federant-normal-400"
+    "slug":"Federant-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Monsieur La Doulaise",
-    "slug":"Monsieur-La-Doulaise-normal-400"
+    "slug":"Monsieur-La-Doulaise-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Akronim",
-    "slug":"Akronim-normal-400"
+    "slug":"Akronim-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Jolly Lodger",
-    "slug":"Jolly-Lodger-normal-400"
+    "slug":"Jolly-Lodger-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Glass Antiqua",
-    "slug":"Glass-Antiqua-normal-400"
+    "slug":"Glass-Antiqua-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Italiana",
-    "slug":"Italiana-normal-400"
+    "slug":"Italiana-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Aubrey",
-    "slug":"Aubrey-normal-400"
+    "slug":"Aubrey-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Nova Cut",
-    "slug":"Nova-Cut-normal-400"
+    "slug":"Nova-Cut-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Germania One",
-    "slug":"Germania-One-normal-400"
+    "slug":"Germania-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Caesar Dressing",
-    "slug":"Caesar-Dressing-normal-400"
+    "slug":"Caesar-Dressing-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Rum Raisin",
-    "slug":"Rum-Raisin-normal-400"
+    "slug":"Rum-Raisin-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Emblema One",
-    "slug":"Emblema-One-normal-400"
+    "slug":"Emblema-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Eagle Lake",
-    "slug":"Eagle-Lake-normal-400"
+    "slug":"Eagle-Lake-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Jacques Francois Shadow",
-    "slug":"Jacques-Francois-Shadow-normal-400"
+    "slug":"Jacques-Francois-Shadow-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Elsie",
-    "slug":"Elsie-normal-400"
+    "slug":"Elsie-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Nosifer",
-    "slug":"Nosifer-normal-400"
+    "slug":"Nosifer-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Supermercado One",
-    "slug":"Supermercado-One-normal-400"
+    "slug":"Supermercado-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Snowburst One",
-    "slug":"Snowburst-One-normal-400"
+    "slug":"Snowburst-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Uncial Antiqua",
-    "slug":"Uncial-Antiqua-normal-400"
+    "slug":"Uncial-Antiqua-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Emilys Candy",
-    "slug":"Emilys-Candy-normal-400"
+    "slug":"Emilys-Candy-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Butcherman",
-    "slug":"Butcherman-normal-400"
+    "slug":"Butcherman-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Londrina Shadow",
-    "slug":"Londrina-Shadow-normal-400"
+    "slug":"Londrina-Shadow-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Peralta",
-    "slug":"Peralta-normal-400"
+    "slug":"Peralta-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Croissant One",
-    "slug":"Croissant-One-normal-400"
+    "slug":"Croissant-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Combo",
-    "slug":"Combo-normal-400"
+    "slug":"Combo-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Almendra",
-    "slug":"Almendra-normal-400"
+    "slug":"Almendra-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Gorditas",
-    "slug":"Gorditas-normal-400"
+    "slug":"Gorditas-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Slabo 13px",
-    "slug":"Slabo-13px-normal-400"
+    "slug":"Slabo-13px-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Bubbler One",
-    "slug":"Bubbler-One-normal-400"
+    "slug":"Bubbler-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ewert",
-    "slug":"Ewert-normal-400"
+    "slug":"Ewert-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Chela One",
-    "slug":"Chela-One-normal-400"
+    "slug":"Chela-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Diplomata",
-    "slug":"Diplomata-normal-400"
+    "slug":"Diplomata-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Stalemate",
-    "slug":"Stalemate-normal-400"
+    "slug":"Stalemate-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Elsie Swash Caps",
-    "slug":"Elsie-Swash-Caps-normal-400"
+    "slug":"Elsie-Swash-Caps-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Mrs Sheppards",
-    "slug":"Mrs-Sheppards-normal-400"
+    "slug":"Mrs-Sheppards-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Vesper Libre",
-    "slug":"Vesper-Libre-normal-400"
+    "slug":"Vesper-Libre-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Revalia",
-    "slug":"Revalia-normal-400"
+    "slug":"Revalia-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Romanesco",
-    "slug":"Romanesco-normal-400"
+    "slug":"Romanesco-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Khand",
-    "slug":"Khand-normal-400"
+    "slug":"Khand-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Purple Purse",
-    "slug":"Purple-Purse-normal-400"
+    "slug":"Purple-Purse-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Karma",
-    "slug":"Karma-normal-400"
+    "slug":"Karma-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Butterfly Kids",
-    "slug":"Butterfly-Kids-normal-400"
+    "slug":"Butterfly-Kids-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Faster One",
-    "slug":"Faster-One-normal-400"
+    "slug":"Faster-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Londrina Sketch",
-    "slug":"Londrina-Sketch-normal-400"
+    "slug":"Londrina-Sketch-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Margarine",
-    "slug":"Margarine-normal-400"
+    "slug":"Margarine-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Eater",
-    "slug":"Eater-normal-400"
+    "slug":"Eater-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Chicle",
-    "slug":"Chicle-normal-400"
+    "slug":"Chicle-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Miss Fajardose",
-    "slug":"Miss-Fajardose-normal-400"
+    "slug":"Miss-Fajardose-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Dr Sugiyama",
-    "slug":"Dr-Sugiyama-normal-400"
+    "slug":"Dr-Sugiyama-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Felipa",
-    "slug":"Felipa-normal-400"
+    "slug":"Felipa-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"New Rocker",
-    "slug":"New-Rocker-normal-400"
+    "slug":"New-Rocker-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Fira Mono",
-    "slug":"Fira-Mono-normal-400"
+    "slug":"Fira-Mono-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Risque",
-    "slug":"Risque-normal-400"
+    "slug":"Risque-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Bigelow Rules",
-    "slug":"Bigelow-Rules-normal-400"
+    "slug":"Bigelow-Rules-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Princess Sofia",
-    "slug":"Princess-Sofia-normal-400"
+    "slug":"Princess-Sofia-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Mr Bedfort",
-    "slug":"Mr-Bedfort-normal-400"
+    "slug":"Mr-Bedfort-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Flavors",
-    "slug":"Flavors-normal-400"
+    "slug":"Flavors-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Jim Nightshade",
-    "slug":"Jim-Nightshade-normal-400"
+    "slug":"Jim-Nightshade-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Sirin Stencil",
-    "slug":"Sirin-Stencil-normal-400"
+    "slug":"Sirin-Stencil-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Sevillana",
-    "slug":"Sevillana-normal-400"
+    "slug":"Sevillana-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Macondo Swash Caps",
-    "slug":"Macondo-Swash-Caps-normal-400"
+    "slug":"Macondo-Swash-Caps-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Meie Script",
-    "slug":"Meie-Script-normal-400"
+    "slug":"Meie-Script-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Underdog",
-    "slug":"Underdog-normal-400"
+    "slug":"Underdog-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Gurajada",
-    "slug":"Gurajada-normal-400"
+    "slug":"Gurajada-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Metal Mania",
-    "slug":"Metal-Mania-normal-400"
+    "slug":"Metal-Mania-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Arbutus",
-    "slug":"Arbutus-normal-400"
+    "slug":"Arbutus-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Stalinist One",
-    "slug":"Stalinist-One-normal-400"
+    "slug":"Stalinist-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Fascinate",
-    "slug":"Fascinate-normal-400"
+    "slug":"Fascinate-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Erica One",
-    "slug":"Erica-One-normal-400"
+    "slug":"Erica-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Rubik One",
-    "slug":"Rubik-One-normal-400"
+    "slug":"Rubik-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Unlock",
-    "slug":"Unlock-normal-400"
+    "slug":"Unlock-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Macondo",
-    "slug":"Macondo-normal-400"
+    "slug":"Macondo-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Diplomata SC",
-    "slug":"Diplomata-SC-normal-400"
+    "slug":"Diplomata-SC-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Bonbon",
-    "slug":"Bonbon-normal-400"
+    "slug":"Bonbon-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Almendra SC",
-    "slug":"Almendra-SC-normal-400"
+    "slug":"Almendra-SC-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ruge Boogie",
-    "slug":"Ruge-Boogie-normal-400"
+    "slug":"Ruge-Boogie-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Hanalei Fill",
-    "slug":"Hanalei-Fill-normal-400"
+    "slug":"Hanalei-Fill-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Almendra Display",
-    "slug":"Almendra-Display-normal-400"
+    "slug":"Almendra-Display-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Hanalei",
-    "slug":"Hanalei-normal-400"
+    "slug":"Hanalei-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Sarpanch",
-    "slug":"Sarpanch-normal-400"
+    "slug":"Sarpanch-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Laila",
-    "slug":"Laila-normal-400"
+    "slug":"Laila-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Rozha One",
-    "slug":"Rozha-One-normal-400"
+    "slug":"Rozha-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Fascinate Inline",
-    "slug":"Fascinate-Inline-normal-400"
+    "slug":"Fascinate-Inline-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Warnes",
-    "slug":"Warnes-normal-400"
+    "slug":"Warnes-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Suranna",
-    "slug":"Suranna-normal-400"
+    "slug":"Suranna-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Mandali",
-    "slug":"Mandali-normal-400"
+    "slug":"Mandali-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ramabhadra",
-    "slug":"Ramabhadra-normal-400"
+    "slug":"Ramabhadra-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"NTR",
-    "slug":"NTR-normal-400"
+    "slug":"NTR-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Fruktur",
-    "slug":"Fruktur-normal-400"
+    "slug":"Fruktur-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Mallanna",
-    "slug":"Mallanna-normal-400"
+    "slug":"Mallanna-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Khula",
-    "slug":"Khula-normal-400"
+    "slug":"Khula-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Cambay",
-    "slug":"Cambay-normal-400"
+    "slug":"Cambay-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Rubik Mono One",
-    "slug":"Rubik-Mono-One-normal-400"
+    "slug":"Rubik-Mono-One-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ramaraja",
-    "slug":"Ramaraja-normal-400"
+    "slug":"Ramaraja-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Dekko",
-    "slug":"Dekko-normal-400"
+    "slug":"Dekko-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Dhurjati",
-    "slug":"Dhurjati-normal-400"
+    "slug":"Dhurjati-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Timmana",
-    "slug":"Timmana-normal-400"
+    "slug":"Timmana-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Tenali Ramakrishna",
-    "slug":"Tenali-Ramakrishna-normal-400"
+    "slug":"Tenali-Ramakrishna-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ranga",
-    "slug":"Ranga-normal-400"
+    "slug":"Ranga-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Gidugu",
-    "slug":"Gidugu-normal-400"
+    "slug":"Gidugu-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Lakki Reddy",
-    "slug":"Lakki-Reddy-normal-400"
+    "slug":"Lakki-Reddy-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Ravi Prakash",
-    "slug":"Ravi-Prakash-normal-400"
+    "slug":"Ravi-Prakash-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Peddana",
-    "slug":"Peddana-normal-400"
+    "slug":"Peddana-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Suravaram",
-    "slug":"Suravaram-normal-400"
+    "slug":"Suravaram-normal-400",
+    "source":"google-fonts"
   },
   {
     "name":"Sree Krushnadevaraya",
-    "slug":"Sree-Krushnadevaraya-normal-400"
+    "slug":"Sree-Krushnadevaraya-normal-400",
+    "source":"google-fonts"
   }
 ]

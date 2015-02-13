@@ -1,7 +1,10 @@
 Template._favorites.helpers( {
   favorites : function () {
     return Favorites.find();
-  }  
+  },
+  noFavorites : function () {
+    return Favorites.find().fetch().length === 0;
+  }
 } );
 
 Template._favorites.events( {

@@ -2,6 +2,12 @@
   {{#ionModal title="Your Favorites"}}
     <div class="card padding">
       {{#ionList}}
+        {{#if noFavorites}}
+          <div class="item item-text-wrap">
+            <p>Favorite pairs of fonts to see them here!</p>
+          </div>
+        {{/if}}
+
         {{#each favorites}}
           <div class="item item-text-wrap item-button-right">
             <h3>

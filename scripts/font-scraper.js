@@ -30,7 +30,8 @@ for ( var i = 0; i < fels.length; i++ ) {
   var fontSlug = pels[0].classList[1];
   fontNames.push( {
     name : fontName,
-    slug: fontSlug 
+    slug: fontSlug,
+    source: 'google-fonts'
   } );
 }
 
