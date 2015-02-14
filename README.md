@@ -15,3 +15,15 @@ Find new font combinations by randomly pairing free Google fonts together.
 2. Sign in with Github.
 3. Favorite font combinations when signed in.
 4. Get the HTML to include the fonts.
+
+# Additional Reading
+
+* [Google Fonts](https://www.google.com/fonts)
+* [Ionic Framework](http://ionicframework.com/docs/)
+* [Meteor Ionic](https://github.com/meteoric/meteor-ionic)
+* [Meteor Ionic Demo](https://github.com/meteoric/demo)
+* [Meteor Ionic Demo Website](http://meteor-ionic.meteor.com/)
+* [Meteor Ionic Contacts Demo](https://github.com/meteoric/contacts)
+* [Meteor Ionic Contacts Demo Website](http://meteoric-contacts.meteor.com/)
+* [Meteor Ionic Hunt Demo](https://github.com/meteoric/meteorhunt)
+* [Meteor Ionic Hunt Demo Website](http://meteorhunt.meteor.com/)
