@@ -5,11 +5,30 @@
       Font matcher is a tool for helping web designers and web developers discover new font combinations that they can use in their websites.
       </p>
       <p>
-      Currently, we only support Google Fonts.
+      Currently, we only support Google Fonts, but we've got 671 of them.  That's over 400,000 font combinations for you to look at!
       </p>
       <p>
       Created by <a href="http://github.com/idmontie">@idmontie</a>.
       </p>
+
+      {{#if isCordova}}
+        {{! nothing }}
+      {{else}}
+        {{#if currentUser}}
+          {{! nothing}}
+        {{else}}
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- Font Matcher -->
+          <ins class="adsbygoogle"
+               style="display:inline-block;width:320px;height:100px"
+               data-ad-client="ca-pub-9462971725884961"
+               data-ad-slot="3335618560"></ins>
+          <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+          <p>To disable ads, download our app for your mobile device or sign in with Github!</p>
+        {{/if}}
+      {{/if}}
     </div>
 
   {{/ionModal}}

@@ -8,6 +8,12 @@ function fontCodeWrap ( name ) {
   return html;
 }
 
+function fontLinkWrap ( name ) {
+  var link = 'http://www.google.com/fonts/specimen/';
+  link += name.replace( ' ', '+' );
+  return link;
+}
+
 Template._fontDetails.helpers( {
   fontHeading : function () {
     var heading = Session.get( 'fontNameHeading');
@@ -41,6 +47,22 @@ Template._fontDetails.helpers( {
 
     return '';
   },
+  fontHeadingLink : function () {
+    var heading = Session.get( 'fontNameHeading' );
+    if ( heading ) {
+      return fontLinkWrap( heading.name );
+    }
+
+    return '';
+  },
+  fontBodyLink : function () {
+    var body = Session.get( 'fontNameBody' );
+    if ( body ) {
+      return fontLinkWrap( body.name );
+    }
+
+    return '';
+  },
   rating : function () {
     // total upvotes - 0.5 total downvotes
     // normalize between -100 and 100
@@ -58,7 +80,6 @@ Template._fontDetails.helpers( {
                 alert( error.reason );
               } else {
                 // Force reactivity
-                console.log( 'wow' );
 
                 Session.set( 'ratingsUp', result.up );
                 Session.set( 'ratingsDown', result.down );
@@ -67,7 +88,6 @@ Template._fontDetails.helpers( {
                 var total = result.up + result.down;
                 var normal =  ( 200.0 * ( weight + total ) ) / ( 2.0 * total ) - 100.0;
 
-                console.log( normal );
                 $( '#rating-slider' ).val( Math.floor( normal ) );
               }
             }

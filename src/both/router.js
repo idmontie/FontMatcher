@@ -3,7 +3,8 @@
 // ======
 
 Router.configure( {
-  layoutTemplate: 'default'
+  layoutTemplate: 'default',
+  trackPageView: true
 } );
 
 Router.route( '/', {

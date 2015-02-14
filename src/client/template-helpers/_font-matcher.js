@@ -33,6 +33,8 @@ function newFontsCallback( error, result, noPush ) {
 
     // Set the hash so that we can read it later
     if ( noPush != true ) {
+      ga( 'send', 'event', 'button', 'click', 'new fonts', 1 );
+
       history.pushState(
           {
             fontNameHeading : result.fontNameHeading,
