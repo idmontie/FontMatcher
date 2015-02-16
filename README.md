@@ -3,6 +3,8 @@ Font Matcher
 
 Find new font combinations by randomly pairing free Google fonts together.
 
+[![Paypal Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6UHN983JPPCJL)
+
 # Setup
 
 1. Clone the repo.
@@ -19,6 +21,7 @@ Find new font combinations by randomly pairing free Google fonts together.
 # Additional Reading
 
 * [Google Fonts](https://www.google.com/fonts)
+ [Google Fonts Loader](https://github.com/typekit/webfontloader)
 * [Ionic Framework](http://ionicframework.com/docs/)
 * [Meteor Ionic](https://github.com/meteoric/meteor-ionic)
 * [Meteor Ionic Demo](https://github.com/meteoric/demo)

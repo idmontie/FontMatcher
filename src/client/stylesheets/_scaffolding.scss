@@ -18,10 +18,32 @@
 
 @media(min-width: $screen-md-min) {
   .bar {
-    // TOOD use the color variable for this
+    // TODO use the color variable for this
     border-left: #b2b2b2 1px solid;
     border-right: #b2b2b2 1px solid;
     margin: auto;
     max-width: 1000px;
+  }
+
+  .modal {
+    left: 24%;
+    left: calc(50% - 500px);
+    max-width: 1000px;
+    right: 24%;
+    right: calc(50% - 500px);
+    width: auto;
+    
+    .bar {
+      border-left: 0;
+      border-right: 0;
+    }
+
+    
+  }
+
+  .popover {
+    left: initial !important;
+    right: 24%;
+    right: calc(50% - 500px);
   }
 }

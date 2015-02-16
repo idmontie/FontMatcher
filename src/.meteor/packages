@@ -17,3 +17,6 @@ idmontie:migrations
 accounts-github
 service-configuration
 reywood:iron-router-ga
+gadicohen:reactive-window
+launch-screen
+flowkey:hotkeys

@@ -24,25 +24,7 @@
         <i class="icon ion-thumbsup"></i>
       </div>
     </div>
-    <div class="card padding">
-      {{#if isCordova}}
-        {{! nothing }}
-      {{else}}
-        {{#if currentUser}}
-          {{! nothing}}
-        {{else}}
-          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-          <!-- Font Matcher -->
-          <ins class="adsbygoogle"
-               style="display:inline-block;width:320px;height:100px"
-               data-ad-client="ca-pub-9462971725884961"
-               data-ad-slot="3335618560"></ins>
-          <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
-          <p>To disable ads, download our app for your mobile device or sign in with Github!</p>
-        {{/if}}
-      {{/if}}
-    </div>
+    
+    {{> _donate}}
   {{/ionModal}}
 </template>

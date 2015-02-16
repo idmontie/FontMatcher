@@ -6,34 +6,36 @@
 }}
 
 <div class="list card">
-  <div class="item item-divider center">
-    <h1>{{fontNameHeading}} + {{fontNameBody}}</h1>
-  </div>
-
-  <div class="item item-body" id="fontcard">
-    <h1 class="font-heading" style="{{fontHeading}}" contenteditable spellcheck="false">
-      Grumpy wizards make toxic brew for the evil Queen and Jack.
-    </h1>
-
-    <p class="font-body" style="{{fontBody}}" contenteditable spellcheck="false">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu urna eu turpis cursus egestas. Nunc ut velit vel justo imperdiet accumsan eget nec nunc. Aenean ut dapibus arcu, eget auctor purus. In ac ipsum at sapien dictum dignissim et eu est. Praesent a finibus nulla. Fusce convallis sed magna ut tristique. Donec ornare, odio quis iaculis consequat, enim urna suscipit sem, et cursus diam odio nec libero. Pellentesque rutrum enim eget maximus maximus. Integer sodales velit sed placerat tempor. Aenean consectetur condimentum risus ac tempus. Etiam semper orci eget ultricies fringilla. Nam at velit a eros ultricies blandit sed eu felis. In accumsan ligula diam, ac lacinia nisi tincidunt ac. Nulla ullamcorper urna quam, vitae dapibus libero tempus vitae. Praesent at fermentum nisl. Phasellus feugiat interdum dictum.
-    </p>
-  </div>
-
   <div class="item tabs tabs-secondary tabs-icon-left" id="actions">
-    {{! New: }}
+    {{!
+      ===
+      New
+      ===
+    }}
     <a class="tab-item" href="#" data-action="new-font-set">
       <i class="icon ion-refresh"></i> New Pair
     </a>
-    {{! Upvote: }}
+    {{!
+      ======
+      Upvote
+      ======
+    }}
     <a class="tab-item {{#if hasUpvoted }}assertive{{/if}}" href="#" data-action="upvote">
       <i class="icon ion-arrow-up-a"></i> Cool
     </a>
-    {{! Downvote: }}
+    {{!
+      ========
+      Downvote
+      ========
+    }}
     <a class="tab-item {{#if hasDownvoted }}assertive{{/if}}" href="#" data-action="downvote">
       <i class="icon ion-arrow-down-a"></i> Nah
     </a>
-    {{! Favorite: }}
+    {{!
+      ========
+      Favorite
+      ========
+    }}
     {{#if currentUser}}
       <a class="tab-item {{#if hasFavorited }}assertive{{/if}}" href="#" data-action="favorite">
         {{#if hasFavorited}}
@@ -42,13 +44,82 @@
           <i class="icon ion-android-star-outline"></i>
         {{/if}}
         Favorite
-
       </a>
     {{/if}}
-    {{! Details: }}
+    {{!
+      =======
+      Details 
+      =======
+    }}
     <a class="tab-item" href="#" data-action="details" data-ion-modal="_fontDetails">
       <i class="icon ion-information-circled"></i> Details
     </a>
   </div>
+
+  <div class="item item-body" id="fontcard">
+    <h1 class="font-heading" style="{{fontHeading}}">
+      {{!
+        ============
+        Lock Heading
+        ============
+      }}
+      {{#if lockedHeading}}
+        <span data-action="unlock-heading">
+          {{#if isAndroid}}
+            {{> ionIcon icon='android-locked'}}
+          {{else}}
+            {{> ionIcon icon='ios-locked'}}
+          {{/if}}
+        </span>
+      {{else}}
+        <span data-action="lock-heading">
+          {{#if isAndroid}}
+            {{> ionIcon icon='android-unlocked-outline'}}
+          {{else}}
+            {{> ionIcon icon='ios-unlocked-outline'}}
+          {{/if}}
+        </span>
+      {{/if}}
+
+      <span contenteditable spellcheck="false">
+        Grumpy wizards make toxic brew for the evil Queen and Jack
+      </span>
+    </h1>
+
+    <p class="font-body" style="{{fontBody}}">
+      {{!
+        ============
+        Lock Body
+        ============
+      }}
+      {{#if lockedBody}}
+        <span data-action="unlock-body">
+          {{#if isAndroid}}
+            {{> ionIcon icon='android-locked'}}
+          {{else}}
+            {{> ionIcon icon='ios-locked'}}
+          {{/if}}
+        </span>
+      {{else}}
+        <span data-action="lock-body">
+          {{#if isAndroid}}
+            {{> ionIcon icon='android-unlocked-outline'}}
+          {{else}}
+            {{> ionIcon icon='ios-unlocked-outline'}}
+          {{/if}}
+        </span>
+      {{/if}}
+      <span contenteditable spellcheck="false">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu urna eu turpis cursus egestas. Nunc ut velit vel justo imperdiet accumsan eget nec nunc. Aenean ut dapibus arcu, eget auctor purus. In ac ipsum at sapien dictum dignissim et eu est. Praesent a finibus nulla. Fusce convallis sed magna ut tristique.
+      </span>
+    </p>
+  </div>
+  {{#if isShortWindow}}
+    {{! nothing}}
+  {{else}}
+    <div class="item item-divider center">
+      <h2>{{fontNameHeading}} + {{fontNameBody}}</h2>
+    </div>
+  {{/if}}
 </div>
 </template>

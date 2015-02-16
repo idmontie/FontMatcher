@@ -17,20 +17,21 @@
     {{/if}}
   {{/contentFor}}
 
+  {{#contentFor "headerButtonLeft"}}
+    <button class="button button-clear" data-ion-modal="_about">
+      {{> ionIcon icon='information-circled'}}
+    </button>
+  {{/contentFor}}
+
   {{#ionView}}
     {{#ionContent class="padding"}}
       {{> _fontMatcher}}
     {{/ionContent}}
 
-    {{#ionFooterBar}}
-      <button class="button button-clear" data-ion-modal="_about">
-        {{> ionIcon icon='information-circled'}} About
-      </button>
-      {{#if currentUser}}
-        <button class="button button-clear" data-ion-modal="_favorites">
-          {{> ionIcon icon='android-star'}} Your Favorites
-        </button>
-      {{/if}}
-    {{/ionFooterBar}}
+    {{#if isShortWindow}}
+      {{#ionFooterBar}}
+        <h1 class="title">{{fontNameHeading}} + {{fontNameBody}}</h1>
+      {{/ionFooterBar}}
+    {{/if}}
   {{/ionView}}
 </template>

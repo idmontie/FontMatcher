@@ -1,5 +1,26 @@
 <template name="_loggedInHeader">
-  <button class="button button-clear pull-right" data-ion-menu-toggle="right" data-action="logout">
-    {{> ionIcon icon="log-out"}} Logout
+<button class="button button-clear" data-ion-popover="_loggedInHeaderPopover">
+    {{#if isAndroid}}
+      {{> ionIcon icon='android-more-vertical'}}
+    {{else}}
+      {{> ionIcon icon='more'}}
+    {{/if}}
   </button>
+</template>
+
+<template name="_loggedInHeaderPopover">
+  {{#ionPopover}}
+    <div class="content">
+      <div class="list">
+        <a class="item item-icon-right" href="#" data-ion-modal="_favorites">
+          Your Favorites
+          {{> ionIcon icon='android-star'}}
+        </a>
+        <a class="item item-icon-right" href="#" data-action="logout">
+          Logout
+          {{> ionIcon icon="log-out"}}
+        </a>
+      </div>
+    </div>
+  {{/ionPopover}}
 </template>

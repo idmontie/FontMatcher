@@ -47,8 +47,29 @@ function newFontsCallback( error, result, noPush ) {
   }
 }
 
+
 function newFontsCallbackNoPush( error, result ) {
   newFontsCallback( error, result, true );
+}
+
+/**
+ * Get new fonts
+ */
+function newFonts() {
+  var lockHeading = Session.get( 'lockedHeading' );
+  var lockBody    = Session.get( 'lockedBody' );
+  var heading = null;
+  var body    = null;
+
+  if ( lockHeading ) {
+    heading = Session.get( 'fontNameHeading' ).slug;
+  }
+
+  if ( lockBody ) {
+    body = Session.get( 'fontNameBody' ).slug;
+  }
+
+  Meteor.call( 'fonts', heading, body, newFontsCallback );
 }
 
 /**
@@ -150,7 +171,7 @@ Template._fontMatcher.rendered = function () {
     Meteor.call( 'fonts', fontSlugs[0], fontSlugs[1], newFontsCallback );
   } else {
     // generate the first set of fonts
-    Meteor.call( 'fonts', newFontsCallback );
+    newFonts();
   }
 
   window.onpopstate = function ( event ) {
@@ -162,6 +183,93 @@ Template._fontMatcher.rendered = function () {
       newFontsCallbackNoPush
     );
   }
+
+  // ==============
+  // Global Hotkeys
+  // ==============
+
+  globalHotkeys = new Hotkeys();
+
+  globalHotkeys.add( {
+    combo : 'w',
+    callback : function () {
+      var hash = Session.get( 'fontNameHeading' ).name +
+        '+' +
+        Session.get( 'fontNameBody' ).name
+
+      if ( Session.get( 'hasUpvoted+' + hash ) ) {
+        unUpvote();
+      } else {
+        upvote();
+      }
+    }
+  } );
+
+  globalHotkeys.add( {
+    combo : 's',
+    callback : function () {
+      var hash = Session.get( 'fontNameHeading' ).name +
+        '+' +
+        Session.get( 'fontNameBody' ).name
+
+      if ( Session.get( 'hasDownvoted+' + hash ) ) {
+        unDownvote();
+      } else {
+        downvote();
+      }
+    }
+  } );
+  
+  globalHotkeys.add( {
+    combo : 'd',
+    callback : function () {
+      // load a new set of fonts
+      newFonts();
+    }
+  } );
+
+  // only if current user
+  if ( Meteor.userId() ) {
+    globalHotkeys.add( {
+      combo : 'f',
+      callback : function () {
+        var heading = Session.get( 'fontNameHeading' );
+        var body    = Session.get( 'fontNameBody' );
+
+        var favorite = Favorites.findOne( {
+          headingSlug : heading.slug,
+          bodySlug : body.slug
+        } );
+
+        if ( favorite == null ) {
+          // Favorite
+          Meteor.call(
+            'favorite',
+            Session.get( 'fontNameHeading' ).slug,
+            Session.get( 'fontNameBody' ).slug,
+            function ( error, result ) {
+              if ( error ) {
+                alert( error.reason );
+              }
+            } 
+          );
+        } else {
+          // Unfavorite
+          Meteor.call(
+            'unFavorite',
+            Session.get( 'fontNameHeading' ).slug,
+            Session.get( 'fontNameBody' ).slug,
+            function ( error, result ) {
+              if ( error ) {
+                alert( error.reason );
+              }
+            }
+          );
+        }
+      }
+    } );
+  }
+
 };
 
 Template._fontMatcher.helpers( {
@@ -267,6 +375,12 @@ Template._fontMatcher.helpers( {
     }
 
     return false;
+  },
+  lockedHeading : function () {
+    return Session.get( 'lockedHeading' );
+  },
+  lockedBody : function () {
+    return Session.get( 'lockedBody' );
   }
 } );
 
@@ -316,7 +430,7 @@ Template._fontMatcher.events( {
     e.preventDefault();
 
     // load a new set of fonts
-    Meteor.call( 'fonts', newFontsCallback );
+    newFonts();
   },
   'click [data-action=favorite]' : function ( e ) {
     e.preventDefault();
@@ -349,5 +463,25 @@ Template._fontMatcher.events( {
   },
   'click [data-action=details]' : function ( e ) {
     e.preventDefault();
+  },
+  'click [data-action=lock-heading]' : function ( e ) {
+    e.preventDefault();
+
+    Session.set( 'lockedHeading', true );
+  },
+  'click [data-action=unlock-heading]' : function ( e ) {
+    e.preventDefault();
+
+    Session.set( 'lockedHeading', false );
+  },
+  'click [data-action=lock-body]' : function ( e ) {
+    e.preventDefault();
+
+    Session.set( 'lockedBody', true );
+  },
+  'click [data-action=unlock-body]' : function ( e ) {
+    e.preventDefault();
+
+    Session.set( 'lockedBody', false );
   }
 } );

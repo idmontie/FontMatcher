@@ -1,7 +1,19 @@
-Template._loggedInHeader.events( {
-  'click [data-action=logout]' : function ( e ) {
-    e.preventDefault();
-    
-    Meteor.logout();
+Template.home.helpers( {
+  fontNameHeading : function () {
+    var heading = Session.get( 'fontNameHeading');
+    if ( heading ) {
+      return heading.name;
+    }
+
+    return '';
+  },
+  fontNameBody : function () {
+    var body = Session.get( 'fontNameBody' );
+    if ( body ) {
+      return body.name;
+    }
+
+    return '';
   }
 } );
+

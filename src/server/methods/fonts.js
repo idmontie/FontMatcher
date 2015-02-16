@@ -207,30 +207,35 @@ Meteor.methods( {
     return true;
   },
   fonts : function ( optionalFontHeading, optionalFontBody ) {
-    if ( optionalFontHeading && optionalFontBody ) {
-      var headingFont = Fonts.findOne( {
-        slug : optionalFontHeading
-      } );
-      var bodyFont = Fonts.findOne( {
-        slug : optionalFontBody
-      } );
-
-      return {
-        fontNameHeading : headingFont,
-        fontNameBody : bodyFont
-      }
-    }
-
     // XXX one day Meteor will provide a better
     // way to do this, but 675 isn't that big.
-    var count = Fonts.find().fetch().length;
-    var randomIndex1 = Math.floor( Random.fraction() * ( count - 1 ) );
-    var randomIndex2 = Math.floor( Random.fraction() * ( count - 1 ) );
-    var arr = Fonts.find().fetch();
-    return {
-      fontNameHeading : arr[ randomIndex1 ],
-      fontNameBody : arr[ randomIndex2 ]
+    var arr     = Fonts.find().fetch();
+    var count   = arr.length;
+    var heading = null;
+    var body    = null;
+
+    if ( optionalFontHeading ) {
+      heading = Fonts.findOne( {
+        slug : optionalFontHeading
+      } );
+    } else {
+      var randomIndex1 = Math.floor( Random.fraction() * ( count - 1 ) );
+      heading = arr[ randomIndex1 ];
     }
+    
+    if ( optionalFontBody ) {
+      body = Fonts.findOne( {
+        slug : optionalFontBody
+      } );
+    } else {
+      var randomIndex2 = Math.floor( Random.fraction() * ( count - 1 ) );
+      body = arr[ randomIndex2 ];
+    }
+
+    return {
+      fontNameHeading : heading,
+      fontNameBody : body
+    };
   },
   getVotes : function ( heading, body ) {
     var combo = FontCombo.findOne( {
