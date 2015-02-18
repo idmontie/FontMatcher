@@ -11,6 +11,11 @@ Find new font combinations by randomly pairing free Google fonts together.
 2. [Install Meteor](https://www.meteor.com/install).
 3. `cd src`. `meteor`
 
+# Building
+
+1. `cd src`
+2. `meteor build ../build/ --server http://fontmatcher.mantarayar.com:80`
+
 # Features
 
 1. Upvoting and downvoting on font combinations
@@ -30,3 +35,4 @@ Find new font combinations by randomly pairing free Google fonts together.
 * [Meteor Ionic Contacts Demo Website](http://meteoric-contacts.meteor.com/)
 * [Meteor Ionic Hunt Demo](https://github.com/meteoric/meteorhunt)
 * [Meteor Ionic Hunt Demo Website](http://meteorhunt.meteor.com/)
+* [Meteor Cordova Integration Wiki](https://github.com/meteor/meteor/wiki/Meteor-Cordova-Phonegap-integration)
