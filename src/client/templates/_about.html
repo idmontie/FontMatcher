@@ -4,23 +4,26 @@
       <p>
       Font matcher is a tool for helping web designers and web developers discover new font combinations that they can use in their websites.
       </p>
-      <p>
-        Use the following keys to navigate:
-        <ul>
-          <li>w - upvote</li>
-          <li>s - downvote</li>
-          <li>d - new pair</li>
-          <li>f - favorite (if you are logged in)</li>
-        </ul>
-      </p>
+      {{#if isCordova}}
+      {{else}}
+        <p>
+          Use the following keys to navigate:
+          <ul>
+            <li>w - upvote</li>
+            <li>s - downvote</li>
+            <li>d - new pair</li>
+            <li>f - favorite (if you are logged in)</li>
+          </ul>
+        </p>
+      {{/if}}
       <p>
       Currently, we only support Google Fonts, but we've got 671 of them.  That's over 400,000 font combinations for you to look at!
       </p>
       <p>
-        Have suggestions?  Contribute or make a new issue on our <a href="https://github.com/idmontie/font-matcher">Github</a>!
+        Have suggestions?  Contribute or make a new issue on our <a href="https://github.com/idmontie/font-matcher" target="_blank">Github</a>!
       </p>
       <p>
-      Created by <a href="http://github.com/idmontie">@idmontie</a>.
+      Created by <a href="http://github.com/idmontie" target="_blank">@idmontie</a>.
       </p>
 
       {{> _donate}}

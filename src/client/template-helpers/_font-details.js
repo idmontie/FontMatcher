@@ -14,6 +14,20 @@ function fontLinkWrap ( name ) {
   return link;
 }
 
+Template._fontDetails.rendered = function () {
+  if ( Meteor.isCordova ) {
+    $( 'a[target="_blank"]' ).click( function ( e ) {
+      e.preventDefault();
+
+      window.open(
+          $( e.currentTarget ).attr( 'href' ),
+          '_system',
+          ''
+      );
+    } );
+  }
+};
+
 Template._fontDetails.helpers( {
   fontHeading : function () {
     var heading = Session.get( 'fontNameHeading');

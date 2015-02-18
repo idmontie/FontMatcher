@@ -9,3 +9,7 @@ UI.registerHelper( 'isShortWindow', function () {
 
   return totalHeight > rwindow.innerHeight();
 } );
+
+UI.registerHelper( 'isCordova', function () {
+  return Meteor.isCordova;
+} );
