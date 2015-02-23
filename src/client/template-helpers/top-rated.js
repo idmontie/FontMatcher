@@ -7,10 +7,10 @@ Template.topRated.rendered = function () {
 
       var fonts = [];
       _.map( result, function ( fontCombo ) {
-        if ( fontCombo.fontHeading )
-          fonts.push( fontCombo.fontHeading.name );
-        if ( fontCombo.fontBody )
-          fonts.push( fontCombo.fontBody.name );
+        if ( fontCombo.heading )
+          fonts.push( fontCombo.heading.name );
+        if ( fontCombo.body )
+          fonts.push( fontCombo.body.name );
       } );
 
       fonts = _.uniq( fonts );
@@ -36,7 +36,7 @@ Template.topRated.events( {
     e.preventDefault();
 
     Router.go( '/fontcombo' + '#' + 
-      this.fontHeading.slug + '+' + 
-      this.fontBody.slug );
+      this.heading.slug + '+' + 
+      this.body.slug );
   }
 } );
