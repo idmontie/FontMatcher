@@ -1,5 +1,5 @@
 Meteor.methods( {
-  'favorite' : function ( headingSlug, bodySlug ) {
+  favorite : function ( headingSlug, bodySlug ) {
     var headingFont = Fonts.findOne( {
       slug : headingSlug
     } );
@@ -18,7 +18,7 @@ Meteor.methods( {
 
     return favorite;
   },
-  'unFavorite' : function ( headingSlug, bodySlug ) {
+  unFavorite : function ( headingSlug, bodySlug ) {
     Favorites.remove( {
       headingSlug : headingSlug,
       bodySlug : bodySlug,

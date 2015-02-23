@@ -1,0 +1,44 @@
+<template name="topRated">
+  {{#contentFor "headerTitle"}}
+    <h1 class="title">
+      <span class="fm-first">Top</span>
+      &nbsp;
+      <span class="fm-last">Rated</span>
+    </h1>
+  {{/contentFor}}
+
+  {{#contentFor "headerButtonLeft"}}
+    {{>ionNavBackButton path="home"}}
+  {{/contentFor}}
+
+  {{#contentFor "headerButtonRight"}}
+    {{#if currentUser }}
+      {{> _loggedInHeader}}
+    {{else}}
+      <button class="button button-clear pull-right" data-ion-menu-toggle="right" data-ion-modal="_signIn">
+        {{> ionIcon icon="ios-person-outline"}}
+      </button>
+    {{/if}}
+  {{/contentFor}}
+
+  {{#ionView}}
+    {{#ionContent class="padding"}}
+      {{#ionList}}
+        {{#each topRatedFonts}}
+          <div class="item item-text-wrap item-button-right">
+            <h3 style="font-family: '{{fontHeading.name}}'">
+              {{fontHeading.name}}
+            </h3>
+            <p style="font-family: '{{fontBody.name}}'">
+              {{fontBody.name}}
+            </p>
+
+            <button class="button" data-action="navigate">
+              {{>ionIcon icon="ios-eye"}}
+            </button>
+          </div>
+        {{/each}}
+      {{/ionList}}
+    {{/ionContent}}
+  {{/ionView}}
+</template>

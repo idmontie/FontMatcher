@@ -7,7 +7,13 @@
   list-style-type: decimal;
 }
 
-
+@media(min-width: $screen-xs-max) {
+  .max-width-xs {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: $screen-xs-max;
+  }
+}
 
 @media (min-width: $screen-md-min) {
   .content {
@@ -46,4 +52,11 @@
     right: 24%;
     right: calc(50% - 500px);
   }
+}
+
+
+.list.center i.icon {
+  display: inline-block;
+  position: static;
+  vertical-align: sub;
 }

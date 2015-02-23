@@ -1,0 +1,32 @@
+.hero {
+  color: white;
+  margin: -10px;
+  min-height: 40vh;
+  padding: 40px 0px;
+  text-align: center;
+
+  .hero-image {
+    background-image: url(/images/splash-background.png);
+    background-position: center;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+
+  .title {
+    color: white;
+    z-index: 1;
+
+    .fm-first {
+      font-size: 38px;
+    }
+
+    .detail {
+      font-size: 17px;
+    }
+  }
+}

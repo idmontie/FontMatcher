@@ -13,3 +13,7 @@ UI.registerHelper( 'isShortWindow', function () {
 UI.registerHelper( 'isCordova', function () {
   return Meteor.isCordova;
 } );
+
+UI.registerHelper( 'isHome', function () {
+  return Router.current().route.getName() === "home";
+} );

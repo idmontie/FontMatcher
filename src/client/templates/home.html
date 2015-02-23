@@ -1,37 +1,50 @@
 <template name="home">
-  {{#contentFor "headerTitle"}}
-    <h1 class="title">
-      <span class="fm-first">Font</span>
-      &nbsp;
-      <span class="fm-last">Matcher</span>
-    </h1>
-  {{/contentFor}}
-
-  {{#contentFor "headerButtonRight"}}
-    {{#if currentUser }}
-      {{> _loggedInHeader}}
-    {{else}}
-      <button class="button button-clear pull-right" data-ion-menu-toggle="right" data-ion-modal="_signIn">
-        {{> ionIcon icon="ios-person-outline"}}
-      </button>
-    {{/if}}
-  {{/contentFor}}
-
-  {{#contentFor "headerButtonLeft"}}
-    <button class="button button-clear" data-ion-modal="_about">
-      {{> ionIcon icon='information-circled'}}
-    </button>
-  {{/contentFor}}
-
   {{#ionView}}
     {{#ionContent class="padding"}}
-      {{> _fontMatcher}}
-    {{/ionContent}}
+      <div class="hero">
+        <div class="hero-image"></div>
+        <h1 class="title">
+          <span class="fm-first">Font</span>
+          &nbsp;
+          <span class="fm-last">Matcher</span>
+        </h1>
+        <p class="detail">Find new font combinations!</p>
+      </div>
 
-    {{#if isShortWindow}}
-      {{#ionFooterBar}}
-        <h1 class="title">{{fontNameHeading}} + {{fontNameBody}}</h1>
-      {{/ionFooterBar}}
-    {{/if}}
+      <div class="list card max-width-xs">
+        {{#ionItem path="fontCombo" iconLeft=true iconRight=true}}
+          {{> ionIcon icon="ios-albums" class="positive"}}
+          Random Pair
+          {{> ionIcon icon="ios-arrow-right"}}
+        {{/ionItem}}
+
+        {{#ionItem path="topRated" iconLeft=true iconRight=true}}
+          {{#if isAndroid}}
+            {{> ionIcon icon='android-star' class="positive"}}
+          {{else}}
+            {{> ionIcon icon='ios-star' class="positive"}}
+          {{/if}}
+          Top Rated
+          {{> ionIcon icon="ios-arrow-right"}}
+        {{/ionItem}}
+
+        {{#if currentUser}}
+          <a class="item item-icon-left assertive" href="#" data-ion-modal="_favorites">
+            {{> ionIcon icon='android-star'}}
+            Your Favorites
+          </a>
+        {{else}}
+          <a class="item item-icon-left assertive" href="#" data-ion-modal="_signIn">
+            {{> ionIcon icon="ios-person-outline"}}
+            Sign In
+          </a>
+        {{/if}}
+
+        <a href="#" class="item item-icon-left" data-ion-modal="_about">
+          {{> ionIcon icon='information-circled'}}
+          About 
+        </a>
+      </div>
+    {{/ionContent}}
   {{/ionView}}
 </template>

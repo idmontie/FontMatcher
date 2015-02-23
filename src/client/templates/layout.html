@@ -1,0 +1,12 @@
+<template name="layout">
+  {{#ionBody}}
+    {{#if isHome}}
+      {{> ionNavBar class="bar-clear"}}
+    {{else}}
+      {{> ionNavBar class="bar-positive"}}
+    {{/if}}
+    {{#ionNavView}}
+      {{> yield}}
+    {{/ionNavView}}
+  {{/ionBody}}
+</template>

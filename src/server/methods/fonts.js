@@ -254,5 +254,13 @@ Meteor.methods( {
         down : 0
       }
     }
+  },
+  getTopRatedFonts : function () {
+    return FontCombo.find( {}, {
+      sort : {
+        upticks: -1
+      },
+      limit : 10
+    } ).fetch();
   }
 } );

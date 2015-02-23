@@ -1,0 +1,35 @@
+<template name="fontCombo">
+  {{#contentFor "headerTitle"}}
+    <h1 class="title">
+      <span class="fm-first">Font</span>
+      &nbsp;
+      <span class="fm-last">Matcher</span>
+    </h1>
+  {{/contentFor}}
+
+  {{#contentFor "headerButtonLeft"}}
+    {{>ionNavBackButton path="home"}}
+  {{/contentFor}}
+
+  {{#contentFor "headerButtonRight"}}
+    {{#if currentUser }}
+      {{> _loggedInHeader}}
+    {{else}}
+      <button class="button button-clear pull-right" data-ion-menu-toggle="right" data-ion-modal="_signIn">
+        {{> ionIcon icon="ios-person-outline"}}
+      </button>
+    {{/if}}
+  {{/contentFor}}
+
+  {{#ionView}}
+    {{#ionContent class="padding"}}
+      {{> _fontMatcher}}
+    {{/ionContent}}
+
+    {{#if isShortWindow}}
+      {{#ionFooterBar}}
+        <h1 class="title">{{fontNameHeading}} + {{fontNameBody}}</h1>
+      {{/ionFooterBar}}
+    {{/if}}
+  {{/ionView}}
+</template>

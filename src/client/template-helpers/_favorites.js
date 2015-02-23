@@ -31,11 +31,8 @@ Template._favorites.events( {
   'click [data-action=navigate]' : function ( e ) {
     e.preventDefault();
     IonModal.close();
-    window.location.href = document.location.href.match(/(^[^#]*)/)[0] +
-        '#' + this.headingSlug + '+' + this.bodySlug;
 
-    // TODO do this correctly with push states
-    window.location.reload();
+    Router.go( '/fontcombo' + '#' + this.headingSlug + '+' + this.bodySlug );
   },
   /**
    * Not used

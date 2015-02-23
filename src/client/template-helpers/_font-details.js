@@ -98,7 +98,7 @@ Template._fontDetails.helpers( {
                 Session.set( 'ratingsUp', result.up );
                 Session.set( 'ratingsDown', result.down );
 
-                var weight =  result.up - ( 0.5 * result.down ); 
+                var weight =  result.up -  result.down; 
                 var total = result.up + result.down;
                 var normal =  ( 200.0 * ( weight + total ) ) / ( 2.0 * total ) - 100.0;
 
@@ -112,6 +112,6 @@ Template._fontDetails.helpers( {
     var up = Session.get( 'ratingsUp' );
     var down = Session.get( 'ratingsDown' );
 
-    return Math.ceil( up - ( 0.5 * down ) );
+    return Math.ceil( up -  down );
   }
 } );
