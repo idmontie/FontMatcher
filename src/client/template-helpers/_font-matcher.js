@@ -506,5 +506,18 @@ Template._fontMatcher.events( {
     e.preventDefault();
 
     Session.set( 'lockedBody', false );
+  },
+  /**
+   * Hack to allow hotkeys after editting a contenteditable.
+   * In a perfect world, this code would not need to exist.
+   */
+  'blur [contenteditable]' : function ( e ) {
+    console.log( 'wow' );
+    $( e.currentTarget ).removeAttr('contenteditable').blur();
+    window.getSelection().removeAllRanges();
+
+    setTimeout( function () {
+      $( e.currentTarget ).attr('contenteditable', true);
+    }, 100 );
   }
 } );

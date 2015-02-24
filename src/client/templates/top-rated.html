@@ -25,7 +25,7 @@
     {{#ionContent class="padding"}}
       {{#ionList}}
         {{#each topRatedFonts}}
-          <div class="item item-text-wrap item-button-right item-icon-left" style="">
+          <a class="item item-icon-right item-icon-left" data-action="navigate" href="#">
             <i class="icon">{{votes}}</i>
             <h3 style="font-family: '{{heading.name}}'">
               {{heading.name}}
@@ -34,10 +34,8 @@
               {{body.name}}
             </p>
 
-            <button class="button" data-action="navigate">
-              {{>ionIcon icon="ios-eye"}}
-            </button>
-          </div>
+            {{>ionIcon icon="ios-eye"}}
+          </a>
         {{/each}}
       {{/ionList}}
     {{/ionContent}}
