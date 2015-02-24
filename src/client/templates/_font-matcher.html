@@ -12,7 +12,7 @@
       New
       ===
     }}
-    <a class="tab-item" href="#" data-action="new-font-set">
+    <a class="tab-item" href="#" data-action="new-font-set" data-tooltip-position="bottom" data-tooltip-content="Hotkey: d">
       <i class="icon ion-refresh"></i> New Pair
     </a>
     {{!
@@ -20,7 +20,7 @@
       Upvote
       ======
     }}
-    <a class="tab-item {{#if hasUpvoted }}assertive{{/if}}" href="#" data-action="upvote">
+    <a class="tab-item {{#if hasUpvoted }}assertive{{/if}}" href="#" data-action="upvote" data-tooltip-position="bottom" data-tooltip-content="Hotkey: w">
       <i class="icon ion-arrow-up-a"></i> Cool
     </a>
     {{!
@@ -28,7 +28,7 @@
       Downvote
       ========
     }}
-    <a class="tab-item {{#if hasDownvoted }}assertive{{/if}}" href="#" data-action="downvote">
+    <a class="tab-item {{#if hasDownvoted }}assertive{{/if}}" href="#" data-action="downvote" data-tooltip-position="bottom" data-tooltip-content="Hotkey: s">
       <i class="icon ion-arrow-down-a"></i> Nah
     </a>
     {{!
@@ -37,7 +37,7 @@
       ========
     }}
     {{#if currentUser}}
-      <a class="tab-item {{#if hasFavorited }}assertive{{/if}}" href="#" data-action="favorite">
+      <a class="tab-item {{#if hasFavorited }}assertive{{/if}}" href="#" data-action="favorite" data-tooltip-position="bottom" data-tooltip-content="Hotkey: f">
         {{#if hasFavorited}}
           <i class="icon ion-android-star"></i>
         {{else}}

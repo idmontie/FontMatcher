@@ -385,6 +385,29 @@ Template._fontMatcher.helpers( {
 } );
 
 Template._fontMatcher.events( {
+  'mouseenter [data-tooltip-content]' : function ( e ) {
+    // is NOT a touch device
+    var isTouchDevice = ("ontouchstart" in window) || window.DocumentTouch && document instanceof DocumentTouch;
+    if ( ! isTouchDevice ) {
+      // does NOT have tooltip
+      var hasTooltip = $( e.currentTarget ).data( 'has-tooltip' ) === true;
+
+      if ( ! hasTooltip ) {
+        // show tooltip
+        var position = $( e.currentTarget ).attr('data-tooltip-position') || 'bottom';
+
+        $( e.currentTarget ).data( 'has-tooltip', true );
+
+        Tipped.create(
+          $( e.currentTarget ), 
+          $( e.currentTarget ).attr('data-tooltip-content'), 
+          {
+            position: position 
+          }
+        );  
+      }
+    }
+  },
   'click [data-action=upvote]' : function ( e ) {
     e.preventDefault();
 
