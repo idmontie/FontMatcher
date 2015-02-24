@@ -256,11 +256,19 @@ Meteor.methods( {
     }
   },
   getTopRatedFonts : function () {
-    return FontCombo.find( {}, {
+    var fonts = FontCombo.find( {}, {
       sort : {
         upticks: -1
       },
-      limit : 10
+      limit : 20
     } ).fetch();
+
+    fonts.sort( function ( a, b ) {
+      var first = a.upticks - a.downticks;
+      var second = b.upticks - b.downticks;
+      return second - first;
+    } );
+
+    return fonts.slice( 0, 10 );
   }
 } );

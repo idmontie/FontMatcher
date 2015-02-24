@@ -28,6 +28,9 @@ Template.topRated.rendered = function () {
 Template.topRated.helpers( {
   topRatedFonts : function () {
     return Session.get( 'topRatedFonts' );
+  },
+  votes : function () {
+    return this.upticks - this.downticks;
   }
 } );
 
