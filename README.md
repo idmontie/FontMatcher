@@ -14,7 +14,7 @@ Find new font combinations by randomly pairing free Google fonts together.
 # Building
 
 1. `cd src`
-2. `meteor build ../build/ --server http://fontmatcher.mantarayar.com:80`
+2. `meteor build ../build/ --server http://xyz:80`
 
 # Features
 
