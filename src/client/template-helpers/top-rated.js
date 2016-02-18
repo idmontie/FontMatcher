@@ -1,4 +1,4 @@
-Template.topRated.rendered = function () {
+Template.topRated.onRendered(function () {
   Meteor.call( 'getTopRatedFonts', function ( error, result ) {
     if ( error ) {
       alert( error );
@@ -23,7 +23,7 @@ Template.topRated.rendered = function () {
       } );
     }
   } );
-};
+});
 
 Template.topRated.helpers( {
   topRatedFonts : function () {

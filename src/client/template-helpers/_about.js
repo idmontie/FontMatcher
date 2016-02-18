@@ -1,4 +1,4 @@
-Template._about.rendered = function () {
+Template._about.onRendered(function () {
   if ( Meteor.isCordova ) {
     $( 'a[target="_blank"]' ).click( function ( e ) {
       e.preventDefault();
@@ -10,4 +10,4 @@ Template._about.rendered = function () {
       );
     } );
   }
-};
+});

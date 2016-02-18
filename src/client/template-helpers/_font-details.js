@@ -14,7 +14,7 @@ function fontLinkWrap ( name ) {
   return link;
 }
 
-Template._fontDetails.rendered = function () {
+Template._fontDetails.onRendered(function () {
   if ( Meteor.isCordova ) {
     $( 'a[target="_blank"]' ).click( function ( e ) {
       e.preventDefault();
@@ -26,7 +26,7 @@ Template._fontDetails.rendered = function () {
       );
     } );
   }
-};
+});
 
 Template._fontDetails.helpers( {
   fontHeading : function () {
