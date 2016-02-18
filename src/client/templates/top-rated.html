@@ -23,21 +23,23 @@
 
   {{#ionView}}
     {{#ionContent class="padding"}}
-      {{#ionList}}
-        {{#each topRatedFonts}}
-          <a class="item item-icon-right item-icon-left" data-action="navigate" href="#">
-            <i class="icon">{{votes}}</i>
-            <h3 style="font-family: '{{heading.name}}'">
-              {{heading.name}}
-            </h3>
-            <p style="font-family: '{{body.name}}'">
-              {{body.name}}
-            </p>
+      <div id="top-rated">
+        {{#ionList}}
+          {{#each topRatedFonts}}
+            <a class="item item-icon-right item-icon-left" data-action="navigate" href="#">
+              <i class="icon">{{votes}}</i>
+              <h3 style="font-family: '{{heading.name}}'">
+                {{heading.name}}
+              </h3>
+              <p style="font-family: '{{body.name}}'">
+                {{body.name}}
+              </p>
 
-            {{>ionIcon icon="ios-eye"}}
-          </a>
-        {{/each}}
-      {{/ionList}}
+              {{>ionIcon icon="ios-eye"}}
+            </a>
+          {{/each}}
+        {{/ionList}}
+      </div>
     {{/ionContent}}
   {{/ionView}}
 </template>

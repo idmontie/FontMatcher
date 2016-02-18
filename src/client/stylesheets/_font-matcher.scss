@@ -7,3 +7,10 @@
   font-size: 20px;
   line-height: 1.8;
 }
+
+#favorite-list,
+#top-rated {
+  .item h3 {
+    font-size: 18px;
+  }
+}
