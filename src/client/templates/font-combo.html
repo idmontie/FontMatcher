@@ -1,14 +1,16 @@
 <template name="fontCombo">
   {{#contentFor "headerTitle"}}
     <h1 class="title">
-      <span class="fm-first">Font</span>
-      &nbsp;
-      <span class="fm-last">Matcher</span>
+      <a href="/">
+        <span class="fm-first">Font</span>
+        &nbsp;
+        <span class="fm-last">Matcher</span>
+      </a>
     </h1>
   {{/contentFor}}
 
   {{#contentFor "headerButtonLeft"}}
-    {{>ionNavBackButton path="home"}}
+    {{>ionNavBackButton}}
   {{/contentFor}}
 
   {{#contentFor "headerButtonRight"}}

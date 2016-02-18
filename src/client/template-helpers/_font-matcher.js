@@ -175,13 +175,16 @@ Template._fontMatcher.rendered = function () {
   }
 
   window.onpopstate = function ( event ) {
-    console.log( event );
-    Meteor.call(
-      'fonts', 
-      event.state.fontNameHeading.slug,
-      event.state.fontNameBody.slug,
-      newFontsCallbackNoPush
-    );
+    if ( event.state && event.state.fontNameHeading ) {
+      Meteor.call(
+        'fonts', 
+        event.state.fontNameHeading.slug,
+        event.state.fontNameBody.slug,
+        newFontsCallbackNoPush
+      );
+    } else if (window.location.pathname === '/fontcombo') {
+      window.history.back();
+    }
   }
 
   // ==============
