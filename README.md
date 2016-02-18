@@ -3,6 +3,8 @@ Font Matcher
 
 Find new font combinations by randomly pairing free Google fonts together.
 
+[Check it out online](http://fontmatcher.meteor.com/)
+
 [![Paypal Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6UHN983JPPCJL)
 
 # Setup
