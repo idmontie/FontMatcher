@@ -229,6 +229,7 @@ Template._fontMatcher.rendered = function () {
   } );
 
   // only if current user
+  // TODO need to do this reactively to add the hotkey when users log in.
   if ( Meteor.userId() ) {
     globalHotkeys.add( {
       combo : 'f',
