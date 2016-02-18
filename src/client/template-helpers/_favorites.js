@@ -1,4 +1,4 @@
-Template._favorites.rendered = function () {
+Template._favorites.onRendered(function () {
   /*
    * Hack to fix scroll on Chrome on Windows.
    * Version 40.0.2214.111 m
@@ -16,7 +16,7 @@ Template._favorites.rendered = function () {
   setTimeout( function () {
     $list.css( 'position', pos );
   }, 100 );
-}
+});
 
 Template._favorites.helpers( {
   favorites : function () {

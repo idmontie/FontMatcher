@@ -164,7 +164,7 @@ function unDownvote() {
   );
 }
 
-Template._fontMatcher.rendered = function () {
+Template._fontMatcher.onRendered(function () {
   // load fonts if they are in the hashes instead of Meteor.call
   if ( window.location.hash && window.location.hash.length > 2 ) {
     var fontSlugs = window.location.hash.replace( '#', '' ).split( '+' );
@@ -273,8 +273,7 @@ Template._fontMatcher.rendered = function () {
       }
     } );
   }
-
-};
+});
 
 Template._fontMatcher.helpers( {
   fontNameHeading : function () {
