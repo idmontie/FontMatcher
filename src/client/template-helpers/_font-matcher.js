@@ -516,7 +516,6 @@ Template._fontMatcher.events( {
    * In a perfect world, this code would not need to exist.
    */
   'blur [contenteditable]' : function ( e ) {
-    console.log( 'wow' );
     $( e.currentTarget ).removeAttr('contenteditable').blur();
     window.getSelection().removeAllRanges();
 
